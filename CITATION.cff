@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the paper."
+title: "LLMs Read the Room Better Than Humans"
+type: software
+authors:
+  - family-names: Lavrenko
+    given-names: Victor
+    email: "victor@peacetech.vc"
+affiliation: "PeaceTech VC"
+version: 1.0.0
+date-released: 2026-09-17
+repository-code: "https://github.com/victorlavrenko/llms-read-the-room"
+url: "https://github.com/victorlavrenko/llms-read-the-room"
+abstract: >-
+  Reproducibility artifacts for a study comparing LLMs and humans on
+  same-author, same-destination social-transmission prediction, including a
+  historical Twitter benchmark, a contemporary human web study, and a fresh
+  Bluesky replication.

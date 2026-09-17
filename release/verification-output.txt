@@ -1,0 +1,95 @@
+PRIMARY ROUND
+sessions=70 judgments=1400 human=760/1400=54.29%
+human-vs-featured/legacy comparison W/T/L=1/0/69
+
+FIXED MODEL MATCHED COMPARISONS
+Gemini 3.7 Flash: human=54.1% model=77.7% complete_sessions=69 W/T/L=1/0/68
+GPT-5.6 Sol: human=54.1% model=76.1% complete_sessions=69 W/T/L=2/2/65
+Qwen 3.7 Max: human=54.2% model=70.5% complete_sessions=62 W/T/L=4/3/55
+Claude Opus 4.8: human=54.1% model=68.9% complete_sessions=69 W/T/L=5/7/57
+Qwen 3.7 Flash: human=54.1% model=64.7% complete_sessions=69 W/T/L=10/7/52
+DeepSeek V4 Flash: human=54.1% model=62.3% complete_sessions=69 W/T/L=16/7/46
+
+DISAGREEMENTS
+Gemini 3.7 Flash: n=587 model_correct=77.68%
+GPT-5.6 Sol: n=573 model_correct=76.44%
+Qwen 3.7 Max: n=570 model_correct=69.12%
+Claude Opus 4.8: n=570 model_correct=67.89%
+Qwen 3.7 Flash: n=544 model_correct=63.42%
+DeepSeek V4 Flash: n=603 model_correct=59.37%
+
+CLOSE-CALL METADATA
+human close-call field recorded=1180 missing/not-collected=220
+Gemini 3.7 Flash: non-close=727/869=83.66% close=195/311=62.70%
+GPT-5.6 Sol: non-close=763/956=79.81% close=138/224=61.61%
+Qwen 3.7 Max: non-close=752/1023=73.51% close=82/157=52.23%
+Claude Opus 4.8: non-close=287/309=92.88% close=527/871=60.51%
+Qwen 3.7 Flash: non-close=732/1116=65.59% close=31/64=48.44%
+DeepSeek V4 Flash: non-close=286/426=67.14% close=453/754=60.08%
+
+RANDOM-CHOICE CALIBRATION
+session_primary_robot: expected_wins=1.114; P(at least one)=69.2%
+featured_best_of_panel_or_legacy: expected_wins=0.449; P(at least one)=37.1%
+all-six complete sessions=62 observed beat-all-six=1; random P(at least one)=32.6%
+
+SENSITIVITY
+top human score=16/20; human accuracy excluding top=53.9%
+FRESH BLUESKY REPLICATION
+pairs=48
+Gemini=36/48=75.0% (Wilson 95% CI 61.2-85.1%)
+current complete models=5
+  anthropic/claude-opus-4.8: 28/48=58.33%
+  google/gemini-3.7-flash: 36/48=75.00%
+  openai/gpt-5.6-sol: 31/48=64.58%
+  qwen/qwen3.7-flash: 31/48=64.58%
+  qwen/qwen3.7-max: 32/48=66.67%
+  excluded incomplete current run: deepseek/deepseek-v4-flash-0731: valid=28/48
+older complete models=4
+  anthropic/claude-3-haiku: 26/48=54.17%
+  google/gemma-2-27b-it: 23/48=47.92%
+  mistralai/mistral-large-2407: 31/48=64.58%
+  qwen/qwen-2.5-72b-instruct: 26/48=54.17%
+current panel mean=65.8%
+older panel mean=55.2%
+difference=10.6 percentage points
+exact two-sided sign-flip p=0.029899
+paired bootstrap seed=20260907, B=100000
+bootstrap positive differences=98.8%
+bootstrap percentile 95% CI=1.4 to 19.6 percentage points
+HISTORICAL TWITTER BENCHMARK
+Frozen benchmark size: 1,142 pairs
+
+Gemini 3.7 Flash: accuracy=79.7% S85(reported)=0.849 S85(from rounded accuracy)=0.849
+GPT-5.6 Sol: accuracy=76.7% S85(reported)=0.763 S85(from rounded accuracy)=0.763
+Qwen 3.7 Max: accuracy=70.8% S85(reported)=0.594 S85(from rounded accuracy)=0.594
+Claude Opus 4.8: accuracy=70.8% S85(reported)=0.594 S85(from rounded accuracy)=0.594
+Qwen 3.7 Flash: accuracy=64.7% S85(reported)=0.420 S85(from rounded accuracy)=0.420
+DeepSeek V4 Flash: accuracy=63.5% S85(reported)=0.386 S85(from rounded accuracy)=0.386
+Individual humans (Tan et al. 2014): accuracy=61.3% S85(reported)=0.323 S85(from rounded accuracy)=0.323
+39-person majority (Tan et al. 2014): accuracy=73.0% S85(reported)=0.657 S85(from rounded accuracy)=0.657
+
+PASS: all S85 values agree with the paper definition to rounding tolerance.
+Wilson confidence intervals in the CSV are frozen reported values; this script
+does not invent exact integer counts from rounded percentages.
+WORKING TEXT-ONLY CEILING
+central assumptions: q=0.30, h=0.93, c=0.82
+P* = q*h + (1-q)*c = 85.30%
+corner sensitivity range = 81.75% to 89.64% (reported approximately as 82-90%)
+
+p=79.7% -> S85=0.849
+p=76.7% -> S85=0.763
+p=70.8% -> S85=0.594
+p=64.7% -> S85=0.420
+p=63.5% -> S85=0.386
+p=61.3% -> S85=0.323
+p=73.0% -> S85=0.657
+
+=== repro/01_beat_the_robot/analysis/reproduce_beat_results.py ===
+
+=== repro/02_bluesky_replication/analysis/reproduce_bluesky_results.py ===
+
+=== repro/03_historical_twitter_benchmark/analysis/reproduce_benchmark_summary.py ===
+
+=== repro/04_ceiling_model/reproduce_ceiling.py ===
+
+ALL FROZEN-RESULT CHECKS PASSED

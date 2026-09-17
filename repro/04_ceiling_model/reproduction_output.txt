@@ -1,0 +1,12 @@
+WORKING TEXT-ONLY CEILING
+central assumptions: q=0.30, h=0.93, c=0.82
+P* = q*h + (1-q)*c = 85.30%
+corner sensitivity range = 81.75% to 89.64% (reported approximately as 82-90%)
+
+p=79.7% -> S85=0.849
+p=76.7% -> S85=0.763
+p=70.8% -> S85=0.594
+p=64.7% -> S85=0.420
+p=63.5% -> S85=0.386
+p=61.3% -> S85=0.323
+p=73.0% -> S85=0.657

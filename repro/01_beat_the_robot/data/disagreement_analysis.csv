@@ -1,0 +1,7 @@
+model,disagreements,model_correct_on_disagreements,model_accuracy_on_disagreements_pct,human_accuracy_on_disagreements_pct,nonclose_disagreements,model_correct_nonclose_disagreements,model_accuracy_nonclose_disagreements_pct,close_disagreements,model_correct_close_disagreements,model_accuracy_close_disagreements_pct
+Gemini 3.7 Flash,587,456,77.6831,22.3169,359,294,81.8942,142,99,69.7183
+GPT-5.6 Sol,573,438,76.4398,23.5602,381,311,81.6273,105,64,60.9524
+Qwen 3.7 Max,570,394,69.1228,30.8772,424,309,72.8774,67,35,52.2388
+Claude Opus 4.8,570,387,67.8947,32.1053,110,102,92.7273,375,229,61.0667
+Qwen 3.7 Flash,544,345,63.4191,36.5809,435,282,64.8276,31,14,45.1613
+DeepSeek V4 Flash,603,358,59.3698,40.6302,159,103,64.7799,357,206,57.7031

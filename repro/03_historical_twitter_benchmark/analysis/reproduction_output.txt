@@ -1,0 +1,15 @@
+HISTORICAL TWITTER BENCHMARK
+Frozen benchmark size: 1,142 pairs
+
+Gemini 3.7 Flash: accuracy=79.7% S85(reported)=0.849 S85(from rounded accuracy)=0.849
+GPT-5.6 Sol: accuracy=76.7% S85(reported)=0.763 S85(from rounded accuracy)=0.763
+Qwen 3.7 Max: accuracy=70.8% S85(reported)=0.594 S85(from rounded accuracy)=0.594
+Claude Opus 4.8: accuracy=70.8% S85(reported)=0.594 S85(from rounded accuracy)=0.594
+Qwen 3.7 Flash: accuracy=64.7% S85(reported)=0.420 S85(from rounded accuracy)=0.420
+DeepSeek V4 Flash: accuracy=63.5% S85(reported)=0.386 S85(from rounded accuracy)=0.386
+Individual humans (Tan et al. 2014): accuracy=61.3% S85(reported)=0.323 S85(from rounded accuracy)=0.323
+39-person majority (Tan et al. 2014): accuracy=73.0% S85(reported)=0.657 S85(from rounded accuracy)=0.657
+
+PASS: all S85 values agree with the paper definition to rounding tolerance.
+Wilson confidence intervals in the CSV are frozen reported values; this script
+does not invent exact integer counts from rounded percentages.

@@ -1,0 +1,12 @@
+metric,value
+top_session_human_score,16
+top_session_model_score_min,12
+top_session_model_score_max,15
+top_session_median_response_time_ms,8282.0
+top_session_mean_response_time_ms,9563.4
+top_session_min_response_time_ms,3927
+top_session_max_response_time_ms,28372
+sessions_with_equal_or_lower_median_rt,21
+sessions_with_median_rt_below_2s,4
+very_fast_session_human_scores,9;12;8;10
+human_accuracy_without_top_session_pct,53.913

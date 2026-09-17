@@ -1,0 +1,9 @@
+variable,category,sessions,correct,judgments,accuracy_pct
+native_english,no,69,751,1380,54.4203
+native_english,yes,1,9,20,45.0
+marketing_experience,learner,10,103,200,51.5
+marketing_experience,none,46,511,920,55.5435
+marketing_experience,professional,14,146,280,52.1429
+early_twitter_use,no,44,460,880,52.2727
+early_twitter_use,occasionally,24,279,480,58.125
+early_twitter_use,regularly,2,21,40,52.5

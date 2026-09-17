@@ -1,0 +1,71 @@
+session,experiment_version,human_score,total,primary_robot_score,comparison_robot_score,comparison_robot_model,comparison_kind,featured_robot_score_if_available,outcome_vs_comparison_robot,mean_response_time_ms,median_response_time_ms,min_response_time_ms,max_response_time_ms,player_close_call_recorded_items
+S001,human-retweet-v4,12,20,18,18,Gemini 3.7 Flash,featured_best_of_panel,18,robot_win,9406,9747.0,3847,17764,20
+S002,human-retweet-v4,13,20,15,16,Qwen 3.7 Max,featured_best_of_panel,16,robot_win,12166.25,10802.0,6031,21933,20
+S003,human-retweet-v4,11,20,18,18,Gemini 3.7 Flash,featured_best_of_panel,18,robot_win,12570.25,11183.0,5133,28918,20
+S004,human-retweet-v3,11,20,13,13,Gemini 3.7 Flash,featured_best_of_panel,13,robot_win,15309.65,12528.5,6473,33270,0
+S005,human-retweet-v4,9,20,16,16,Gemini 3.7 Flash,featured_best_of_panel,16,robot_win,6447.8,405.0,171,27068,20
+S006,human-retweet-v4,14,20,15,16,GPT-5.6 Sol,featured_best_of_panel,16,robot_win,13025.35,11563.0,5070,36424,20
+S007,human-retweet-v3,12,20,14,14,Gemini 3.7 Flash,featured_best_of_panel,14,robot_win,16826.55,9718.0,3360,142950,0
+S008,human-retweet-v4,7,20,17,17,Gemini 3.7 Flash,featured_best_of_panel,17,robot_win,10293.5,7464.5,4363,30963,20
+S009,human-retweet-v4,13,20,14,18,GPT-5.6 Sol,featured_best_of_panel,18,robot_win,27259,24071.0,9250,60464,20
+S010,human-retweet-v4,10,20,15,15,Gemini 3.7 Flash,featured_best_of_panel,15,robot_win,26544.8,24348.5,8952,56090,20
+S011,human-retweet-v4,9,20,19,19,Gemini 3.7 Flash,featured_best_of_panel,19,robot_win,10016.2,8406.5,4500,26859,20
+S012,human-retweet-v4,12,20,13,14,Claude Opus 4.8,featured_best_of_panel,14,robot_win,2809.9,1886.5,839,10211,20
+S013,human-retweet-v4,12,20,19,19,Gemini 3.7 Flash,featured_best_of_panel,19,robot_win,8747.7,8619.0,1272,26045,20
+S014,human-retweet-v4,10,20,16,16,Gemini 3.7 Flash,featured_best_of_panel,16,robot_win,7141.25,4051.5,1180,27105,20
+S015,human-retweet-v4,16,20,15,15,Gemini 3.7 Flash,featured_best_of_panel,15,human_win,9563.4,8282.0,3927,28372,20
+S016,human-retweet-v4,14,20,17,17,Gemini 3.7 Flash,featured_best_of_panel,17,robot_win,24277.1,19981.5,7531,83454,20
+S017,human-retweet-v4,8,20,13,15,Qwen 3.7 Max,featured_best_of_panel,15,robot_win,13029.4,11324.0,3726,56030,20
+S018,human-retweet-v4,12,20,18,19,GPT-5.6 Sol,featured_best_of_panel,19,robot_win,13941.15,12320.0,8016,30430,20
+S019,human-retweet-v4,10,20,18,18,Gemini 3.7 Flash,featured_best_of_panel,18,robot_win,11874.45,7594.0,2115,51985,20
+S020,human-retweet-v4,10,20,15,15,Gemini 3.7 Flash,featured_best_of_panel,15,robot_win,6190.9,5042.0,2488,14709,20
+S021,human-retweet-v4,14,20,18,18,Gemini 3.7 Flash,featured_best_of_panel,18,robot_win,27903.55,15813.5,6763,109737,20
+S022,human-retweet-v4,10,20,16,16,Gemini 3.7 Flash,featured_best_of_panel,16,robot_win,10374.95,9256.5,5471,23669,20
+S023,human-retweet-v3,13,20,18,18,Gemini 3.7 Flash,featured_best_of_panel,18,robot_win,9397.5,7570.0,3246,17338,0
+S024,human-retweet-v4,13,20,14,16,Claude Opus 4.8,featured_best_of_panel,16,robot_win,10242.75,10125.0,2200,34296,20
+S025,human-retweet-v4,15,20,17,17,Gemini 3.7 Flash,featured_best_of_panel,17,robot_win,9100.6,8846.5,4050,25904,20
+S026,human-retweet-v3,14,20,16,16,Gemini 3.7 Flash,featured_best_of_panel,16,robot_win,25625.05,20200.0,6368,97358,0
+S027,human-retweet-v4,8,20,13,14,GPT-5.6 Sol,featured_best_of_panel,14,robot_win,7499.9,8093.0,3403,11166,20
+S028,human-retweet-v4,14,20,16,18,GPT-5.6 Sol,featured_best_of_panel,18,robot_win,25512.05,19367.0,6342,120068,20
+S029,human-retweet-v4,10,20,16,16,Gemini 3.7 Flash,featured_best_of_panel,16,robot_win,14506.05,13996.0,8196,22056,20
+S030,human-retweet-v3,9,20,12,15,Claude Opus 4.8,featured_best_of_panel,15,robot_win,13664.2,10621.5,5276,34598,0
+S031,human-retweet-v3,12,20,14,16,GPT-5.6 Sol,featured_best_of_panel,16,robot_win,8296.15,7209.5,4876,18784,0
+S032,human-retweet-v4,10,20,18,18,Gemini 3.7 Flash,featured_best_of_panel,18,robot_win,17169.8,12683.0,4803,72041,20
+S033,human-retweet-v4,10,20,15,15,Gemini 3.7 Flash,featured_best_of_panel,15,robot_win,13758.4,12552.5,6610,36333,20
+S034,human-retweet-v4,13,20,17,17,Gemini 3.7 Flash,featured_best_of_panel,17,robot_win,6043.5,5902.5,935,10809,20
+S035,human-retweet-v3,8,20,14,17,GPT-5.6 Sol,featured_best_of_panel,17,robot_win,3739.3,496.0,343,33558,0
+S036,human-retweet-v4,12,20,16,17,Claude Opus 4.8,featured_best_of_panel,17,robot_win,7631.4,6855.0,3420,13732,20
+S037,human-retweet-v4,4,20,13,15,GPT-5.6 Sol,featured_best_of_panel,15,robot_win,42249.1,33863.0,9845,138186,20
+S038,human-retweet-v4,12,20,16,16,Gemini 3.7 Flash,featured_best_of_panel,16,robot_win,13227.25,10222.5,2698,34049,20
+S039,human-retweet-v4,9,20,15,17,GPT-5.6 Sol,featured_best_of_panel,17,robot_win,14096.3,11496.0,7126,27932,20
+S040,human-retweet-v3,9,20,16,16,Gemini 3.7 Flash,featured_best_of_panel,16,robot_win,7931.75,8142.0,3175,15877,0
+S041,human-retweet-v4,9,20,16,16,Gemini 3.7 Flash,featured_best_of_panel,16,robot_win,20143.45,17832.0,10734,40002,20
+S042,human-retweet-v4,10,20,17,17,Gemini 3.7 Flash,featured_best_of_panel,17,robot_win,13797.3,12080.5,8239,23870,20
+S043,human-retweet-v3,12,20,16,18,GPT-5.6 Sol,featured_best_of_panel,18,robot_win,14239.8,11965.5,177,34330,0
+S044,human-retweet-v4,10,20,15,17,GPT-5.6 Sol,featured_best_of_panel,17,robot_win,3483.2,839.0,223,31995,20
+S045,human-retweet-v3,10,20,17,17,Gemini 3.7 Flash,featured_best_of_panel,17,robot_win,23693.6,21492.5,7270,67177,0
+S046,human-retweet-v4,10,20,14,14,Gemini 3.7 Flash,featured_best_of_panel,14,robot_win,18129.45,17038.5,3646,38901,20
+S047,human-retweet-v4,12,20,14,15,GPT-5.6 Sol,featured_best_of_panel,15,robot_win,16044.2,15325.0,6499,35104,20
+S048,human-retweet-v4,12,20,14,16,GPT-5.6 Sol,featured_best_of_panel,16,robot_win,9142.35,7569.5,3372,20019,20
+S049,human-retweet-v4,14,20,15,15,Gemini 3.7 Flash,featured_best_of_panel,15,robot_win,14670.95,12934.0,6512,34254,20
+S050,human-retweet-v4,10,20,15,17,Qwen 3.7 Max,featured_best_of_panel,17,robot_win,18649.4,17048.0,6486,55211,20
+S051,human-retweet-v4,14,20,17,17,Gemini 3.7 Flash,featured_best_of_panel,17,robot_win,5910.1,5185.5,2033,12466,20
+S052,human-retweet-v4,9,20,15,15,Gemini 3.7 Flash,featured_best_of_panel,15,robot_win,18394.3,17912.5,9795,35705,20
+S053,human-retweet-v4,10,20,14,16,GPT-5.6 Sol,featured_best_of_panel,16,robot_win,35578.8,12586.5,5479,366234,20
+S054,human-retweet-v4,8,20,11,12,GPT-5.6 Sol,featured_best_of_panel,12,robot_win,4996.45,3891.0,2206,12937,20
+S055,human-retweet-v4,10,20,16,16,Gemini 3.7 Flash,featured_best_of_panel,16,robot_win,5236.45,3244.5,1558,32238,20
+S056,human-retweet-v4,11,20,13,15,GPT-5.6 Sol,featured_best_of_panel,15,robot_win,14594.45,10195.5,6109,50403,20
+S057,human-retweet-v4,10,20,17,17,Gemini 3.7 Flash,featured_best_of_panel,17,robot_win,13660.55,13264.5,7707,23874,20
+S058,human-retweet-v4,12,20,14,16,GPT-5.6 Sol,featured_best_of_panel,16,robot_win,12204.15,10929.5,4489,26187,20
+S059,human-retweet-v4,13,20,16,17,GPT-5.6 Sol,featured_best_of_panel,17,robot_win,15190.2,13226.5,8740,41020,20
+S060,human-retweet-v4,13,20,16,16,Gemini 3.7 Flash,featured_best_of_panel,16,robot_win,15962.15,15147.0,5388,65417,20
+S061,human-retweet-v4,6,20,14,14,Gemini 3.7 Flash,featured_best_of_panel,14,robot_win,12756.15,11592.0,5156,20442,20
+S062,human-retweet-v4,9,20,15,15,Gemini 3.7 Flash,featured_best_of_panel,15,robot_win,12752.95,6316.0,3845,73457,20
+S063,human-retweet-v1,13,20,17,17,Gemini 3.7 Flash,legacy_primary_robot,,robot_win,7687.9,6562.0,2010,17076,0
+S064,human-retweet-v4,9,20,13,13,Gemini 3.7 Flash,featured_best_of_panel,13,robot_win,12426.8,11496.0,4137,24046,20
+S065,human-retweet-v4,10,20,16,17,GPT-5.6 Sol,featured_best_of_panel,17,robot_win,9758.6,8763.0,3276,20147,20
+S066,human-retweet-v4,11,20,17,18,GPT-5.6 Sol,featured_best_of_panel,18,robot_win,12675.65,10952.0,6072,25934,20
+S067,human-retweet-v4,10,20,18,18,Gemini 3.7 Flash,featured_best_of_panel,18,robot_win,12011.1,10314.5,5878,25220,20
+S068,human-retweet-v4,11,20,15,16,Qwen 3.7 Max,featured_best_of_panel,16,robot_win,11143.2,9774.0,5944,24042,20
+S069,human-retweet-v4,10,20,16,16,Gemini 3.7 Flash,featured_best_of_panel,16,robot_win,9967.05,8413.5,4806,22681,20
+S070,human-retweet-v4,8,20,18,18,Gemini 3.7 Flash,featured_best_of_panel,18,robot_win,18354.3,14720.0,6148,83386,20

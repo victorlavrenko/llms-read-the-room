@@ -1,0 +1,22 @@
+FRESH BLUESKY REPLICATION
+pairs=48
+Gemini=36/48=75.0% (Wilson 95% CI 61.2-85.1%)
+current complete models=5
+  anthropic/claude-opus-4.8: 28/48=58.33%
+  google/gemini-3.7-flash: 36/48=75.00%
+  openai/gpt-5.6-sol: 31/48=64.58%
+  qwen/qwen3.7-flash: 31/48=64.58%
+  qwen/qwen3.7-max: 32/48=66.67%
+  excluded incomplete current run: deepseek/deepseek-v4-flash-0731: valid=28/48
+older complete models=4
+  anthropic/claude-3-haiku: 26/48=54.17%
+  google/gemma-2-27b-it: 23/48=47.92%
+  mistralai/mistral-large-2407: 31/48=64.58%
+  qwen/qwen-2.5-72b-instruct: 26/48=54.17%
+current panel mean=65.8%
+older panel mean=55.2%
+difference=10.6 percentage points
+exact two-sided sign-flip p=0.029899
+paired bootstrap seed=20260907, B=100000
+bootstrap positive differences=98.8%
+bootstrap percentile 95% CI=1.4 to 19.6 percentage points

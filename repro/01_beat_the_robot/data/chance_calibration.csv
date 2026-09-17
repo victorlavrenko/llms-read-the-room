@@ -1,0 +1,4 @@
+comparison,sessions,expected_random_human_wins,probability_at_least_one_random_win_pct,note
+session_primary_robot,70,1.114192,69.1701,Uses the frozen per-session primary robotScore field.
+featured_best_of_panel_or_legacy_primary,70,0.44923,37.0923,Uses best-of-panel featured model where available; one legacy session falls back to its primary robot.
+beat_all_six_complete_sessions,62,,32.5576,Conditions on the observed maximum score among all six models in each fully covered session.

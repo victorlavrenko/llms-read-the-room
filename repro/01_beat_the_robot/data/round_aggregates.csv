@@ -1,0 +1,4 @@
+round,completed_sessions,human_mean_score_out_of_20,primary_robot_mean_score_out_of_20,trial_count,median_response_time_ms
+1,70,10.8571,15.5571,1400,10623.0
+2,8,10.375,16.25,160,3148.0
+3,2,8,15.5,40,1498.5

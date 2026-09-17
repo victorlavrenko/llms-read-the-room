@@ -1,0 +1,16 @@
+{
+  "version": 3,
+  "host": "jetstream.us-west.bsky.network",
+  "days": 60,
+  "hours": 84,
+  "window_hours": 84,
+  "end_days_ago": 8,
+  "window_start": "2026-08-27T01:53:45.1699838Z",
+  "window_end": "2026-08-30T13:53:45.1699838Z",
+  "start_after_seq": 25220821990,
+  "end_seq": 25336239548,
+  "last_cursor": 25336239548,
+  "completed": true,
+  "started_at": "2026-09-07T13:53:48.0899355Z",
+  "completed_at": "2026-09-07T14:18:57.9976396Z"
+}

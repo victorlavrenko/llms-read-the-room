@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0-bluesky-replication",
+  "questions": "data\\questions.csv",
+  "questions_sha256": "4afda6990dd47dd40c3f04d2ddbb0ac9fe06558257528a6bc6c9d8c381d05d9f",
+  "answer_key": "data\\answer_key.csv",
+  "answer_key_sha256": "bfe1ac39b2fb31b4a5b4fd112c8abafc76f70f673a8213945f0c277f61f9b545",
+  "n_pairs": 48,
+  "models": [
+    "qwen/qwen3.7-flash",
+    "deepseek/deepseek-v4-flash-0731",
+    "google/gemini-3.7-flash",
+    "qwen/qwen3.7-max",
+    "openai/gpt-5.6-sol",
+    "anthropic/claude-opus-4.8"
+  ],
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "concurrency": 12,
+  "prompt_template": "These two Bluesky posts were published by the same account, about the same link, within 12 hours of each other.\n\nWhich one do you think received more reposts?\n\nX:\n{post_x}\n\nY:\n{post_y}\n\nYou must choose either X or Y. Also indicate whether your choice was a close call.\n\nFinish with exactly these two lines:\n\nPrediction: X or Y\nClose call: Yes or No",
+  "system_prompt": null,
+  "xy_orientation": "frozen_audited_input",
+  "gold_loaded_into_model_calls": false
+}

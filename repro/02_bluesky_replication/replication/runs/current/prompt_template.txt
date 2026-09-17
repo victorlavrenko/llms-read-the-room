@@ -1,0 +1,16 @@
+These two Bluesky posts were published by the same account, about the same link, within 12 hours of each other.
+
+Which one do you think received more reposts?
+
+X:
+{post_x}
+
+Y:
+{post_y}
+
+You must choose either X or Y. Also indicate whether your choice was a close call.
+
+Finish with exactly these two lines:
+
+Prediction: X or Y
+Close call: Yes or No

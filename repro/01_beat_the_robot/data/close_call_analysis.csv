@@ -1,0 +1,7 @@
+model,nonclose_n,nonclose_correct,nonclose_accuracy_pct,close_n,close_correct,close_accuracy_pct
+Gemini 3.7 Flash,869,727,83.6594,311,195,62.701
+GPT-5.6 Sol,956,763,79.8117,224,138,61.6071
+Qwen 3.7 Max,1023,752,73.5093,157,82,52.2293
+Claude Opus 4.8,309,287,92.8803,871,527,60.5052
+Qwen 3.7 Flash,1116,732,65.5914,64,31,48.4375
+DeepSeek V4 Flash,426,286,67.1362,754,453,60.0796

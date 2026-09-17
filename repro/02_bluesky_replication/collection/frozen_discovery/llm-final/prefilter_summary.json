@@ -1,0 +1,16 @@
+{
+  "raw_candidate_rows": 35946,
+  "offline_kept_rows_before_pair_dedup": 15177,
+  "offline_unique_post_pairs": 14652,
+  "offline_unique_posts_to_hydrate": 18087,
+  "appview_batches_of_25": 724,
+  "authors_after_prefilter": 1617,
+  "rejection_counts": {
+    "near_duplicate_copy": 7308,
+    "obviously_unusable_raw_target": 15997,
+    "adult_or_porn": 847,
+    "a_too_little_text": 171,
+    "b_too_little_text": 145,
+    "created_at_outside_requested_window": 71
+  }
+}

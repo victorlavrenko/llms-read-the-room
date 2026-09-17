@@ -1,0 +1,7 @@
+model,model_id,all_available_correct,all_available_answered,all_available_accuracy_pct,complete_sessions,matched_human_correct,matched_model_correct,matched_total,matched_human_accuracy_pct,matched_model_accuracy_pct,gap_pp,human_wins,ties,model_wins
+Gemini 3.7 Flash,google/gemini-3.7-flash,1072,1380,77.6812,69,747,1072,1380,54.1304,77.6812,23.5507,1,0,68
+GPT-5.6 Sol,openai/gpt-5.6-sol,1050,1380,76.087,69,747,1050,1380,54.1304,76.087,21.9565,2,2,65
+Qwen 3.7 Max,qwen/qwen3.7-max,956,1366,69.9854,62,672,874,1240,54.1935,70.4839,16.2903,4,3,55
+Claude Opus 4.8,anthropic/claude-opus-4.8,951,1380,68.913,69,747,951,1380,54.1304,68.913,14.7826,5,7,57
+Qwen 3.7 Flash,qwen/qwen3.7-flash,893,1380,64.7101,69,747,893,1380,54.1304,64.7101,10.5797,10,7,52
+DeepSeek V4 Flash,deepseek/deepseek-v4-flash-0731,860,1380,62.3188,69,747,860,1380,54.1304,62.3188,8.1884,16,7,46

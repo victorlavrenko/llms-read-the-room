@@ -1,0 +1,14 @@
+{
+  "authors_with_eligible_pair": 3175,
+  "eligible_pairs": 35946,
+  "end_days_ago": 8,
+  "max_gap_hours": 12,
+  "max_text_jaccard": 0.9,
+  "ranked_accounts_written": 500,
+  "snapshot_end_seq": 25336239548,
+  "snapshot_start_after_seq": 25220821990,
+  "window_days": 3.5,
+  "window_end": "2026-08-30T13:53:45.1699838Z",
+  "window_hours": 84,
+  "window_start": "2026-08-27T01:53:45.1699838Z"
+}

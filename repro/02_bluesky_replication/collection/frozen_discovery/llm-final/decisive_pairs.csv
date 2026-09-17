@@ -1,0 +1,853 @@
+﻿did,handle,canonical_url,a_rkey,a_created_at,a_text,b_rkey,b_created_at,b_text,gap_hours,text_jaccard,offline_core_jaccard,offline_core_sequence,offline_gap_hours,selected_target,target_flags,a_uri,b_uri,a_text_live,b_text_live,a_created_at_live,b_created_at_live,gap_hours_live,core_jaccard_live,core_sequence_live,a_reposts,b_reposts,winner_reposts,loser_reposts,repost_margin,winner_loser_ratio,repost_winner,decisive_outcome,a_likes,b_likes,a_quotes,b_quotes,reasons
+did:plc:jyhnnepeeg2ola7fkgt2yjln,floodlightnews.org,floodlightnews.org/new-jersey-data-center-federal-violation,3mu346btmye2j,2026-08-27T14:55:55Z,"One of East Coast’s largest data centers accused of ‘violating federal law’
+🗞️ floodlightnews.org/new-jersey-d...",3mu3bte5xnt2t,2026-08-27T16:37:11Z,"NEW: Thermal drone footage shows the Microsoft-backed DataOne AI data center in Vineland, NJ is running dozens of gas generators.
+
+None of them have permits.
+
+A Floodlight visual investigation with @us.theguardian.com:",1.69,0.0638,0.0682,0.3514,1.6878,floodlightnews.org/new-jersey-data-center-federal-violation,,at://did:plc:jyhnnepeeg2ola7fkgt2yjln/app.bsky.feed.post/3mu346btmye2j,at://did:plc:jyhnnepeeg2ola7fkgt2yjln/app.bsky.feed.post/3mu3bte5xnt2t,"One of East Coast’s largest data centers accused of ‘violating federal law’
+🗞️ floodlightnews.org/new-jersey-d...","NEW: Thermal drone footage shows the Microsoft-backed DataOne AI data center in Vineland, NJ is running dozens of gas generators.
+
+None of them have permits.
+
+A Floodlight visual investigation with @us.theguardian.com:",2026-08-27T14:55:55.184000+00:00,2026-08-27T16:37:11.013000+00:00,1.6877,0.0682,0.3514,1,1203,1203,1,1202,1203.0,B,1,5,2389,2,178,
+did:plc:qobvnkudcv3zlaklxxjduqoi,motherjones.com,motherjones.com/politics/2026/08/karen-attiah-washington-post-charlie-kirk-reinstated,3mu2xfdrpky2r,2026-08-27T13:30:21Z,"""Without the union, you’re naked. You have no protection."" 
+
+How @karenattiah.bsky.social fought the Washington Post—and won",3mu3bowqcbc2j,2026-08-27T16:34:43Z,"“The Charlie Kirk situation caused … institutions to completely have this meltdown of cowardice, fear, temporary insanity. Now, they’re facing the year-long Charlie Kirk hangover.""",3.07,0.0789,0.0857,0.3498,3.0728,motherjones.com/politics/2026/08/karen-attiah-washington-post-charlie-kirk-reinstated,,at://did:plc:qobvnkudcv3zlaklxxjduqoi/app.bsky.feed.post/3mu2xfdrpky2r,at://did:plc:qobvnkudcv3zlaklxxjduqoi/app.bsky.feed.post/3mu3bowqcbc2j,"""Without the union, you’re naked. You have no protection."" 
+
+How @karenattiah.bsky.social fought the Washington Post—and won","“The Charlie Kirk situation caused … institutions to completely have this meltdown of cowardice, fear, temporary insanity. Now, they’re facing the year-long Charlie Kirk hangover.""",2026-08-27T13:30:21.490000+00:00,2026-08-27T16:34:43.873000+00:00,3.0729,0.0857,0.3498,48,364,364,48,316,7.5833,B,1,248,1335,2,13,
+did:plc:cfqyyqvek7thvj7qbtbr5gbr,vegaparticular.bsky.social,secure.avaaz.org/community_petitions/en/ayuntamiento_de_baldellou_cancelacion_urgente_festival_own_spirit,3mu2mp27ebk2n,2026-08-27T10:18:58Z,"Por favor, si podéis firmar esto os lo agradecería. Es un festival para recreo de g3nocid4s y encima, en el Pirineo que sigue ardiendo. 
+
+secure.avaaz.org/community_pe...",3mu2qkxinck23,2026-08-27T11:28:16Z,"Si además de firmar enviáis un correo al INAGA (Instituto de Gestión Ambiental de Aragón) la tierra os lo agradecerá. Ya paramos entre todos un festival parecido en público y organización -Festival Sizigia-
+
+inaga@aragon.es
+
+secure.avaaz.org/community_pe...",1.15,0.3000,0.2708,0.0419,1.155,secure.avaaz.org/community_petitions/en/ayuntamiento_de_baldellou_cancelacion_urgente_festival_own_spirit,,at://did:plc:cfqyyqvek7thvj7qbtbr5gbr/app.bsky.feed.post/3mu2mp27ebk2n,at://did:plc:cfqyyqvek7thvj7qbtbr5gbr/app.bsky.feed.post/3mu2qkxinck23,"Por favor, si podéis firmar esto os lo agradecería. Es un festival para recreo de g3nocid4s y encima, en el Pirineo que sigue ardiendo. 
+
+secure.avaaz.org/community_pe...","Si además de firmar enviáis un correo al INAGA (Instituto de Gestión Ambiental de Aragón) la tierra os lo agradecerá. Ya paramos entre todos un festival parecido en público y organización -Festival Sizigia-
+
+inaga@aragon.es
+
+secure.avaaz.org/community_pe...",2026-08-27T10:18:58.933000+00:00,2026-08-27T11:28:16.842000+00:00,1.155,0.2708,0.0419,341,9,341,9,332,37.8889,A,1,272,8,22,0,
+did:plc:sblju4a66qwthmosnm4m7k4e,charlesornstein.bsky.social,propublica.org/article/immigrants-rebooking-ice-jails-florida,3mu34ufg6ec2s,2026-08-27T15:08:18Z,IMPORTANT NEW STORY: These Local Jails Were Supposed to Detain Immigrants for Only 72 Hours. One Woman Was Held for a Total of 26 Days. @marioarizabaez.bsky.social @hannahbeckler.bsky.social @libbyseline.bsky.social,3mu3536n23s2u,2026-08-27T15:12:06Z,"This is wild. In late 2025, federal and state officials kept a Mexican woman in custody for almost a month by repeatedly rebooking her just before her 72-hour time limit ran out. www.propublica.org/article/immi...",0.06,0.0667,0.08,0.3127,0.0633,propublica.org/article/immigrants-rebooking-ice-jails-florida,,at://did:plc:sblju4a66qwthmosnm4m7k4e/app.bsky.feed.post/3mu34ufg6ec2s,at://did:plc:sblju4a66qwthmosnm4m7k4e/app.bsky.feed.post/3mu3536n23s2u,IMPORTANT NEW STORY: These Local Jails Were Supposed to Detain Immigrants for Only 72 Hours. One Woman Was Held for a Total of 26 Days. @marioarizabaez.bsky.social @hannahbeckler.bsky.social @libbyseline.bsky.social,"This is wild. In late 2025, federal and state officials kept a Mexican woman in custody for almost a month by repeatedly rebooking her just before her 72-hour time limit ran out. www.propublica.org/article/immi...",2026-08-27T15:08:18.331000+00:00,2026-08-27T15:12:06.098000+00:00,0.0633,0.08,0.3127,16,336,336,16,320,21.0,B,1,29,663,0,25,
+did:plc:3qlbh4vywekida64m3dvna37,komainukiratazaka.bsky.social,news.jp/i/1425310523326824480,3mu277n42ik2w,2026-08-27T06:17:43Z,"『真実が語られるのが重要だ』と言い、『こういうことが起きた』とみんなが承認できる事実認定があれば、市民は前進できる
+
+news.jp/i/1425310523...",3mu2a4emv7s2w,2026-08-27T06:33:47Z,"『戦争犯罪を罰しなければ国民は過去の犯罪を忘れず、過去に生きることになる。犯罪に対処すれば、国の再建を始められる』
+
+日本がまさにそうなっている。
+太平洋戦争の戦争犯罪にきちんと向き合わなかったから、80年経ったのにまだ大日本帝国のままだ。
+
+news.jp/i/1425310523...",0.27,0.2500,0.25,0.2453,0.2678,news.jp/i/1425310523326824480,,at://did:plc:3qlbh4vywekida64m3dvna37/app.bsky.feed.post/3mu277n42ik2w,at://did:plc:3qlbh4vywekida64m3dvna37/app.bsky.feed.post/3mu2a4emv7s2w,"『真実が語られるのが重要だ』と言い、『こういうことが起きた』とみんなが承認できる事実認定があれば、市民は前進できる
+
+news.jp/i/1425310523...","『戦争犯罪を罰しなければ国民は過去の犯罪を忘れず、過去に生きることになる。犯罪に対処すれば、国の再建を始められる』
+
+日本がまさにそうなっている。
+太平洋戦争の戦争犯罪にきちんと向き合わなかったから、80年経ったのにまだ大日本帝国のままだ。
+
+news.jp/i/1425310523...",2026-08-27T06:17:43.218000+00:00,2026-08-27T06:33:47.426000+00:00,0.2678,0.25,0.2453,1,124,124,1,123,124.0,B,1,7,204,0,1,
+did:plc:mpfh5hnnqfowzzfb7sbutv3i,offinvestigation.bsky.social,off-investigation.fr/jeffrey-epstein-predateur-sexuel-et-espion,3mu2inbycas2j,2026-08-27T09:06:25Z,"Emmanuel Macron, Yaël Braun-Pivet et Gérard Larcher minimisent le scandale Epstein. OFF a enquêté sur les relations embarrassantes du prédateur sexuel américain avec le monde du renseignement. C’est notre nouveau docu : « Epstein, prédateur et espion ». ⤵️",3mu2vykm3xs2x,2026-08-27T13:05:21Z,"🗣️ ""Il y a en France une sorte de culture du viol""
+
+De Jack Lang à la banquière Ariane de Rothschild, en passant par un ancien conseiller de Nicolas Sarkozy, découvrez les VIP français qui fréquentaient Jeffrey Epstein.
+
+🎬 « EPSTEIN, prédateur et espion »
+➡️ off-investigation.fr/jeffrey-epst...",3.98,0.1250,0.125,0.0117,3.9822,off-investigation.fr/jeffrey-epstein-predateur-sexuel-et-espion,,at://did:plc:mpfh5hnnqfowzzfb7sbutv3i/app.bsky.feed.post/3mu2inbycas2j,at://did:plc:mpfh5hnnqfowzzfb7sbutv3i/app.bsky.feed.post/3mu2vykm3xs2x,"Emmanuel Macron, Yaël Braun-Pivet et Gérard Larcher minimisent le scandale Epstein. OFF a enquêté sur les relations embarrassantes du prédateur sexuel américain avec le monde du renseignement. C’est notre nouveau docu : « Epstein, prédateur et espion ». ⤵️","🗣️ ""Il y a en France une sorte de culture du viol""
+
+De Jack Lang à la banquière Ariane de Rothschild, en passant par un ancien conseiller de Nicolas Sarkozy, découvrez les VIP français qui fréquentaient Jeffrey Epstein.
+
+🎬 « EPSTEIN, prédateur et espion »
+➡️ off-investigation.fr/jeffrey-epst...",2026-08-27T09:06:25.016000+00:00,2026-08-27T13:05:21.795000+00:00,3.9824,0.125,0.0117,113,17,113,17,96,6.6471,A,1,150,26,5,0,
+did:plc:t57zckxuo4v6t53fjp7j7mcv,dworkin.bsky.social,dworkinsubstack.com/p/trump-came-for-shelter-beds-the-airwaves,3mu342fj4dk2m,2026-08-27T14:53:46Z,"A federal appeals judge summed up the Trump regime's entire legal defense in one sentence: ""the President made us do this."" Tuesday. Page eight of the ruling.
+
+www.dworkinsubstack.com/p/trump-came...",3mu3472gy5k2m,2026-08-27T14:56:22Z,"Trump's FCC tried to hand Republican committees the ad discount Congress wrote for candidates. A federal court killed it Tuesday. Nine days before it started.
+
+www.dworkinsubstack.com/p/trump-came...",0.04,0.2200,0.1333,0.2085,0.0433,dworkinsubstack.com/p/trump-came-for-shelter-beds-the-airwaves,,at://did:plc:t57zckxuo4v6t53fjp7j7mcv/app.bsky.feed.post/3mu342fj4dk2m,at://did:plc:t57zckxuo4v6t53fjp7j7mcv/app.bsky.feed.post/3mu3472gy5k2m,"A federal appeals judge summed up the Trump regime's entire legal defense in one sentence: ""the President made us do this."" Tuesday. Page eight of the ruling.
+
+www.dworkinsubstack.com/p/trump-came...","Trump's FCC tried to hand Republican committees the ad discount Congress wrote for candidates. A federal court killed it Tuesday. Nine days before it started.
+
+www.dworkinsubstack.com/p/trump-came...",2026-08-27T14:53:46.013000+00:00,2026-08-27T14:56:22.182000+00:00,0.0434,0.1333,0.2085,105,23,105,23,82,4.5652,A,1,278,78,9,0,
+did:plc:t57zckxuo4v6t53fjp7j7mcv,dworkin.bsky.social,dworkinsubstack.com/p/trump-came-for-shelter-beds-the-airwaves,3mu33xpnap22m,2026-08-27T14:52:15Z,Border Patrol took a deployed Navy sailor's father at a traffic stop in Key West. Three days later they let him go. Homeland Security still won't say why they did either one.,3mu342fj4dk2m,2026-08-27T14:53:46Z,"A federal appeals judge summed up the Trump regime's entire legal defense in one sentence: ""the President made us do this."" Tuesday. Page eight of the ruling.
+
+www.dworkinsubstack.com/p/trump-came...",0.03,0.0678,0.0741,0.3158,0.0253,dworkinsubstack.com/p/trump-came-for-shelter-beds-the-airwaves,,at://did:plc:t57zckxuo4v6t53fjp7j7mcv/app.bsky.feed.post/3mu33xpnap22m,at://did:plc:t57zckxuo4v6t53fjp7j7mcv/app.bsky.feed.post/3mu342fj4dk2m,Border Patrol took a deployed Navy sailor's father at a traffic stop in Key West. Three days later they let him go. Homeland Security still won't say why they did either one.,"A federal appeals judge summed up the Trump regime's entire legal defense in one sentence: ""the President made us do this."" Tuesday. Page eight of the ruling.
+
+www.dworkinsubstack.com/p/trump-came...",2026-08-27T14:52:15.973000+00:00,2026-08-27T14:53:46.013000+00:00,0.025,0.0741,0.3158,26,105,105,26,79,4.0385,B,1,74,278,0,9,
+did:plc:uk4m45qfhdzfim2ckqybtnql,hwww2-yves.bsky.social,docs.google.com/document/d/1lzOyIyd-d7Zl6NS_T4lkUotyGowWMr-nGO05qupmdZE/edit?usp=drivesdk,3mu2u6gt2y22q,2026-08-27T12:32:51Z,"#HWWW2_Pin
+
+“เหม็นสาบเสียจริง”
+“ไปให้พ้น”
+
+Yves de Glace (17)
+174 / 57 | เลือดบริสุทธิ์ | สลิธีริน ชั้นปีที่ 7
+
+Info 🕊️—  docs.google.com/document/d/1...
+dm, rp 24/7",3mu2xghl3m227,2026-08-27T13:31:02Z," #hwww2-costory
+
+“อย่าไปเล่นกับพวกตัวสกปรกสิโคโค่”
+
+🔁 : ช่วยหาเพื่อน
+🤍 : สนใจโค เดี๋ยวก๊อกๆ ไปนะคะ
+
+ดอค : docs.google.com/document/d/1...
+
+(สลิธีรินชั้นปีเดียวกันเนียนรู้จักได้เลยนะคะ ยังไงก็ฝากอีตาคนนิสัยเสียไว้ด้วยค่ะ 🙇🙇 ลูกนิสัยไม่ดีแต่ผปคไม่กัดค่ะ! สัญญา! 😞🤙)",0.97,0.1757,0.169,0.1893,0.9697,docs.google.com/document/d/1lzOyIyd-d7Zl6NS_T4lkUotyGowWMr-nGO05qupmdZE/edit?usp=drivesdk,,at://did:plc:uk4m45qfhdzfim2ckqybtnql/app.bsky.feed.post/3mu2u6gt2y22q,at://did:plc:uk4m45qfhdzfim2ckqybtnql/app.bsky.feed.post/3mu2xghl3m227,"#HWWW2_Pin
+
+“เหม็นสาบเสียจริง”
+“ไปให้พ้น”
+
+Yves de Glace (17)
+174 / 57 | เลือดบริสุทธิ์ | สลิธีริน ชั้นปีที่ 7
+
+Info 🕊️—  docs.google.com/document/d/1...
+dm, rp 24/7"," #hwww2-costory
+
+“อย่าไปเล่นกับพวกตัวสกปรกสิโคโค่”
+
+🔁 : ช่วยหาเพื่อน
+🤍 : สนใจโค เดี๋ยวก๊อกๆ ไปนะคะ
+
+ดอค : docs.google.com/document/d/1...
+
+(สลิธีรินชั้นปีเดียวกันเนียนรู้จักได้เลยนะคะ ยังไงก็ฝากอีตาคนนิสัยเสียไว้ด้วยค่ะ 🙇🙇 ลูกนิสัยไม่ดีแต่ผปคไม่กัดค่ะ! สัญญา! 😞🤙)",2026-08-27T12:32:51.668000+00:00,2026-08-27T13:31:02.106000+00:00,0.9696,0.169,0.1893,83,32,83,32,51,2.5938,A,1,101,11,0,1,
+did:plc:7vb3nqbwxsgxzvukuddgttrw,divyampersaud.com,chuffed.org/project/erc,3mtzqszezuz2i,2026-08-27T02:00:07Z,"EMERGENCY 🚨 On Sunday, my friend was wounded in a bombing...the occupation wiped out a displacement camp of 25 families. They have lost EVERYTHING. This is a rapid relief effort for about a hundred people in Gaza.
+
+Any and all boldness, even a dollar, is HOPE! chuffed.org/project/erc",3mtzsvciw5s22,2026-08-27T02:37:11Z,"This schematic summarizes what we're trying to get for these families, around 100 people or more in Gaza. They need tarps for shelter, replacement supplies like clothes (EVERYTHING was destroyed, imagine that!!!!), water tanks for the camp to be able to drink, and bathrooms. chuffed.org/project/erc",0.62,0.2192,0.2192,0.1004,0.6178,chuffed.org/project/erc,,at://did:plc:7vb3nqbwxsgxzvukuddgttrw/app.bsky.feed.post/3mtzqszezuz2i,at://did:plc:7vb3nqbwxsgxzvukuddgttrw/app.bsky.feed.post/3mtzsvciw5s22,"EMERGENCY 🚨 On Sunday, my friend was wounded in a bombing...the occupation wiped out a displacement camp of 25 families. They have lost EVERYTHING. This is a rapid relief effort for about a hundred people in Gaza.
+
+Any and all boldness, even a dollar, is HOPE! chuffed.org/project/erc","This schematic summarizes what we're trying to get for these families, around 100 people or more in Gaza. They need tarps for shelter, replacement supplies like clothes (EVERYTHING was destroyed, imagine that!!!!), water tanks for the camp to be able to drink, and bathrooms. chuffed.org/project/erc",2026-08-27T02:00:07.497000+00:00,2026-08-27T02:37:11.676000+00:00,0.6178,0.2192,0.1004,71,10,71,10,61,7.1,A,1,54,8,12,0,
+did:plc:t57zckxuo4v6t53fjp7j7mcv,dworkin.bsky.social,tinyurl.com/3f3m728j,3mu2rr25pkk2m,2026-08-27T11:49:34Z,"A federal judge blocked Trump's mail ballot rule twice. Both blocks are gone. Within 48 hours.
+
+Ballots start mailing in 9 days. Congress is what's left.
+
+EMERGENCY LETTER: tinyurl.com/3f3m728j",3mu2swiolkc2m,2026-08-27T12:10:31Z,"🚨 9 DAYS 🚨
+
+That's how long until the first mail ballots go out under a rule a federal judge said was written ILLEGALLY.
+
+Nine days. Thirty seconds. Do it now.
+
+👉 tinyurl.com/3f3m728j",0.35,0.2353,0.2353,0.3662,0.3492,tinyurl.com/3f3m728j,,at://did:plc:t57zckxuo4v6t53fjp7j7mcv/app.bsky.feed.post/3mu2rr25pkk2m,at://did:plc:t57zckxuo4v6t53fjp7j7mcv/app.bsky.feed.post/3mu2swiolkc2m,"A federal judge blocked Trump's mail ballot rule twice. Both blocks are gone. Within 48 hours.
+
+Ballots start mailing in 9 days. Congress is what's left.
+
+EMERGENCY LETTER: tinyurl.com/3f3m728j","🚨 9 DAYS 🚨
+
+That's how long until the first mail ballots go out under a rule a federal judge said was written ILLEGALLY.
+
+Nine days. Thirty seconds. Do it now.
+
+👉 tinyurl.com/3f3m728j",2026-08-27T11:49:34.698000+00:00,2026-08-27T12:10:31.446000+00:00,0.3491,0.2353,0.3662,33,69,69,33,36,2.0909,B,1,100,163,1,4,
+did:plc:k6syqg577dr3nyrsevahuqmj,indrapramitdas.bsky.social,chuffed.org/project/omshamm,3mu2hduoe3k2a,2026-08-27T08:43:15Z,"Lina is struggling to care for her family, including her severely injured husband Mahmoud who's at risk of amputation, her mother-in-law with bone cancer, & her sick daughters. Her husband Mahmoud is in great danger, & urgently needs unaffordable healthcare:",3mu2xc5gask2g,2026-08-27T13:28:37Z,Mahmoud is at the risk of losing his life if he doesn't get treatment soon. His wife Lina is struggling to care for him and their children and family as Israel's genocidal siege continues to starve them & keep healthcare scarce & unaffordable. Please share & give to help:,4.76,0.2258,0.2258,0.047,4.7561,chuffed.org/project/omshamm,,at://did:plc:k6syqg577dr3nyrsevahuqmj/app.bsky.feed.post/3mu2hduoe3k2a,at://did:plc:k6syqg577dr3nyrsevahuqmj/app.bsky.feed.post/3mu2xc5gask2g,"Lina is struggling to care for her family, including her severely injured husband Mahmoud who's at risk of amputation, her mother-in-law with bone cancer, & her sick daughters. Her husband Mahmoud is in great danger, & urgently needs unaffordable healthcare:",Mahmoud is at the risk of losing his life if he doesn't get treatment soon. His wife Lina is struggling to care for him and their children and family as Israel's genocidal siege continues to starve them & keep healthcare scarce & unaffordable. Please share & give to help:,2026-08-27T08:43:15.327000+00:00,2026-08-27T13:28:37.259000+00:00,4.7561,0.2258,0.047,1,68,68,1,67,68.0,B,1,4,48,0,15,
+did:plc:6uimut56ihor2p6ubnepkudz,jenrubin.bsky.social,open.substack.com/pub/contrarian/p/facts-trump-doesnt-need-no-stinkin?r=230tr,3mu2tv2hlls2o,2026-08-27T12:27:36Z,"A regime that rails against “DEI,” decries “fake news,” and claims devotion to meritocracy has stocked its ranks with overwhelmingly white, incompetent sycophants who routinely fail to back up outlandish allegations with facts. Result: serial failure and humiliation
+open.substack.com/pub/contrari...",3mu2u3g2zqc2l,2026-08-27T12:31:10Z,"Wild accusations from Donald Trump and his minions; no facts; no case.  True in court cases, voting allegations, etc... Serial liars
+open.substack.com/pub/contrari...",0.06,0.1607,0.1607,0.371,0.0594,open.substack.com/pub/contrarian/p/facts-trump-doesnt-need-no-stinkin?r=230tr,,at://did:plc:6uimut56ihor2p6ubnepkudz/app.bsky.feed.post/3mu2tv2hlls2o,at://did:plc:6uimut56ihor2p6ubnepkudz/app.bsky.feed.post/3mu2u3g2zqc2l,"A regime that rails against “DEI,” decries “fake news,” and claims devotion to meritocracy has stocked its ranks with overwhelmingly white, incompetent sycophants who routinely fail to back up outlandish allegations with facts. Result: serial failure and humiliation
+open.substack.com/pub/contrari...","Wild accusations from Donald Trump and his minions; no facts; no case.  True in court cases, voting allegations, etc... Serial liars
+open.substack.com/pub/contrari...",2026-08-27T12:27:36.723000+00:00,2026-08-27T12:31:10.221000+00:00,0.0593,0.1607,0.371,65,25,65,25,40,2.6,A,1,232,124,1,1,
+did:plc:vcepp6trx4vpe5ourxso4tjl,404media.co,404media.co/three-years,3mu376mf65223,2026-08-27T15:49:48Z,"From Flock to your privacy, at 404 Media, we are particularly focused on doing journalism that has real-world impact. That's all thanks to your continued support.
+
+On Sept. 3rd and 4th, we want you to come party with us to celebrate our third anniversary. Join us: www.404media.co/three-years/",3mu3an6nrc226,2026-08-27T16:15:51Z,inside look at how the sausage gets made and join us at the party here: www.404media.co/three-years/,0.43,0.1887,0.1042,0.2154,0.4342,404media.co/three-years,,at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mu376mf65223,at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mu3an6nrc226,"From Flock to your privacy, at 404 Media, we are particularly focused on doing journalism that has real-world impact. That's all thanks to your continued support.
+
+On Sept. 3rd and 4th, we want you to come party with us to celebrate our third anniversary. Join us: www.404media.co/three-years/",inside look at how the sausage gets made and join us at the party here: www.404media.co/three-years/,2026-08-27T15:49:48.664000+00:00,2026-08-27T16:15:51.327000+00:00,0.4341,0.1042,0.2154,58,5,58,5,53,11.6,A,1,241,36,4,2,
+did:plc:ruoxyu6lf4rjzec7ucof6vrv,julesssnextdoor.bsky.social,chaturbate.com/julesssnextdoor,3mu23yggd5227,2026-08-27T05:20:00Z,"Wanna take me for a spin? 
+
+Then cum play 😈
+
+I'm live now 🤭
+
+Chaturbate.com/julesssnextdoor",3mu2fjy6mw22v,2026-08-27T08:10:52Z,"Anyway, I'm sucking a dildo live rn if you wanna watch 🤭🤭
+
+Chaturbate.com/julesssnextdoor",2.85,0.3478,0.3478,0.5783,2.8478,chaturbate.com/julesssnextdoor,,at://did:plc:ruoxyu6lf4rjzec7ucof6vrv/app.bsky.feed.post/3mu23yggd5227,at://did:plc:ruoxyu6lf4rjzec7ucof6vrv/app.bsky.feed.post/3mu2fjy6mw22v,"Wanna take me for a spin? 
+
+Then cum play 😈
+
+I'm live now 🤭
+
+Chaturbate.com/julesssnextdoor","Anyway, I'm sucking a dildo live rn if you wanna watch 🤭🤭
+
+Chaturbate.com/julesssnextdoor",2026-08-27T05:20:00.110000+00:00,2026-08-27T08:10:52.848000+00:00,2.848,0.3478,0.5783,57,0,57,0,57,inf,A,1,245,16,0,0,
+did:plc:syfp4fi6s6oijh7be6qfjhfv,andrewchak.bsky.social,thehill.com/opinion/international/6051039-senate-passes-graham-sanctions,3mu35ir2cw22l,2026-08-27T15:19:41Z,"We know the Kremlin doesn’t answer to its people, yet assume it cares for them.
+Moscow has spent 5 centuries proving otherwise.
+Under tsars, commissars and kleptocrats, it sacrificed russian lives to hold colonial possessions from Kamchatka to Kaliningrad
+My latest ⤵️
+thehill.com/opinion/inte...",3mu36nisvak27,2026-08-27T15:40:14Z,"A Pew poll finds 2/3 of Americans lack confidence in Trump’s handling of russia’s war
+83% view the aggressor unfavorably
+But sanctions, even if they pass the House, accomplish little without a clear purpose, which must be to render 🇷🇺’s grievance-fueled predation impotent
+thehill.com/opinion/inte...",0.34,0.0723,0.0723,0.0139,0.3425,thehill.com/opinion/international/6051039-senate-passes-graham-sanctions,,at://did:plc:syfp4fi6s6oijh7be6qfjhfv/app.bsky.feed.post/3mu35ir2cw22l,at://did:plc:syfp4fi6s6oijh7be6qfjhfv/app.bsky.feed.post/3mu36nisvak27,"We know the Kremlin doesn’t answer to its people, yet assume it cares for them.
+Moscow has spent 5 centuries proving otherwise.
+Under tsars, commissars and kleptocrats, it sacrificed russian lives to hold colonial possessions from Kamchatka to Kaliningrad
+My latest ⤵️
+thehill.com/opinion/inte...","A Pew poll finds 2/3 of Americans lack confidence in Trump’s handling of russia’s war
+83% view the aggressor unfavorably
+But sanctions, even if they pass the House, accomplish little without a clear purpose, which must be to render 🇷🇺’s grievance-fueled predation impotent
+thehill.com/opinion/inte...",2026-08-27T15:19:41.616000+00:00,2026-08-27T15:40:14.499000+00:00,0.3425,0.0723,0.0139,37,2,37,2,35,18.5,A,1,101,11,4,0,
+did:plc:t57zckxuo4v6t53fjp7j7mcv,dworkin.bsky.social,dworkinsubstack.com/p/trump-came-for-shelter-beds-the-airwaves,3mu34m5jtmc2m,2026-08-27T15:03:41Z,"Abdul El-Sayed went on Fox News and told Jesse Watters to his face he hadn't asked a single question about Michigan. Monday night.
+
+www.dworkinsubstack.com/p/trump-came...",3mu34p273ck2m,2026-08-27T15:05:18Z,"Mike Rogers' opponent went on Fox News and called him ""a beta."" On their own air. Monday night.
+
+www.dworkinsubstack.com/p/trump-came...",0.03,0.3500,0.2353,0.5253,0.0269,dworkinsubstack.com/p/trump-came-for-shelter-beds-the-airwaves,,at://did:plc:t57zckxuo4v6t53fjp7j7mcv/app.bsky.feed.post/3mu34m5jtmc2m,at://did:plc:t57zckxuo4v6t53fjp7j7mcv/app.bsky.feed.post/3mu34p273ck2m,"Abdul El-Sayed went on Fox News and told Jesse Watters to his face he hadn't asked a single question about Michigan. Monday night.
+
+www.dworkinsubstack.com/p/trump-came...","Mike Rogers' opponent went on Fox News and called him ""a beta."" On their own air. Monday night.
+
+www.dworkinsubstack.com/p/trump-came...",2026-08-27T15:03:41.629000+00:00,2026-08-27T15:05:18.794000+00:00,0.027,0.2353,0.5253,31,7,31,7,24,4.4286,A,1,128,47,3,0,
+did:plc:t57zckxuo4v6t53fjp7j7mcv,dworkin.bsky.social,dworkinsubstack.com/p/trump-came-for-shelter-beds-the-airwaves,3mu34jmvffc2m,2026-08-27T15:02:17Z,"A federal judge ruled the FCC's 100-day silence was itself an answer. The answer was no. Tuesday. In the opinion.
+
+www.dworkinsubstack.com/p/trump-came...",3mu34m5jtmc2m,2026-08-27T15:03:41Z,"Abdul El-Sayed went on Fox News and told Jesse Watters to his face he hadn't asked a single question about Michigan. Monday night.
+
+www.dworkinsubstack.com/p/trump-came...",0.02,0.1458,0.0238,0.1941,0.0233,dworkinsubstack.com/p/trump-came-for-shelter-beds-the-airwaves,,at://did:plc:t57zckxuo4v6t53fjp7j7mcv/app.bsky.feed.post/3mu34jmvffc2m,at://did:plc:t57zckxuo4v6t53fjp7j7mcv/app.bsky.feed.post/3mu34m5jtmc2m,"A federal judge ruled the FCC's 100-day silence was itself an answer. The answer was no. Tuesday. In the opinion.
+
+www.dworkinsubstack.com/p/trump-came...","Abdul El-Sayed went on Fox News and told Jesse Watters to his face he hadn't asked a single question about Michigan. Monday night.
+
+www.dworkinsubstack.com/p/trump-came...",2026-08-27T15:02:17.073000+00:00,2026-08-27T15:03:41.629000+00:00,0.0235,0.0238,0.1941,13,31,31,13,18,2.3846,B,1,46,128,0,3,
+did:plc:phwutxn6uq452kifa3ur7g5g,statuesque.bsky.social,kickstarter.com/projects/statuesque/cloth-trows,3mu2p2ubk7s2d,2026-08-27T11:01:22Z,"The Cloth Trows Kickstarter is live!
+
+I hope you like them. I'm really happy with how they've turned out and really want to get them out into the world!
+
+Please do take a wee look. All pledges, shares, likes and comments much appreciated.
+
+kickstarter.com/projects/statuesque/cloth-trows",3mu2vhyqoq22d,2026-08-27T12:56:06Z,"Unsuccessfully trying to avoid looking at Kickstarter (it's passed the funding goal - thanks all!) by painting some cloth trows.
+
+They're denim, I guess.
+
+kickstarter.com/projects/statuesque/cloth-trows",1.91,0.1864,0.1864,0.3369,1.9122,kickstarter.com/projects/statuesque/cloth-trows,,at://did:plc:phwutxn6uq452kifa3ur7g5g/app.bsky.feed.post/3mu2p2ubk7s2d,at://did:plc:phwutxn6uq452kifa3ur7g5g/app.bsky.feed.post/3mu2vhyqoq22d,"The Cloth Trows Kickstarter is live!
+
+I hope you like them. I'm really happy with how they've turned out and really want to get them out into the world!
+
+Please do take a wee look. All pledges, shares, likes and comments much appreciated.
+
+kickstarter.com/projects/statuesque/cloth-trows","Unsuccessfully trying to avoid looking at Kickstarter (it's passed the funding goal - thanks all!) by painting some cloth trows.
+
+They're denim, I guess.
+
+kickstarter.com/projects/statuesque/cloth-trows",2026-08-27T11:01:22.829000+00:00,2026-08-27T12:56:06.192000+00:00,1.912,0.1864,0.3369,30,9,30,9,21,3.3333,A,1,54,42,3,0,
+did:plc:k5nskatzhyxersjilvtnz4lh,washingtonpost.com,wapo.st/4gTmIr7,3mu22ezegbj23,2026-08-27T04:51:14Z,"Yayoi Kusama, whose hypnotic, unconventional works propelled her from near-obscurity to a place in the world’s most prominent museums, has died at 97. https://wapo.st/4gTmIr7",3mu2puz4afx2d,2026-08-27T11:16:00Z,"Yayoi Kusama, the Japanese artist who disappeared from public view for decades and found global recognition late in life through her polka-dot paintings and mirrored, Instagram-friendly “infinity rooms,” died Aug. 14 in Tokyo. She was 97. https://wapo.st/4gTmIr7",6.41,0.1509,0.1509,0.133,6.4128,wapo.st/4gTmIr7,,at://did:plc:k5nskatzhyxersjilvtnz4lh/app.bsky.feed.post/3mu22ezegbj23,at://did:plc:k5nskatzhyxersjilvtnz4lh/app.bsky.feed.post/3mu2puz4afx2d,"Yayoi Kusama, whose hypnotic, unconventional works propelled her from near-obscurity to a place in the world’s most prominent museums, has died at 97. https://wapo.st/4gTmIr7","Yayoi Kusama, the Japanese artist who disappeared from public view for decades and found global recognition late in life through her polka-dot paintings and mirrored, Instagram-friendly “infinity rooms,” died Aug. 14 in Tokyo. She was 97. https://wapo.st/4gTmIr7",2026-08-27T04:51:14.911498+00:00,2026-08-27T11:16:00.314147+00:00,6.4126,0.1509,0.133,12,30,30,12,18,2.5,B,1,37,117,3,4,
+did:plc:t57zckxuo4v6t53fjp7j7mcv,dworkin.bsky.social,dworkinsubstack.com/p/trump-came-for-shelter-beds-the-airwaves,3mu34rsxsms2m,2026-08-27T15:06:51Z,"A Senate candidate called Pete Hegseth the unofficial sixth host of ""The Five."" On Fox. To Fox's own audience.
+
+www.dworkinsubstack.com/p/trump-came...",3mu34tu6qu22m,2026-08-27T15:08:00Z,A Navy sailor with two days ashore in nine months found out on a Saturday that Border Patrol had taken his father. His dad was dropping the car off at the mechanic.,0.02,0.0600,0.0682,0.2472,0.0192,dworkinsubstack.com/p/trump-came-for-shelter-beds-the-airwaves,,at://did:plc:t57zckxuo4v6t53fjp7j7mcv/app.bsky.feed.post/3mu34rsxsms2m,at://did:plc:t57zckxuo4v6t53fjp7j7mcv/app.bsky.feed.post/3mu34tu6qu22m,"A Senate candidate called Pete Hegseth the unofficial sixth host of ""The Five."" On Fox. To Fox's own audience.
+
+www.dworkinsubstack.com/p/trump-came...",A Navy sailor with two days ashore in nine months found out on a Saturday that Border Patrol had taken his father. His dad was dropping the car off at the mechanic.,2026-08-27T15:06:51.878000+00:00,2026-08-27T15:08:00.265000+00:00,0.019,0.0682,0.2472,10,28,28,10,18,2.8,B,1,48,60,0,0,
+did:plc:eur2p72373ai6zpc3rhzvpsv,winslowsp.bsky.social,helloasso.com/associations/winslow-sante-publique/evenements/509-ppm-prevention-politique-musique,3mu2mvjjccn25,2026-08-27T10:22:35Z,"⭐ Atelier Fabrication de purificateurs d'air !
+il aura lieu le samedi 5 septembre au festival #509PPM
+🔥 Retrouvez les préventes du festival à prix libre ici : www.helloasso.com/as...",3mu37hwpek724,2026-08-27T15:55:01Z,"⭐ Table ronde communiquée : ""vivre avec, qui en paie le prix?"" 
+Elle aura lieu le le samedi 05 septembre 17h, au festival #509PPM
+🔥 Retrouvez les préventes du festival à prix libre ici : www.helloasso.com/as...",5.54,0.5128,0.4412,0.7255,5.5406,helloasso.com/associations/winslow-sante-publique/evenements/509-ppm-prevention-politique-musique,,at://did:plc:eur2p72373ai6zpc3rhzvpsv/app.bsky.feed.post/3mu2mvjjccn25,at://did:plc:eur2p72373ai6zpc3rhzvpsv/app.bsky.feed.post/3mu37hwpek724,"⭐ Atelier Fabrication de purificateurs d'air !
+il aura lieu le samedi 5 septembre au festival #509PPM
+🔥 Retrouvez les préventes du festival à prix libre ici : www.helloasso.com/as...","⭐ Table ronde communiquée : ""vivre avec, qui en paie le prix?"" 
+Elle aura lieu le le samedi 05 septembre 17h, au festival #509PPM
+🔥 Retrouvez les préventes du festival à prix libre ici : www.helloasso.com/as...",2026-08-27T10:22:35+00:00,2026-08-27T15:55:01+00:00,5.5406,0.4412,0.7255,9,24,24,9,15,2.6667,B,1,7,20,0,1,
+did:plc:hz2vuqu4jqvzzdtmasnojxnb,kakuri.bsky.social,shueisha.online/articles/-/258476,3mtzzaqkysc2u,2026-08-27T04:30:57Z,"〈「クラスメイトを盗撮したら500円」〉子どもを性加害者にする“大人の誘惑”…お小遣い稼ぎからハマる「デジタル性暴力」の引力 |
+shueisha.online/articles/-/2...
+
+斉藤　意図せぬ形で盗撮や児童ポルノ、性的ディープフェイクの消費者になってしまうわけですね。
+
+永守　この構図は、Xだけでみられるわけではありません。たとえば、オンラインゲームの情報交換で頻繁に使われるトークアプリ「Discord」においても同様です。子どもが「ゲームの裏技を知りたい」と思って入ったDiscord内のコミュニティで、性的なコンテンツを扱うサイトへのリンクが貼られていたりするんです。",3mu2zrruwus2j,2026-08-27T14:13:09Z,"〈「クラスメイトを盗撮したら500円」〉子どもを性加害者にする“大人の誘惑”…お小遣い稼ぎからハマる「デジタル性暴力」の引力 | 2026.08.26
+shueisha.online/articles/-/2...
+
+""卒業アルバムや学校行事、SNSに投稿された何気ない写真から、AIで偽の性的画像を作る「性的ディープフェイク」が中高生、さらには小学生にまで広がっている。（中略）
+ステルス性暴力”の実態と、消すことのできない「デジタルタトゥー」が子どもたちに残す深刻な傷とは。性加害者の治療に携わる斉藤章佳氏と、ネットパトロールボランティア団体「ひいらぎネット」代表の永守すみれ氏が語った""",9.70,0.2326,0.2326,0.3879,9.7033,shueisha.online/articles/-/258476,,at://did:plc:hz2vuqu4jqvzzdtmasnojxnb/app.bsky.feed.post/3mtzzaqkysc2u,at://did:plc:hz2vuqu4jqvzzdtmasnojxnb/app.bsky.feed.post/3mu2zrruwus2j,"〈「クラスメイトを盗撮したら500円」〉子どもを性加害者にする“大人の誘惑”…お小遣い稼ぎからハマる「デジタル性暴力」の引力 |
+shueisha.online/articles/-/2...
+
+斉藤　意図せぬ形で盗撮や児童ポルノ、性的ディープフェイクの消費者になってしまうわけですね。
+
+永守　この構図は、Xだけでみられるわけではありません。たとえば、オンラインゲームの情報交換で頻繁に使われるトークアプリ「Discord」においても同様です。子どもが「ゲームの裏技を知りたい」と思って入ったDiscord内のコミュニティで、性的なコンテンツを扱うサイトへのリンクが貼られていたりするんです。","〈「クラスメイトを盗撮したら500円」〉子どもを性加害者にする“大人の誘惑”…お小遣い稼ぎからハマる「デジタル性暴力」の引力 | 2026.08.26
+shueisha.online/articles/-/2...
+
+""卒業アルバムや学校行事、SNSに投稿された何気ない写真から、AIで偽の性的画像を作る「性的ディープフェイク」が中高生、さらには小学生にまで広がっている。（中略）
+ステルス性暴力”の実態と、消すことのできない「デジタルタトゥー」が子どもたちに残す深刻な傷とは。性加害者の治療に携わる斉藤章佳氏と、ネットパトロールボランティア団体「ひいらぎネット」代表の永守すみれ氏が語った""",2026-08-27T04:30:57.973000+00:00,2026-08-27T14:13:09.511000+00:00,9.7032,0.2326,0.3879,23,0,23,0,23,inf,A,1,9,1,0,0,
+did:plc:jqxy4e3h3mv67jqplysbwsch,dbollero.bsky.social,publico.es/opinion/columnas/moreno-bonilla-oculta-lucha-narcotrafico.html?via=publico_es,3mu22dgicj22m,2026-08-27T04:50:21Z,"Anda #MorenoBonilla dando la turra con reactivar la unidad de élite de la Guardia Civil cuyo exjefe, precisamente, será juzgado este otoño por su compadreo con los clanes de la droga del Estrecho. 
+Y hay más... te lo cuento hoy en @publico.es 
+ www.publico.es/opinion/colu...",3mu2igxe44c2f,2026-08-27T09:02:52Z,"Con #Andalucía a la cabeza de toda España en asesinatos machistas, #MorenoBonilla no se ha acercado ni de lejos al nivel de turra que da con la unidad de élite contra el narcotráfico. Es evidente el por qué... Ya lo era antes de someterse a Vox. www.publico.es/opinion/colu...",4.21,0.2239,0.1475,0.1235,4.2086,publico.es/opinion/columnas/moreno-bonilla-oculta-lucha-narcotrafico.html?via=publico_es,,at://did:plc:jqxy4e3h3mv67jqplysbwsch/app.bsky.feed.post/3mu22dgicj22m,at://did:plc:jqxy4e3h3mv67jqplysbwsch/app.bsky.feed.post/3mu2igxe44c2f,"Anda #MorenoBonilla dando la turra con reactivar la unidad de élite de la Guardia Civil cuyo exjefe, precisamente, será juzgado este otoño por su compadreo con los clanes de la droga del Estrecho. 
+Y hay más... te lo cuento hoy en @publico.es 
+ www.publico.es/opinion/colu...","Con #Andalucía a la cabeza de toda España en asesinatos machistas, #MorenoBonilla no se ha acercado ni de lejos al nivel de turra que da con la unidad de élite contra el narcotráfico. Es evidente el por qué... Ya lo era antes de someterse a Vox. www.publico.es/opinion/colu...",2026-08-27T04:50:21.805000+00:00,2026-08-27T09:02:52.541000+00:00,4.2085,0.1475,0.1235,23,3,23,3,20,7.6667,A,1,30,3,2,0,
+did:plc:ifsuximqaivczh4fie2opnuk,liberalcurrents.com,liberalcurrents.com/extremely-online-2-0,3mu26ruwqd72k,2026-08-27T06:10:01Z,"""'Extremely Online' is one of those terms that oozes 'know it when you see it' ineffability… Not everyone who uses social media, much less the Internet writ large, is Extremely Online, and not all of us who struggle with Onlineness do so in the same way."" www.liberalcurrents.com/extremely-on...",3mu2nqpccns2j,2026-08-27T10:37:48Z,"""To be Extremely Online is to believe that social media is showing you the entirety of the real world—or the only bits of the real world that matter… It is not merely about hanging out somewhere, but acting a certain way, developing a habitus of internet bullshit.""",4.46,0.2000,0.2131,0.1113,4.4631,liberalcurrents.com/extremely-online-2-0,,at://did:plc:ifsuximqaivczh4fie2opnuk/app.bsky.feed.post/3mu26ruwqd72k,at://did:plc:ifsuximqaivczh4fie2opnuk/app.bsky.feed.post/3mu2nqpccns2j,"""'Extremely Online' is one of those terms that oozes 'know it when you see it' ineffability… Not everyone who uses social media, much less the Internet writ large, is Extremely Online, and not all of us who struggle with Onlineness do so in the same way."" www.liberalcurrents.com/extremely-on...","""To be Extremely Online is to believe that social media is showing you the entirety of the real world—or the only bits of the real world that matter… It is not merely about hanging out somewhere, but acting a certain way, developing a habitus of internet bullshit.""",2026-08-27T06:10:01.663000+00:00,2026-08-27T10:37:48.340000+00:00,4.463,0.2131,0.1113,5,23,23,5,18,4.6,B,1,26,126,1,14,
+did:plc:ifsuximqaivczh4fie2opnuk,liberalcurrents.com,liberalcurrents.com/extremely-online-2-0,3mu2nqpccns2j,2026-08-27T10:37:48Z,"""To be Extremely Online is to believe that social media is showing you the entirety of the real world—or the only bits of the real world that matter… It is not merely about hanging out somewhere, but acting a certain way, developing a habitus of internet bullshit.""",3mu2qcyh6cs2x,2026-08-27T11:23:49Z,"“The epistemic and financial elite who spend all day online, exposing themselves to a pinhole view of screeching madness, and then using their power to drag that madness offline and into the lives of people who barely use social media.” www.liberalcurrents.com/extremely-on...",0.77,0.1385,0.1311,0.0367,0.7669,liberalcurrents.com/extremely-online-2-0,,at://did:plc:ifsuximqaivczh4fie2opnuk/app.bsky.feed.post/3mu2nqpccns2j,at://did:plc:ifsuximqaivczh4fie2opnuk/app.bsky.feed.post/3mu2qcyh6cs2x,"""To be Extremely Online is to believe that social media is showing you the entirety of the real world—or the only bits of the real world that matter… It is not merely about hanging out somewhere, but acting a certain way, developing a habitus of internet bullshit.""","“The epistemic and financial elite who spend all day online, exposing themselves to a pinhole view of screeching madness, and then using their power to drag that madness offline and into the lives of people who barely use social media.” www.liberalcurrents.com/extremely-on...",2026-08-27T10:37:48.340000+00:00,2026-08-27T11:23:49.407000+00:00,0.767,0.1311,0.0367,23,6,23,6,17,3.8333,A,1,126,31,14,3,
+did:plc:7vb3nqbwxsgxzvukuddgttrw,divyampersaud.com,chuffed.org/project/erc,3mu2p3iqgpi2u,2026-08-27T11:01:44Z,"ICYMI, a whole displacement camp was destroyed on Sunday and the families need help ASAP 🙏🏾 
+
+I'm working with a volunteer on the ground, a very dear friend who was wounded in that bombing. The families need essential supplies for shelter, water, and hygiene. chuffed.org/project/erc",3mu2uszrsek2z,2026-08-27T12:44:22Z,chuffed.org/project/erc,1.71,0.1026,0.1026,0.1559,1.7106,chuffed.org/project/erc,,at://did:plc:7vb3nqbwxsgxzvukuddgttrw/app.bsky.feed.post/3mu2p3iqgpi2u,at://did:plc:7vb3nqbwxsgxzvukuddgttrw/app.bsky.feed.post/3mu2uszrsek2z,"ICYMI, a whole displacement camp was destroyed on Sunday and the families need help ASAP 🙏🏾 
+
+I'm working with a volunteer on the ground, a very dear friend who was wounded in that bombing. The families need essential supplies for shelter, water, and hygiene. chuffed.org/project/erc",chuffed.org/project/erc,2026-08-27T11:01:44.294000+00:00,2026-08-27T12:44:22.643000+00:00,1.7107,0.1026,0.1559,22,4,22,4,18,5.5,A,1,21,4,8,0,
+did:plc:7ysc3kheoofy6xt24qokd4y7,vostok.estudiovostok.com.br,rifa.digital/s/equipamentos-para-o-vostok/rhixF2Y0xDi,3mtzqssgkp223,2026-08-27T02:00:00Z,"Ajudem a navinha a comprar novos equipamentos e ampliar a linha de produtos! Ao comprar um número na rifa, você concorre a uma arte personalizada e a cadernos da loja
+Detalhe: o peixe @137magdiel.bsky.social cedeu os royalties para incluir os cadernos dele e apoiar essa campanha 😍
+Obrigada pexe",3mu2tq6pq722r,2026-08-27T12:24:53Z,"Com 20 reais, você ajuda a navinha a comprar novas ferramentas pra ampliar a linha de produtos e concorre a premios:",10.41,0.2041,0.2174,0.4421,10.4147,rifa.digital/s/equipamentos-para-o-vostok/rhixF2Y0xDi,,at://did:plc:7ysc3kheoofy6xt24qokd4y7/app.bsky.feed.post/3mtzqssgkp223,at://did:plc:7ysc3kheoofy6xt24qokd4y7/app.bsky.feed.post/3mu2tq6pq722r,"Ajudem a navinha a comprar novos equipamentos e ampliar a linha de produtos! Ao comprar um número na rifa, você concorre a uma arte personalizada e a cadernos da loja
+Detalhe: o peixe @137magdiel.bsky.social cedeu os royalties para incluir os cadernos dele e apoiar essa campanha 😍
+Obrigada pexe","Com 20 reais, você ajuda a navinha a comprar novas ferramentas pra ampliar a linha de produtos e concorre a premios:",2026-08-27T02:00:00.227000+00:00,2026-08-27T12:24:53.409000+00:00,10.4148,0.2174,0.4421,4,19,19,4,15,4.75,B,1,5,23,0,5,
+did:plc:v7zhi5jtvirsxlvoixvt672w,mikemadowitz.bsky.social,rooseveltinstitute.org/publications/parents-need-childcare-they-can-count-on-new-evidence-on-childcare-related-work-disruptions-and-mothers-employment,3mu2wy2odnc24,2026-08-27T13:22:58Z,"Great charts throughout, but this is the bottom line and, imo, speaks to a huge hidden piece of the motherhood penalty
+
+rooseveltinstitute.org/publications...",3mu2y5i2vjk2b,2026-08-27T13:43:54Z,"For the Sickos: we did probit results for a general audience.
+Chart: what makes it better/worse
+
+Behold:
+rooseveltinstitute.org/publications...",0.35,0.1316,0.1316,0.4196,0.3489,rooseveltinstitute.org/publications/parents-need-childcare-they-can-count-on-new-evidence-on-childcare-related-work-disruptions-and-mothers-employment,,at://did:plc:v7zhi5jtvirsxlvoixvt672w/app.bsky.feed.post/3mu2wy2odnc24,at://did:plc:v7zhi5jtvirsxlvoixvt672w/app.bsky.feed.post/3mu2y5i2vjk2b,"Great charts throughout, but this is the bottom line and, imo, speaks to a huge hidden piece of the motherhood penalty
+
+rooseveltinstitute.org/publications...","For the Sickos: we did probit results for a general audience.
+Chart: what makes it better/worse
+
+Behold:
+rooseveltinstitute.org/publications...",2026-08-27T13:22:58.832000+00:00,2026-08-27T13:43:54.388000+00:00,0.3488,0.1316,0.4196,18,2,18,2,16,9.0,A,1,69,8,0,0,
+did:plc:ajs44axlbhbcfeox6p25cjqs,mcduff.bsky.social,spot.fund/drb68q8sc,3mu27zsa4bc2p,2026-08-27T06:32:21Z,"Khalil needs to raise another $140 to pay the rent on his tent today. He cannot raise enough to cover his rent and food and medical bills.  Please help in whatever way you can.
+spot.fund/drb68q8sc",3mu366mqr2k24,2026-08-27T15:31:55Z,"There is only $25 left of Khalil's target today. Please help him reach it.
+spot.fund/drb68q8sc",8.99,0.1667,0.1667,0.3972,8.9928,spot.fund/drb68q8sc,,at://did:plc:ajs44axlbhbcfeox6p25cjqs/app.bsky.feed.post/3mu27zsa4bc2p,at://did:plc:ajs44axlbhbcfeox6p25cjqs/app.bsky.feed.post/3mu366mqr2k24,"Khalil needs to raise another $140 to pay the rent on his tent today. He cannot raise enough to cover his rent and food and medical bills.  Please help in whatever way you can.
+spot.fund/drb68q8sc","There is only $25 left of Khalil's target today. Please help him reach it.
+spot.fund/drb68q8sc",2026-08-27T06:32:21.018000+00:00,2026-08-27T15:31:55.306000+00:00,8.9929,0.1667,0.3972,18,4,18,4,14,4.5,A,1,7,1,1,0,
+did:plc:oouj5xse6knq6qtggefzj6b5,fife4europe.bsky.social,thelondoneconomic.com/politics/labour-can-be-much-more-pro-eu-without-losing-support-sir-john-curtis-409185,3mu33xbhfb22v,2026-08-27T14:52:01Z,Labour spending years tip-toeing around Brexit for fear of scaring off voters who didn't elect them anyway is top-tier strategy. It turns out avoiding the elephant in the room doesn't make it disappear—it just eats up all the electoral space. 🐘,3mu33z5zbxc2v,2026-08-27T14:53:04Z,"1/2 Cowering from closer EU ties out of fear of Leave voters makes little electoral sense. As Sir John Curtice points out, Labour’s base remains overwhelmingly pro-European, while attempts to appease Brexit voters haven't delivered. Isn't it time to embrace reality? 🇪🇺 #FBPE",0.02,0.1233,0.125,0.008,0.0175,thelondoneconomic.com/politics/labour-can-be-much-more-pro-eu-without-losing-support-sir-john-curtis-409185,,at://did:plc:oouj5xse6knq6qtggefzj6b5/app.bsky.feed.post/3mu33xbhfb22v,at://did:plc:oouj5xse6knq6qtggefzj6b5/app.bsky.feed.post/3mu33z5zbxc2v,Labour spending years tip-toeing around Brexit for fear of scaring off voters who didn't elect them anyway is top-tier strategy. It turns out avoiding the elephant in the room doesn't make it disappear—it just eats up all the electoral space. 🐘,"1/2 Cowering from closer EU ties out of fear of Leave voters makes little electoral sense. As Sir John Curtice points out, Labour’s base remains overwhelmingly pro-European, while attempts to appease Brexit voters haven't delivered. Isn't it time to embrace reality? 🇪🇺 #FBPE",2026-08-27T14:52:01.095000+00:00,2026-08-27T14:53:04.600000+00:00,0.0176,0.125,0.008,3,17,17,3,14,5.6667,B,1,5,30,0,0,
+did:plc:zpwka3ky6phhcwmwor4tu5xj,kff.org,on.kff.org/4y0pRuZ,3mu32mg47ql2z,2026-08-27T14:28:03Z,"New KFF polling shows LGBTQ+ adults face greater challenges in accessing & affording health care compared to their non-LGBTQ+ peers.
+
+Cost challenges are especially high for trans adults and LGBTQ+ adults who are younger, those with lower incomes & those without insurance: https://on.kff.org/4y0pRuZ",3mu3ar4ghjm2r,2026-08-27T16:18:03Z,"4 in 10 LGBTQ+ adults — including 6 in 10 trans adults — say that their insurer delayed or denied needed care in the past two years. That compares to 1 in 4 non-LGBTQ+ adults. 
+ 
+Our new poll has the details: https://on.kff.org/4y0pRuZ",1.83,0.1636,0.1636,0.3231,1.8333,on.kff.org/4y0pRuZ,,at://did:plc:zpwka3ky6phhcwmwor4tu5xj/app.bsky.feed.post/3mu32mg47ql2z,at://did:plc:zpwka3ky6phhcwmwor4tu5xj/app.bsky.feed.post/3mu3ar4ghjm2r,"New KFF polling shows LGBTQ+ adults face greater challenges in accessing & affording health care compared to their non-LGBTQ+ peers.
+
+Cost challenges are especially high for trans adults and LGBTQ+ adults who are younger, those with lower incomes & those without insurance: https://on.kff.org/4y0pRuZ","4 in 10 LGBTQ+ adults — including 6 in 10 trans adults — say that their insurer delayed or denied needed care in the past two years. That compares to 1 in 4 non-LGBTQ+ adults. 
+ 
+Our new poll has the details: https://on.kff.org/4y0pRuZ",2026-08-27T14:28:03.010031+00:00,2026-08-27T16:18:03.086275+00:00,1.8334,0.1636,0.3231,4,16,16,4,12,4.0,B,1,4,31,0,1,
+did:plc:x3yhyw5sdhzk4w7f7vh2fhnt,everydoctor.org.uk,everydoctor.eaction.org.uk/save-the-nhs-write-to-yvette-cooper,3mu2lsuiky52y,2026-08-27T10:03:13Z,"The NHS is at a breaking point, but collective pressure works. 
+
+We’ve made it effortless to demand action from Yvette Cooper. 
+
+Send our letter today: everydoctor.eaction.org.uk/save-the-nhs...
+
+Together, we won't be ignored.",3mu3a7acxwp2a,2026-08-27T16:08:03Z,"From espresso to evening walks, some of the best things start with E! 
+
+But the absolute best? The EveryDoctor community standing together for NHS staff and patients.
+
+Become a monthly donor today: everydoctor.eaction.org.uk/save-the-nhs...",6.08,0.2321,0.2321,0.0227,6.0806,everydoctor.eaction.org.uk/save-the-nhs-write-to-yvette-cooper,,at://did:plc:x3yhyw5sdhzk4w7f7vh2fhnt/app.bsky.feed.post/3mu2lsuiky52y,at://did:plc:x3yhyw5sdhzk4w7f7vh2fhnt/app.bsky.feed.post/3mu3a7acxwp2a,"The NHS is at a breaking point, but collective pressure works. 
+
+We’ve made it effortless to demand action from Yvette Cooper. 
+
+Send our letter today: everydoctor.eaction.org.uk/save-the-nhs...
+
+Together, we won't be ignored.","From espresso to evening walks, some of the best things start with E! 
+
+But the absolute best? The EveryDoctor community standing together for NHS staff and patients.
+
+Become a monthly donor today: everydoctor.eaction.org.uk/save-the-nhs...",2026-08-27T10:03:13.391000+00:00,2026-08-27T16:08:03.289000+00:00,6.0805,0.2321,0.0227,15,6,15,6,9,2.5,A,1,19,17,0,0,
+did:plc:4jphg72g3zncjlbpvvagqvbs,okane.fyi,techcrunch.com/2026/08/27/sprains-pain-and-whiplash-waymo-and-zoox-test-drivers-are-getting-hurt-as-robotaxis-scale,3mu33bonmw324,2026-08-27T14:39:56Z,"New investigation from me: Waymo and Zoox test drivers were injured dozens of times across 2024/2025 as a result of harsh braking -- often for no apparent reason -- or erratic movement by the autonomous vehicles.
+
+More on @techcrunch.com but a short thread below.
+
+techcrunch.com/2026/08/27/s...",3mu3ctnudem2k,2026-08-27T16:55:15Z,"In one case, a test driver reported that the car “suddenly backed up” while parking itself and “whipped the steering wheel,” catching his left hand and bending it “to the point he heard a crack in his wrist.” The employee spent more than two months away from work as a result.",2.26,0.0988,0.0988,0.0188,2.2553,techcrunch.com/2026/08/27/sprains-pain-and-whiplash-waymo-and-zoox-test-drivers-are-getting-hurt-as-robotaxis-scale,,at://did:plc:4jphg72g3zncjlbpvvagqvbs/app.bsky.feed.post/3mu33bonmw324,at://did:plc:4jphg72g3zncjlbpvvagqvbs/app.bsky.feed.post/3mu3ctnudem2k,"New investigation from me: Waymo and Zoox test drivers were injured dozens of times across 2024/2025 as a result of harsh braking -- often for no apparent reason -- or erratic movement by the autonomous vehicles.
+
+More on @techcrunch.com but a short thread below.
+
+techcrunch.com/2026/08/27/s...","In one case, a test driver reported that the car “suddenly backed up” while parking itself and “whipped the steering wheel,” catching his left hand and bending it “to the point he heard a crack in his wrist.” The employee spent more than two months away from work as a result.",2026-08-27T14:39:56.692000+00:00,2026-08-27T16:55:15.941000+00:00,2.2553,0.0988,0.0188,14,1,14,1,13,14.0,A,1,38,4,4,0,
+did:plc:efq5p3kzojiykjuowfzlaaa7,kachelmannwetter.com,youtube.com/watch?v=OSYMM8-wL88,3mu35emgzr22c,2026-08-27T15:17:22Z,"Live! Gewitterlage bis Freitag - alle Infos - Blick nach Frankreich!
+
+Gleich gehts los - direkt zum Stream bei Youtube:
+www.youtube.com/watch?v=OSYM...
+/FR",3mu3a5ruwqs26,2026-08-27T16:07:14Z,"Eine Superzelle in Frankreich bei Dole. Wir sind live und berichten auch über die Gewitter-Entwicklung bei uns am Abend und am Freitag.
+www.youtube.com/watch?v=OSYM... /LD",0.83,0.2500,0.1143,0.379,0.8311,youtube.com/watch?v=OSYMM8-wL88,,at://did:plc:efq5p3kzojiykjuowfzlaaa7/app.bsky.feed.post/3mu35emgzr22c,at://did:plc:efq5p3kzojiykjuowfzlaaa7/app.bsky.feed.post/3mu3a5ruwqs26,"Live! Gewitterlage bis Freitag - alle Infos - Blick nach Frankreich!
+
+Gleich gehts los - direkt zum Stream bei Youtube:
+www.youtube.com/watch?v=OSYM...
+/FR","Eine Superzelle in Frankreich bei Dole. Wir sind live und berichten auch über die Gewitter-Entwicklung bei uns am Abend und am Freitag.
+www.youtube.com/watch?v=OSYM... /LD",2026-08-27T15:17:22.573000+00:00,2026-08-27T16:07:14.610000+00:00,0.8311,0.1143,0.379,4,14,14,4,10,3.5,B,1,17,51,1,0,
+did:plc:axd6rc7a663r6iua6vh7qfom,gkids.com,brnw.ch/21x5fM5,3mu2zhjnmgk2l,2026-08-27T14:07:25Z,"Country roads, take me home. Studio Ghibli’s beloved classic WHISPER OF THE HEART comes to IMAX in the UK & Ireland starting 16 September!
+
+Tickets on sale now
+brnw.ch/21x5fM5",3mu2zjrwoyc2l,2026-08-27T14:08:41Z,"Yoshifumi Kondo’s timeless story of passion and inspiration, WHISPER OF THE HEART opens in IMAX cinemas in the UK & Ireland from 16 September.
+
+Tickets on sale now
+brnw.ch/21x5fM5",0.02,0.4500,0.45,0.6589,0.0211,brnw.ch/21x5fM5,,at://did:plc:axd6rc7a663r6iua6vh7qfom/app.bsky.feed.post/3mu2zhjnmgk2l,at://did:plc:axd6rc7a663r6iua6vh7qfom/app.bsky.feed.post/3mu2zjrwoyc2l,"Country roads, take me home. Studio Ghibli’s beloved classic WHISPER OF THE HEART comes to IMAX in the UK & Ireland starting 16 September!
+
+Tickets on sale now
+brnw.ch/21x5fM5","Yoshifumi Kondo’s timeless story of passion and inspiration, WHISPER OF THE HEART opens in IMAX cinemas in the UK & Ireland from 16 September.
+
+Tickets on sale now
+brnw.ch/21x5fM5",2026-08-27T14:07:25.336000+00:00,2026-08-27T14:08:41.134000+00:00,0.0211,0.45,0.6589,14,5,14,5,9,2.8,A,1,39,35,2,0,
+did:plc:yjzbwtf5ikxxifew7yrycxff,jurymgmt.bsky.social,static.klipy.com/ii/935d7ab9d8c6202580a668421940ec81/1e/f5/HWbQHmuW.gif?hh=161&mp4=v6DnYV7n&webm=vZTSvtp0ysiT04f2Y&ww=220,3mtzsi7uohs2l,2026-08-27T02:29:52Z,just realized taran is going to have to give yash and barrett their flowers now #bb28,3mu2zopl4uc2l,2026-08-27T14:11:26Z,after 3 years of living in my apartment I have discovered I don't have to get on the highway to get downtown and it takes me the same amount of time,11.69,0.0789,0.0811,0.3348,11.6928,static.klipy.com/ii/935d7ab9d8c6202580a668421940ec81/1e/f5/HWbQHmuW.gif?hh=161&mp4=v6DnYV7n&webm=vZTSvtp0ysiT04f2Y&ww=220,,at://did:plc:yjzbwtf5ikxxifew7yrycxff/app.bsky.feed.post/3mtzsi7uohs2l,at://did:plc:yjzbwtf5ikxxifew7yrycxff/app.bsky.feed.post/3mu2zopl4uc2l,just realized taran is going to have to give yash and barrett their flowers now #bb28,after 3 years of living in my apartment I have discovered I don't have to get on the highway to get downtown and it takes me the same amount of time,2026-08-27T02:29:52.708000+00:00,2026-08-27T14:11:26.429000+00:00,11.6927,0.0811,0.3348,13,0,13,0,13,inf,A,1,65,8,0,0,
+did:plc:fod5s5sjpftlmk4e2euu5hiq,mrclmb.ac.uk,mrclmb.ac.uk/news-events/articles/the-royal-society-awards-kelly-nguyen-francis-crick-medal,3mu2hau2yb22n,2026-08-27T08:41:34Z,"Kelly Nguyen, Group Leader in the LMB’s Structural Studies Division, has been awarded the 2027 Francis Crick Medal and Lecture from @royalsociety.org.
+Read more about @kellythd-nguyen.bsky.social’s research on telomerase here: mrclmb.ac.uk/news-events/...
+#LMBNews",3mu2hfe5s5s2n,2026-08-27T08:44:05Z,"Congratulations to the former LMB Group Leaders awarded prizes from @royalsociety.org!
+KJ Patel has received the Buchanan Medal and Sarah Teichmann (@teichlab.bsky.social) has been awarded the Gabor Medal.
+Read more here: mrclmb.ac.uk/news-events/...
+Image: The Royal Society
+#LMBAlumni",0.04,0.3750,0.3542,0.0141,0.0419,mrclmb.ac.uk/news-events/articles/the-royal-society-awards-kelly-nguyen-francis-crick-medal,,at://did:plc:fod5s5sjpftlmk4e2euu5hiq/app.bsky.feed.post/3mu2hau2yb22n,at://did:plc:fod5s5sjpftlmk4e2euu5hiq/app.bsky.feed.post/3mu2hfe5s5s2n,"Kelly Nguyen, Group Leader in the LMB’s Structural Studies Division, has been awarded the 2027 Francis Crick Medal and Lecture from @royalsociety.org.
+Read more about @kellythd-nguyen.bsky.social’s research on telomerase here: mrclmb.ac.uk/news-events/...
+#LMBNews","Congratulations to the former LMB Group Leaders awarded prizes from @royalsociety.org!
+KJ Patel has received the Buchanan Medal and Sarah Teichmann (@teichlab.bsky.social) has been awarded the Gabor Medal.
+Read more here: mrclmb.ac.uk/news-events/...
+Image: The Royal Society
+#LMBAlumni",2026-08-27T08:41:34.027000+00:00,2026-08-27T08:44:05.116000+00:00,0.042,0.3542,0.0141,13,0,13,0,13,inf,A,1,65,4,3,0,
+did:plc:i3da53ktqoedmzsju57lo2ud,xxltwinks.bsky.social,xcit.top/xxltwinks,3mu2sik3kxp2q,2026-08-27T12:02:43Z,"Watch me get pounded deep and raw by this huge cock, begging for more of that hot cum!"" 😈🍆💦
+
+Warning: it s addictive 🥵😵 https://xcit.top/xxltwinks 
+#twink #gayporn ",3mu2vufm6jy26,2026-08-27T13:03:02Z,"Hard and desperate for daddy's cock, this twink slut will do anything to get fucked raw. #submissivetwink #filthyfuckto
+
+Warning: it s addictive 🥵😵 https://xcit.top/xxltwinks 
+#twink #gayporn ",1.01,0.3429,0.3125,0.4815,1.0053,xcit.top/xxltwinks,,at://did:plc:i3da53ktqoedmzsju57lo2ud/app.bsky.feed.post/3mu2sik3kxp2q,at://did:plc:i3da53ktqoedmzsju57lo2ud/app.bsky.feed.post/3mu2vufm6jy26,"Watch me get pounded deep and raw by this huge cock, begging for more of that hot cum!"" 😈🍆💦
+
+Warning: it s addictive 🥵😵 https://xcit.top/xxltwinks 
+#twink #gayporn ","Hard and desperate for daddy's cock, this twink slut will do anything to get fucked raw. #submissivetwink #filthyfuckto
+
+Warning: it s addictive 🥵😵 https://xcit.top/xxltwinks 
+#twink #gayporn ",2026-08-27T12:02:43.041000+00:00,2026-08-27T13:03:02.202000+00:00,1.0053,0.3125,0.4815,0,13,13,0,13,inf,B,1,1,44,0,0,
+did:plc:i3da53ktqoedmzsju57lo2ud,xxltwinks.bsky.social,xcit.top/xxltwinks,3mu2vufm6jy26,2026-08-27T13:03:02Z,"Hard and desperate for daddy's cock, this twink slut will do anything to get fucked raw. #submissivetwink #filthyfuckto
+
+Warning: it s addictive 🥵😵 https://xcit.top/xxltwinks 
+#twink #gayporn ",3mu2z7w4kys2a,2026-08-27T14:03:09Z,"Surrender your twink hole to my raw cock and let me claim you as mine.
+
+Warning: it s addictive 🥵😵 https://xcit.top/xxltwinks 
+#twink #gayporn ",1.00,0.3030,0.3,0.4677,1.0019,xcit.top/xxltwinks,,at://did:plc:i3da53ktqoedmzsju57lo2ud/app.bsky.feed.post/3mu2vufm6jy26,at://did:plc:i3da53ktqoedmzsju57lo2ud/app.bsky.feed.post/3mu2z7w4kys2a,"Hard and desperate for daddy's cock, this twink slut will do anything to get fucked raw. #submissivetwink #filthyfuckto
+
+Warning: it s addictive 🥵😵 https://xcit.top/xxltwinks 
+#twink #gayporn ","Surrender your twink hole to my raw cock and let me claim you as mine.
+
+Warning: it s addictive 🥵😵 https://xcit.top/xxltwinks 
+#twink #gayporn ",2026-08-27T13:03:02.202000+00:00,2026-08-27T14:03:09.656000+00:00,1.0021,0.3,0.4677,13,1,13,1,12,13.0,A,1,44,2,0,0,
+did:plc:a62d6gt7y5ya2pkesufdporv,falcom.co.jp,falcom.co.jp/sora2/special/tgs.html,3mtzz2pq6y22a,2026-08-27T04:27:35Z,"TOKYO GAME SHOW 2026
+⚙ファルコム出展情報⚙
+「空の軌跡 the 2nd」
+遊撃士協会TGS支部オープン！
+
+🎁ご来場いただいた方に
+「ぷにぷに缶バッジ」をプレゼント
+📷原寸大武器と撮影ができるフォトブースも！
+
+▼詳細はこちら
+www.falcom.co.jp/sora2/specia...
+#TGS2026 #sora2nd #空の軌跡",3mtzzvjbly225,2026-08-27T04:42:34Z,"───────────━
+東京ゲームショウ2026
+━───────────
+
+『空の軌跡 the 2nd』展示・フォトブースでは、
+エステル＆ヨシュアの公式コスプレイヤーとして
+kipiさん、おじぎさんが登場します✨
+
+※原寸大武器を手に取って撮影をお楽しみいただくことも可能です📷
+
+出展情報はこちら
+▷ www.falcom.co.jp/sora2/specia...
+#空の軌跡 #sora2nd #TGS2026",0.25,0.3548,0.1304,0.3217,0.2497,falcom.co.jp/sora2/special/tgs.html,,at://did:plc:a62d6gt7y5ya2pkesufdporv/app.bsky.feed.post/3mtzz2pq6y22a,at://did:plc:a62d6gt7y5ya2pkesufdporv/app.bsky.feed.post/3mtzzvjbly225,"TOKYO GAME SHOW 2026
+⚙ファルコム出展情報⚙
+「空の軌跡 the 2nd」
+遊撃士協会TGS支部オープン！
+
+🎁ご来場いただいた方に
+「ぷにぷに缶バッジ」をプレゼント
+📷原寸大武器と撮影ができるフォトブースも！
+
+▼詳細はこちら
+www.falcom.co.jp/sora2/specia...
+#TGS2026 #sora2nd #空の軌跡","───────────━
+東京ゲームショウ2026
+━───────────
+
+『空の軌跡 the 2nd』展示・フォトブースでは、
+エステル＆ヨシュアの公式コスプレイヤーとして
+kipiさん、おじぎさんが登場します✨
+
+※原寸大武器を手に取って撮影をお楽しみいただくことも可能です📷
+
+出展情報はこちら
+▷ www.falcom.co.jp/sora2/specia...
+#空の軌跡 #sora2nd #TGS2026",2026-08-27T04:27:35.767000+00:00,2026-08-27T04:42:34.966000+00:00,0.2498,0.1304,0.3217,13,3,13,3,10,4.3333,A,1,43,15,0,1,
+did:plc:i7aox3qj5gv2bqvlclpwcw5u,wearequeeraf.com,wearequeeraf.com/understand-the-lgbtqia-news-what-are-the-challenges-facing-queer-journalism,3mu2vtf2wu62z,2026-08-27T13:02:28Z,"The move follows the brand's growing pivot away from news and current affairs journalism, and towards celebrity and 'trending' topics. 
+
+📩 Understand more: https://www.wearequeeraf.com/understand-the-lgbtqia-news-what-are-the-challenges-facing-queer-journalism/#%F0%9F%93%B0-pinknews-redundancies",3mu34kivmye2j,2026-08-27T15:02:46Z,"The EHRC code “leaves insufficient scope for service providers to consider whether inclusive arrangements are lawful, justified and appropriate,” UN experts say
+
+Source: https://www.wearequeeraf.com/understand-the-lgbtqia-news-what-are-the-challenges-facing-queer-journalism/#%F0%9F%8C%8D-un-warning",2.01,0.0488,0.0488,0.2848,2.005,wearequeeraf.com/understand-the-lgbtqia-news-what-are-the-challenges-facing-queer-journalism,,at://did:plc:i7aox3qj5gv2bqvlclpwcw5u/app.bsky.feed.post/3mu2vtf2wu62z,at://did:plc:i7aox3qj5gv2bqvlclpwcw5u/app.bsky.feed.post/3mu34kivmye2j,"The move follows the brand's growing pivot away from news and current affairs journalism, and towards celebrity and 'trending' topics. 
+
+📩 Understand more: https://www.wearequeeraf.com/understand-the-lgbtqia-news-what-are-the-challenges-facing-queer-journalism/#%F0%9F%93%B0-pinknews-redundancies","The EHRC code “leaves insufficient scope for service providers to consider whether inclusive arrangements are lawful, justified and appropriate,” UN experts say
+
+Source: https://www.wearequeeraf.com/understand-the-lgbtqia-news-what-are-the-challenges-facing-queer-journalism/#%F0%9F%8C%8D-un-warning",2026-08-27T13:02:28.064612+00:00,2026-08-27T15:02:46.162833+00:00,2.005,0.0488,0.2848,4,13,13,4,9,3.25,B,1,16,25,0,0,
+did:plc:ifsuximqaivczh4fie2opnuk,liberalcurrents.com,liberalcurrents.com/extremely-online-2-0,3mu2qcyh6cs2x,2026-08-27T11:23:49Z,"“The epistemic and financial elite who spend all day online, exposing themselves to a pinhole view of screeching madness, and then using their power to drag that madness offline and into the lives of people who barely use social media.” www.liberalcurrents.com/extremely-on...",3mu32hnaggk2d,2026-08-27T14:25:22Z,"""The youngest internet users are reaching a level of social media abstention that approaches that of the oldest age cohorts… This points to a bleak future for social media, but also towards a present where whole vital swathes of the population are definitionally not Extremely Online.""",3.03,0.1385,0.1311,0.0626,3.0258,liberalcurrents.com/extremely-online-2-0,,at://did:plc:ifsuximqaivczh4fie2opnuk/app.bsky.feed.post/3mu2qcyh6cs2x,at://did:plc:ifsuximqaivczh4fie2opnuk/app.bsky.feed.post/3mu32hnaggk2d,"“The epistemic and financial elite who spend all day online, exposing themselves to a pinhole view of screeching madness, and then using their power to drag that madness offline and into the lives of people who barely use social media.” www.liberalcurrents.com/extremely-on...","""The youngest internet users are reaching a level of social media abstention that approaches that of the oldest age cohorts… This points to a bleak future for social media, but also towards a present where whole vital swathes of the population are definitionally not Extremely Online.""",2026-08-27T11:23:49.407000+00:00,2026-08-27T14:25:22.843000+00:00,3.026,0.1311,0.0626,6,13,13,6,7,2.1667,B,1,31,51,3,4,
+did:plc:mlan7kocyn37uzb25btjt2cc,bluevirginia.bsky.social,bluevirginia.us/2026/08/thursday-8-27-news-roundup-climate-crisis-likely-contributed-to-nepal-glacier-collapse-disaster-ratcliffe-went-to-moscow-to-warn-putin,3mu2qp5wods2m,2026-08-27T11:30:37Z,THIS is what AGs are bragging about? Hmmm... bluevirginia.us/2026/08/thur...,3mu2zytjelk2x,2026-08-27T14:17:06Z,EMILYs List Endorses @bethmacy.bsky.social for Virginia's 6th Congressional District in the Fight to Take Back the U.S. House Majority bluevirginia.us/2026/08/thur...,2.77,0.1471,0.1613,0.4593,2.7747,bluevirginia.us/2026/08/thursday-8-27-news-roundup-climate-crisis-likely-contributed-to-nepal-glacier-collapse-disaster-ratcliffe-went-to-moscow-to-warn-putin,,at://did:plc:mlan7kocyn37uzb25btjt2cc/app.bsky.feed.post/3mu2qp5wods2m,at://did:plc:mlan7kocyn37uzb25btjt2cc/app.bsky.feed.post/3mu2zytjelk2x,THIS is what AGs are bragging about? Hmmm... bluevirginia.us/2026/08/thur...,EMILYs List Endorses @bethmacy.bsky.social for Virginia's 6th Congressional District in the Fight to Take Back the U.S. House Majority bluevirginia.us/2026/08/thur...,2026-08-27T11:30:37.811000+00:00,2026-08-27T14:17:06.109000+00:00,2.7745,0.1613,0.4593,0,12,12,0,12,inf,B,1,4,41,1,0,
+did:plc:flczgiu3a2jqmqlk54qnbf4c,sokuho.news,mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/infulenza/index.html,3mu2chkwceg2d,2026-08-27T07:15:50Z,"🛎️NNNより【速報】です。
+
+【速報】福岡市でインフルエンザ流行入り 去年より2週間ほど早く
+(2026-08-27 16:15) #ニュース
+
+😷感染症情報
+🔗https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/infulenza/index.html",3mu2d2knwlh2d,2026-08-27T07:26:27Z,"🛎️NNNより【速報】です。
+
+【速報】インフルエンザが早くも流行シーズン入り 過去10年で一番早い流行 北海道
+(2026-08-27 16:26) #ニュース
+
+😷感染症情報
+🔗https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/infulenza/index.html",0.18,0.5625,0.5333,0.7338,0.1769,mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/infulenza/index.html,,at://did:plc:flczgiu3a2jqmqlk54qnbf4c/app.bsky.feed.post/3mu2chkwceg2d,at://did:plc:flczgiu3a2jqmqlk54qnbf4c/app.bsky.feed.post/3mu2d2knwlh2d,"🛎️NNNより【速報】です。
+
+【速報】福岡市でインフルエンザ流行入り 去年より2週間ほど早く
+(2026-08-27 16:15) #ニュース
+
+😷感染症情報
+🔗https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/infulenza/index.html","🛎️NNNより【速報】です。
+
+【速報】インフルエンザが早くも流行シーズン入り 過去10年で一番早い流行 北海道
+(2026-08-27 16:26) #ニュース
+
+😷感染症情報
+🔗https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/infulenza/index.html",2026-08-27T07:15:50.511000+00:00,2026-08-27T07:26:27.770000+00:00,0.177,0.5333,0.7338,0,12,12,0,12,inf,B,1,0,11,0,1,
+did:plc:mlan7kocyn37uzb25btjt2cc,bluevirginia.bsky.social,bluevirginia.us/2026/08/thursday-8-27-news-roundup-climate-crisis-likely-contributed-to-nepal-glacier-collapse-disaster-ratcliffe-went-to-moscow-to-warn-putin,3mu2zytjelk2x,2026-08-27T14:17:06Z,EMILYs List Endorses @bethmacy.bsky.social for Virginia's 6th Congressional District in the Fight to Take Back the U.S. House Majority bluevirginia.us/2026/08/thur...,3mu35bcfzlk2p,2026-08-27T15:15:31Z,"SOOOOO true - misinformation, disinformation, ignorance, idiocy, trolling, rage baiting, etc. are rampant on social media, and there are no ""gatekeepers"" to stop it. And no, serious discussion/debate can't really exist in this environment. bluevirginia.us/2026/08/thur...",0.97,0.1455,0.1321,0.1679,0.9736,bluevirginia.us/2026/08/thursday-8-27-news-roundup-climate-crisis-likely-contributed-to-nepal-glacier-collapse-disaster-ratcliffe-went-to-moscow-to-warn-putin,,at://did:plc:mlan7kocyn37uzb25btjt2cc/app.bsky.feed.post/3mu2zytjelk2x,at://did:plc:mlan7kocyn37uzb25btjt2cc/app.bsky.feed.post/3mu35bcfzlk2p,EMILYs List Endorses @bethmacy.bsky.social for Virginia's 6th Congressional District in the Fight to Take Back the U.S. House Majority bluevirginia.us/2026/08/thur...,"SOOOOO true - misinformation, disinformation, ignorance, idiocy, trolling, rage baiting, etc. are rampant on social media, and there are no ""gatekeepers"" to stop it. And no, serious discussion/debate can't really exist in this environment. bluevirginia.us/2026/08/thur...",2026-08-27T14:17:06.109000+00:00,2026-08-27T15:15:31.390000+00:00,0.9737,0.1321,0.1679,12,1,12,1,11,12.0,A,1,41,6,0,0,
+did:plc:7vb3nqbwxsgxzvukuddgttrw,divyampersaud.com,chuffed.org/project/erc,3mu2uszrsek2z,2026-08-27T12:44:22Z,chuffed.org/project/erc,3mu2vrnlcn226,2026-08-27T13:01:24Z,"Please share 🚨 A displacement camp was bombed a few days ago, leaving 25 families with NOTHING.
+
+We do not have the choice to look away here. I'm working with a volunteer in the camp to coordinate relief. Every little bit helps these families survive: chuffed.org/project/erc",0.28,0.0952,0.0952,0.1448,0.2839,chuffed.org/project/erc,,at://did:plc:7vb3nqbwxsgxzvukuddgttrw/app.bsky.feed.post/3mu2uszrsek2z,at://did:plc:7vb3nqbwxsgxzvukuddgttrw/app.bsky.feed.post/3mu2vrnlcn226,chuffed.org/project/erc,"Please share 🚨 A displacement camp was bombed a few days ago, leaving 25 families with NOTHING.
+
+We do not have the choice to look away here. I'm working with a volunteer in the camp to coordinate relief. Every little bit helps these families survive: chuffed.org/project/erc",2026-08-27T12:44:22.643000+00:00,2026-08-27T13:01:24.371000+00:00,0.2838,0.0952,0.1448,4,12,12,4,8,3.0,B,1,4,14,0,4,
+did:plc:flczgiu3a2jqmqlk54qnbf4c,sokuho.news,mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/infulenza/index.html,3mu2d2knwlh2d,2026-08-27T07:26:27Z,"🛎️NNNより【速報】です。
+
+【速報】インフルエンザが早くも流行シーズン入り 過去10年で一番早い流行 北海道
+(2026-08-27 16:26) #ニュース
+
+😷感染症情報
+🔗https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/infulenza/index.html",3mu2exydval24,2026-08-27T08:00:48Z,"🛎️FNNより【速報】です。
+
+【速報】インフルエンザ_札幌市で早くも”流行入り”発表_過去10年で最も早く_定点あたり1.12に_北海道も過去最速で流行入り_感染対策呼びかけ〈北海道札幌市〉<br />
+(2026-08-27 17:00) #ニュース
+
+😷感染症情報
+🔗https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/infulenza/index.html",0.57,0.2593,0.3333,0.6667,0.5725,mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/infulenza/index.html,,at://did:plc:flczgiu3a2jqmqlk54qnbf4c/app.bsky.feed.post/3mu2d2knwlh2d,at://did:plc:flczgiu3a2jqmqlk54qnbf4c/app.bsky.feed.post/3mu2exydval24,"🛎️NNNより【速報】です。
+
+【速報】インフルエンザが早くも流行シーズン入り 過去10年で一番早い流行 北海道
+(2026-08-27 16:26) #ニュース
+
+😷感染症情報
+🔗https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/infulenza/index.html","🛎️FNNより【速報】です。
+
+【速報】インフルエンザ_札幌市で早くも”流行入り”発表_過去10年で最も早く_定点あたり1.12に_北海道も過去最速で流行入り_感染対策呼びかけ〈北海道札幌市〉<br />
+(2026-08-27 17:00) #ニュース
+
+😷感染症情報
+🔗https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/infulenza/index.html",2026-08-27T07:26:27.770000+00:00,2026-08-27T08:00:48.942000+00:00,0.5725,0.3333,0.6667,12,4,12,4,8,3.0,A,1,11,3,1,0,
+did:plc:7dktlg2jitmjjfismzyxzq2g,amtrax.bsky.social,youtu.be/m8fraTW5pDI,3mu2aqfcup224,2026-08-27T06:44:59Z,"So this goes live at 8 AM Pacfiic TIme
+
+youtu.be/m8fraTW5pDI
+
+You should click the bell so you get notified~",3mu3abccjsc2m,2026-08-27T16:09:12Z,"Three months of Final Fantasy XIV, cut down to 39 minutes of laughter.
+
+Pray, enjoy some Eorzean chuckles, before we begin Endwalker next week, eh? youtu.be/m8fraTW5pDI",9.40,0.0698,0.0698,0.2707,9.4036,youtu.be/m8fraTW5pDI,,at://did:plc:7dktlg2jitmjjfismzyxzq2g/app.bsky.feed.post/3mu2aqfcup224,at://did:plc:7dktlg2jitmjjfismzyxzq2g/app.bsky.feed.post/3mu3abccjsc2m,"So this goes live at 8 AM Pacfiic TIme
+
+youtu.be/m8fraTW5pDI
+
+You should click the bell so you get notified~","Three months of Final Fantasy XIV, cut down to 39 minutes of laughter.
+
+Pray, enjoy some Eorzean chuckles, before we begin Endwalker next week, eh? youtu.be/m8fraTW5pDI",2026-08-27T06:44:59.234000+00:00,2026-08-27T16:09:12.486000+00:00,9.4037,0.0698,0.2707,5,12,12,5,7,2.4,B,1,8,16,0,0,
+did:plc:txlzectspmjxs62oo7gy2tef,dominicpiper.bsky.social,mybook.to/LikeBottledFire,3mu2mgt7pik2x,2026-08-27T10:14:23Z,"#FREE #FREE #FREE
+
+Like Bottled Fire. Dominic Piper.
+
+""A cinematic experience from beginning to end: a quick read that immerses you in the enticing, perilous world of private investigator Daniel Beckett."" - Patricia Furstenberg, author.
+
+mybook.to/LikeBottledF...
+
+#DanielBeckett #Rome #Thriller",3mu2ohzi3jk2x,2026-08-27T10:50:50Z,"#FREE #FREE #FREE
+
+Like Bottled Fire. Dominic Piper.
+
+""A savvy and exciting reading experience.""
+
+mybook.to/LikeBottledF...
+
+#FREE #DanielBeckett #PrivateInvestigator #MustRead #Rome #ShortStory #Thriller #Prequel #BritishDetectives #CrimeFiction #FreeBooks",0.61,0.2979,0.2778,0.4472,0.6075,mybook.to/LikeBottledFire,,at://did:plc:txlzectspmjxs62oo7gy2tef/app.bsky.feed.post/3mu2mgt7pik2x,at://did:plc:txlzectspmjxs62oo7gy2tef/app.bsky.feed.post/3mu2ohzi3jk2x,"#FREE #FREE #FREE
+
+Like Bottled Fire. Dominic Piper.
+
+""A cinematic experience from beginning to end: a quick read that immerses you in the enticing, perilous world of private investigator Daniel Beckett."" - Patricia Furstenberg, author.
+
+mybook.to/LikeBottledF...
+
+#DanielBeckett #Rome #Thriller","#FREE #FREE #FREE
+
+Like Bottled Fire. Dominic Piper.
+
+""A savvy and exciting reading experience.""
+
+mybook.to/LikeBottledF...
+
+#FREE #DanielBeckett #PrivateInvestigator #MustRead #Rome #ShortStory #Thriller #Prequel #BritishDetectives #CrimeFiction #FreeBooks",2026-08-27T10:14:23.170000+00:00,2026-08-27T10:50:50.755000+00:00,0.6077,0.2778,0.4472,6,12,12,6,6,2.0,B,1,8,15,0,0,
+did:plc:54g3g4zsuuaub7j4vx6ij3zg,nhc-atlantic.extwitter.link,t.co/GrztW6mQJV,3mu2su3hnjw2a,2026-08-27T12:09:10Z,"Aug 27 8AM EDT: NHC is monitoring an area in the tropical Atlantic that has a high chance (90%) of development. If the current trends continue, advisories could be initiated on a short-lived tropical storm later today. For the latest information visit t.co/GrztW6mQJV
+
+🔗 hurricanes.gov",3mu34tjexbw2t,2026-08-27T15:07:48Z,"11 AM AST Thu Aug 27 (Advisory 1) Key Messages for Tropical Storm #Dolly. Latest info: t.co/GrztW6mQJV
+
+11 AM AST jueves 27 de agosto (Aviso 1) Mensajes clave sobre la tormenta tropical #Dolly. Más información: t.co/GrztW6mQJV
+
+🔗 hurricanes.gov",2.98,0.1692,0.1719,0.2028,2.9772,t.co/GrztW6mQJV,,at://did:plc:54g3g4zsuuaub7j4vx6ij3zg/app.bsky.feed.post/3mu2su3hnjw2a,at://did:plc:54g3g4zsuuaub7j4vx6ij3zg/app.bsky.feed.post/3mu34tjexbw2t,"Aug 27 8AM EDT: NHC is monitoring an area in the tropical Atlantic that has a high chance (90%) of development. If the current trends continue, advisories could be initiated on a short-lived tropical storm later today. For the latest information visit t.co/GrztW6mQJV
+
+🔗 hurricanes.gov","11 AM AST Thu Aug 27 (Advisory 1) Key Messages for Tropical Storm #Dolly. Latest info: t.co/GrztW6mQJV
+
+11 AM AST jueves 27 de agosto (Aviso 1) Mensajes clave sobre la tormenta tropical #Dolly. Más información: t.co/GrztW6mQJV
+
+🔗 hurricanes.gov",2026-08-27T12:09:10.384992+00:00,2026-08-27T15:07:48.841578+00:00,2.9773,0.1719,0.2028,6,12,12,6,6,2.0,B,1,14,11,1,9,
+did:plc:ptqsmvmjxpzupiuch6sx6xey,drandrewboswell.bsky.social,nationalsustainabilitynews.co.uk/Scientists-carbon-obligations-rosebank.php,3mu27hjf5ec2u,2026-08-27T06:22:07Z,"nationalsustainabilitynews.co.uk/Scientists-c... 
+Only minority of scientists want Rosebank consented with/without CCS.  See why this doesn't add up 🧵below
+
+Pls write to your MP & Miatta Fahnbulleh asking her to reject Rosebank and this carbon storage obligation proposal
+@georgemonbiot.bsky.social",3mu2lfle7vc2y,2026-08-27T09:55:47Z,"nationalsustainabilitynews.co.uk/Scientists-c... 
+Few scientists want Rosebank consented with/without CCS.  See why this doesn't add up 🧵below
+
+You can write to your MP & Miatta Fahnbulleh asking her to reject Rosebank and this CCS proposal here 👉 docs.google.com/document/d/1...
+
+Please do it now!",3.56,0.5556,0.5882,0.4613,3.5611,nationalsustainabilitynews.co.uk/Scientists-carbon-obligations-rosebank.php,,at://did:plc:ptqsmvmjxpzupiuch6sx6xey/app.bsky.feed.post/3mu27hjf5ec2u,at://did:plc:ptqsmvmjxpzupiuch6sx6xey/app.bsky.feed.post/3mu2lfle7vc2y,"nationalsustainabilitynews.co.uk/Scientists-c... 
+Only minority of scientists want Rosebank consented with/without CCS.  See why this doesn't add up 🧵below
+
+Pls write to your MP & Miatta Fahnbulleh asking her to reject Rosebank and this carbon storage obligation proposal
+@georgemonbiot.bsky.social","nationalsustainabilitynews.co.uk/Scientists-c... 
+Few scientists want Rosebank consented with/without CCS.  See why this doesn't add up 🧵below
+
+You can write to your MP & Miatta Fahnbulleh asking her to reject Rosebank and this CCS proposal here 👉 docs.google.com/document/d/1...
+
+Please do it now!",2026-08-27T06:22:07.772000+00:00,2026-08-27T09:55:47.633000+00:00,3.5611,0.5882,0.4613,11,1,11,1,10,11.0,A,1,12,4,0,0,
+did:plc:qc3al5f4zcp4h4trgrzntvby,lamarea.com,lamarea.com/2026/08/26/mujeres-saharauis,3mu2d2hhp4v2j,2026-08-27T07:26:24Z,"«Lo que ha logrado la mujer saharaui hasta hoy es un motivo de celebración, a pesar de que seguimos teniendo muchos desafíos», explica la bioquímica Abida Mohamed Buzeid.
+
+✍️ Un reportaje de @patriciasimon.bsky.social
+",3mu2tto4hlj2t,2026-08-27T12:26:50Z,"La supresión de las ayudas de la agencia estadounidense USAID y los recortes en las ayudas a la cooperación de Europa han agravado la crisis humanitaria que sufre el pueblo saharaui exiliado desde hace medio siglo. 
+Por @patriciasimon.bsky.social
+",5.01,0.1481,0.098,0.0352,5.0072,lamarea.com/2026/08/26/mujeres-saharauis,,at://did:plc:qc3al5f4zcp4h4trgrzntvby/app.bsky.feed.post/3mu2d2hhp4v2j,at://did:plc:qc3al5f4zcp4h4trgrzntvby/app.bsky.feed.post/3mu2tto4hlj2t,"«Lo que ha logrado la mujer saharaui hasta hoy es un motivo de celebración, a pesar de que seguimos teniendo muchos desafíos», explica la bioquímica Abida Mohamed Buzeid.
+
+✍️ Un reportaje de @patriciasimon.bsky.social
+","La supresión de las ayudas de la agencia estadounidense USAID y los recortes en las ayudas a la cooperación de Europa han agravado la crisis humanitaria que sufre el pueblo saharaui exiliado desde hace medio siglo. 
+Por @patriciasimon.bsky.social
+",2026-08-27T07:26:24.362691+00:00,2026-08-27T12:26:50.076245+00:00,5.0071,0.098,0.0352,4,11,11,4,7,2.75,B,1,7,10,0,0,
+did:plc:ptqsmvmjxpzupiuch6sx6xey,drandrewboswell.bsky.social,nationalsustainabilitynews.co.uk/Scientists-carbon-obligations-rosebank.php,3mu27hjf5ec2u,2026-08-27T06:22:07Z,"nationalsustainabilitynews.co.uk/Scientists-c... 
+Only minority of scientists want Rosebank consented with/without CCS.  See why this doesn't add up 🧵below
+
+Pls write to your MP & Miatta Fahnbulleh asking her to reject Rosebank and this carbon storage obligation proposal
+@georgemonbiot.bsky.social",3mu2en2q6sk2y,2026-08-27T07:54:42Z,"nationalsustainabilitynews.co.uk/Scientists-c... 
+Few scientists want Rosebank consented with/without CCS.  See why this doesn't add up 🧵below
+
+You can write to your MP & Miatta Fahnbulleh asking her to reject Rosebank and this CCS proposal here 👉 docs.google.com/document/d/1...
+
+Please do it now!",1.54,0.5556,0.5882,0.4613,1.5431,nationalsustainabilitynews.co.uk/Scientists-carbon-obligations-rosebank.php,,at://did:plc:ptqsmvmjxpzupiuch6sx6xey/app.bsky.feed.post/3mu27hjf5ec2u,at://did:plc:ptqsmvmjxpzupiuch6sx6xey/app.bsky.feed.post/3mu2en2q6sk2y,"nationalsustainabilitynews.co.uk/Scientists-c... 
+Only minority of scientists want Rosebank consented with/without CCS.  See why this doesn't add up 🧵below
+
+Pls write to your MP & Miatta Fahnbulleh asking her to reject Rosebank and this carbon storage obligation proposal
+@georgemonbiot.bsky.social","nationalsustainabilitynews.co.uk/Scientists-c... 
+Few scientists want Rosebank consented with/without CCS.  See why this doesn't add up 🧵below
+
+You can write to your MP & Miatta Fahnbulleh asking her to reject Rosebank and this CCS proposal here 👉 docs.google.com/document/d/1...
+
+Please do it now!",2026-08-27T06:22:07.772000+00:00,2026-08-27T07:54:42.439000+00:00,1.543,0.5882,0.4613,11,5,11,5,6,2.2,A,1,12,6,0,0,
+did:plc:mzq2thimnfznetmhyivc6bsc,limitbreakcomics.bsky.social,zoop.gg/c/bumpinthenight,3mu2u4qhmuk2f,2026-08-27T12:31:54Z,"Meet the creative team behind our Curupira story!
+
+@iamrodrigo.bsky.social, @rolinmari.bsky.social and @aileencudmore.bsky.social are teaming up to tell a story of one of Brazil's cryptids in Bump in the Night.
+
+Back the book here: zoop.gg/c/bumpinthen...",3mu34z5r5f22o,2026-08-27T15:10:58Z,"We have to be loud about this for the foreseeable, because social media doesn't always like crowdfunding.
+
+Bump in the Night is our eco-horror cryptid anthology, and it needs your help getting funded!
+
+zoop.gg/c/bumpinthen...
+
+We're 6 backers away from 50!",2.65,0.1791,0.1746,0.048,2.6511,zoop.gg/c/bumpinthenight,,at://did:plc:mzq2thimnfznetmhyivc6bsc/app.bsky.feed.post/3mu2u4qhmuk2f,at://did:plc:mzq2thimnfznetmhyivc6bsc/app.bsky.feed.post/3mu34z5r5f22o,"Meet the creative team behind our Curupira story!
+
+@iamrodrigo.bsky.social, @rolinmari.bsky.social and @aileencudmore.bsky.social are teaming up to tell a story of one of Brazil's cryptids in Bump in the Night.
+
+Back the book here: zoop.gg/c/bumpinthen...","We have to be loud about this for the foreseeable, because social media doesn't always like crowdfunding.
+
+Bump in the Night is our eco-horror cryptid anthology, and it needs your help getting funded!
+
+zoop.gg/c/bumpinthen...
+
+We're 6 backers away from 50!",2026-08-27T12:31:54.670000+00:00,2026-08-27T15:10:58.077000+00:00,2.6509,0.1746,0.048,11,5,11,5,6,2.2,A,1,10,4,2,1,
+did:plc:y6bpqeb35iqkw6bsn3g2j6pz,lincolnsquare.media,bit.ly/4xkAFUt,3mtzzl2luvz2w,2026-08-27T04:36:43Z,"Todd Blanche went from Trump’s defense attorney to the deciding Epstein files redactions.  
+
+https://bit.ly/4xkAFUt
+
+@katiephang.bsky.social stopped by Lincoln Square to discuss the Epstein files and America’s two-tiered justice system with @stevenbeschloss.bsky.social on Six Questions.  Subscribe!",3mu353cntlt2d,2026-08-27T15:12:10Z,"Nothing says “we believe in democracy” like trying to scare people out of participating in it. @azsecretary.bsky.social stopped by LS to discuss voter intimidation and the battle to keep elections free and fair.
+
+https://bit.ly/4xkAFUt
+
+Subscribe to watch The @frankfigliuzzi.bsky.social Show",10.59,0.1500,0.1296,0.0376,10.5908,bit.ly/4xkAFUt,,at://did:plc:y6bpqeb35iqkw6bsn3g2j6pz/app.bsky.feed.post/3mtzzl2luvz2w,at://did:plc:y6bpqeb35iqkw6bsn3g2j6pz/app.bsky.feed.post/3mu353cntlt2d,"Todd Blanche went from Trump’s defense attorney to the deciding Epstein files redactions.  
+
+https://bit.ly/4xkAFUt
+
+@katiephang.bsky.social stopped by Lincoln Square to discuss the Epstein files and America’s two-tiered justice system with @stevenbeschloss.bsky.social on Six Questions.  Subscribe!","Nothing says “we believe in democracy” like trying to scare people out of participating in it. @azsecretary.bsky.social stopped by LS to discuss voter intimidation and the battle to keep elections free and fair.
+
+https://bit.ly/4xkAFUt
+
+Subscribe to watch The @frankfigliuzzi.bsky.social Show",2026-08-27T04:36:43.997031+00:00,2026-08-27T15:12:10.282387+00:00,10.5906,0.1296,0.0376,10,4,10,4,6,2.5,A,1,37,12,0,0,
+did:plc:dk644jtqur3mvxphdwuawi25,marcianobrito.bsky.social,revistaforum.com.br/brasil/andre-mendonca-salario-media,3mu32naylrc25,2026-08-27T14:28:31Z,"Com salário de quase R$ 60 mil, André Mendonça reclama: “condição média” de vida.
+O bolsonarista de toga classificou remuneração da Corte como de ""classe b""; dados oficiais mostram que ele recebeu mais de R$ 182mil líquidos nos primeiros 7 meses do ano.
+📰 revistaforum.com.br/brasil/andre...
+
+Sheila🎥",3mu36gbcc2c26,2026-08-27T15:36:11Z,"O ministro bolsonarista André Mendonça reclamou do salário que recebe no STF. 
+A vida está muito difícil para o André Mendonça🤡.
+revistaforum.com.br/brasil/andre...
+
+Além do salário do STF, André Mendonça fatura milhões em dinheiro público com o seu Instituto Iter. 👇🏾
+
+""Ô, coitado!""😜
+1/2⤵️",1.13,0.1970,0.197,0.1198,1.1278,revistaforum.com.br/brasil/andre-mendonca-salario-media,,at://did:plc:dk644jtqur3mvxphdwuawi25/app.bsky.feed.post/3mu32naylrc25,at://did:plc:dk644jtqur3mvxphdwuawi25/app.bsky.feed.post/3mu36gbcc2c26,"Com salário de quase R$ 60 mil, André Mendonça reclama: “condição média” de vida.
+O bolsonarista de toga classificou remuneração da Corte como de ""classe b""; dados oficiais mostram que ele recebeu mais de R$ 182mil líquidos nos primeiros 7 meses do ano.
+📰 revistaforum.com.br/brasil/andre...
+
+Sheila🎥","O ministro bolsonarista André Mendonça reclamou do salário que recebe no STF. 
+A vida está muito difícil para o André Mendonça🤡.
+revistaforum.com.br/brasil/andre...
+
+Além do salário do STF, André Mendonça fatura milhões em dinheiro público com o seu Instituto Iter. 👇🏾
+
+""Ô, coitado!""😜
+1/2⤵️",2026-08-27T14:28:31.330000+00:00,2026-08-27T15:36:11.733000+00:00,1.1279,0.197,0.1198,4,10,10,4,6,2.5,B,1,8,23,5,3,
+did:plc:dy5gzjwxey5agldgerrdaxja,sparkshocker.bsky.social,cash.app/$RainLune93,3mtzsl6orc22r,2026-08-27T02:31:32Z,"THIS IS STILL FUCKING NEEDED! IT'S JUST $60 FFS. 3 PEOPLE MATCHING MY $20 FROM EARLIER WOULD CLEAR THIS! HELP THEM!
+
+paypal.me/LuneFae
+cash.app/$RainLune93
+
+#MutualAid #LGBTQMA #HelpFolksLive2026 #emergencyMA #disabilityMA #MutualAidSavesLives #DirectAidSavesLives #HelpSky #SkyAid 💕💸🏳️‍⚧️♿🚨‼️",3mtzw2fznws2r,2026-08-27T03:33:44Z,"This is at $20/$60 right now! Two matches of $20 or 4 matches of $10 clears this! HELP THEM
+
+paypal.me/LuneFae
+cash.app/$RainLune93
+
+#MutualAid #LGBTQMA #HelpFolksLive2026 #emergencyMA #disabilityMA #MutualAidSavesLives #DirectAidSavesLives #HelpSky #SkyAid 💕💸🏳️‍⚧️♿🚨‼️",1.04,0.4565,0.3243,0.6741,1.0367,cash.app/$RainLune93,,at://did:plc:dy5gzjwxey5agldgerrdaxja/app.bsky.feed.post/3mtzsl6orc22r,at://did:plc:dy5gzjwxey5agldgerrdaxja/app.bsky.feed.post/3mtzw2fznws2r,"THIS IS STILL FUCKING NEEDED! IT'S JUST $60 FFS. 3 PEOPLE MATCHING MY $20 FROM EARLIER WOULD CLEAR THIS! HELP THEM!
+
+paypal.me/LuneFae
+cash.app/$RainLune93
+
+#MutualAid #LGBTQMA #HelpFolksLive2026 #emergencyMA #disabilityMA #MutualAidSavesLives #DirectAidSavesLives #HelpSky #SkyAid 💕💸🏳️‍⚧️♿🚨‼️","This is at $20/$60 right now! Two matches of $20 or 4 matches of $10 clears this! HELP THEM
+
+paypal.me/LuneFae
+cash.app/$RainLune93
+
+#MutualAid #LGBTQMA #HelpFolksLive2026 #emergencyMA #disabilityMA #MutualAidSavesLives #DirectAidSavesLives #HelpSky #SkyAid 💕💸🏳️‍⚧️♿🚨‼️",2026-08-27T02:31:32.126000+00:00,2026-08-27T03:33:44.366000+00:00,1.0367,0.3243,0.6741,5,10,10,5,5,2.0,B,1,4,8,3,2,
+did:plc:hijbeizbm5ege43fnm6aqhee,connieskp.bsky.social,disinfowatch.org/wp-content/uploads/2026/05/Alberta-and-Foreign-Interference-Report-Final-052026-web.pdf,3mtzrtlkihc2x,2026-08-27T02:18:20Z,"Smith is a traitor. She definitely doesn't have any loyalty towards Canada and our other provinces. Is she on our side?
+disinfowatch.org/wp-content/u...",3mtzrzgt35k2x,2026-08-27T02:21:36Z,"She is a paid off flunky for the orange felon. A traitor to Alberta and to Canada. She doesn't deserve this office. Selling out to our enemy is treason. She needs to resign.
+Her actions don't lie but she does.
+disinfowatch.org/wp-content/u...",0.05,0.2917,0.2917,0.1794,0.0544,disinfowatch.org/wp-content/uploads/2026/05/Alberta-and-Foreign-Interference-Report-Final-052026-web.pdf,,at://did:plc:hijbeizbm5ege43fnm6aqhee/app.bsky.feed.post/3mtzrtlkihc2x,at://did:plc:hijbeizbm5ege43fnm6aqhee/app.bsky.feed.post/3mtzrzgt35k2x,"Smith is a traitor. She definitely doesn't have any loyalty towards Canada and our other provinces. Is she on our side?
+disinfowatch.org/wp-content/u...","She is a paid off flunky for the orange felon. A traitor to Alberta and to Canada. She doesn't deserve this office. Selling out to our enemy is treason. She needs to resign.
+Her actions don't lie but she does.
+disinfowatch.org/wp-content/u...",2026-08-27T02:18:20.314000+00:00,2026-08-27T02:21:36.679000+00:00,0.0545,0.2917,0.1794,0,9,9,0,9,inf,B,1,1,11,0,0,
+did:plc:gia6fkjy7gi5n7g24nhct4zw,toplandscaper.eurosky.social,secure.avaaz.org/campaign/en/justice_for_hind_rajab_rb_loc?copy=&referer_id=01a042737597752eac9e5b0d98e92f08&share_location=post_action,3mu2ihx42u225,2026-08-27T09:03:25Z,"Please sign this petition calling for Netanyahu's arrest for war crimes
+It's already passed the 1 million mark
+If you can please watch ""The Voice of Hind Rajab"" and don't forget Kleenex as I guarantee you'll she'd a tear
+
+secure.avaaz.org/campaign/en/...",3mu2vr4p5pk2e,2026-08-27T13:01:12Z,"Arrest the current equivalent No 1 villain
+Please sign this petition to arrest Netanyahu for war crimes
+Please watch ""The Voice of Hind Rajab"" and understand how evil these ppl are
+Bring your Kleenex because you'll shed a tear
+
+secure.avaaz.org/campaign/en/...",3.96,0.4576,0.4576,0.028,3.9631,secure.avaaz.org/campaign/en/justice_for_hind_rajab_rb_loc?copy=&referer_id=01a042737597752eac9e5b0d98e92f08&share_location=post_action,,at://did:plc:gia6fkjy7gi5n7g24nhct4zw/app.bsky.feed.post/3mu2ihx42u225,at://did:plc:gia6fkjy7gi5n7g24nhct4zw/app.bsky.feed.post/3mu2vr4p5pk2e,"Please sign this petition calling for Netanyahu's arrest for war crimes
+It's already passed the 1 million mark
+If you can please watch ""The Voice of Hind Rajab"" and don't forget Kleenex as I guarantee you'll she'd a tear
+
+secure.avaaz.org/campaign/en/...","Arrest the current equivalent No 1 villain
+Please sign this petition to arrest Netanyahu for war crimes
+Please watch ""The Voice of Hind Rajab"" and understand how evil these ppl are
+Bring your Kleenex because you'll shed a tear
+
+secure.avaaz.org/campaign/en/...",2026-08-27T09:03:25.829000+00:00,2026-08-27T13:01:12.334000+00:00,3.9629,0.4576,0.028,9,0,9,0,9,inf,A,1,9,2,0,0,
+did:plc:gia6fkjy7gi5n7g24nhct4zw,toplandscaper.eurosky.social,secure.avaaz.org/campaign/en/justice_for_hind_rajab_rb_loc?copy=&referer_id=01a042737597752eac9e5b0d98e92f08&share_location=post_action,3mu2ihx42u225,2026-08-27T09:03:25Z,"Please sign this petition calling for Netanyahu's arrest for war crimes
+It's already passed the 1 million mark
+If you can please watch ""The Voice of Hind Rajab"" and don't forget Kleenex as I guarantee you'll she'd a tear
+
+secure.avaaz.org/campaign/en/...",3mu2w7dnros2e,2026-08-27T13:09:09Z,"Arrest the current equivalent No 1 villain
+Please sign this petition to arrest Netanyahu for war crimes
+Please watch ""The Voice of Hind Rajab"" and understand how evil these ppl are
+Bring your Kleenex because you'll shed a tear
+
+secure.avaaz.org/campaign/en/...",4.10,0.4576,0.4576,0.028,4.0956,secure.avaaz.org/campaign/en/justice_for_hind_rajab_rb_loc?copy=&referer_id=01a042737597752eac9e5b0d98e92f08&share_location=post_action,,at://did:plc:gia6fkjy7gi5n7g24nhct4zw/app.bsky.feed.post/3mu2ihx42u225,at://did:plc:gia6fkjy7gi5n7g24nhct4zw/app.bsky.feed.post/3mu2w7dnros2e,"Please sign this petition calling for Netanyahu's arrest for war crimes
+It's already passed the 1 million mark
+If you can please watch ""The Voice of Hind Rajab"" and don't forget Kleenex as I guarantee you'll she'd a tear
+
+secure.avaaz.org/campaign/en/...","Arrest the current equivalent No 1 villain
+Please sign this petition to arrest Netanyahu for war crimes
+Please watch ""The Voice of Hind Rajab"" and understand how evil these ppl are
+Bring your Kleenex because you'll shed a tear
+
+secure.avaaz.org/campaign/en/...",2026-08-27T09:03:25.829000+00:00,2026-08-27T13:09:09.392000+00:00,4.0954,0.4576,0.028,9,0,9,0,9,inf,A,1,9,1,0,0,
+did:plc:ayagznj66cdicwhci2vfxitv,ninazeelen.bsky.social,bnnvara.nl/joop/artikelen/nederland-is-potentieel-autocratischer-dan-de-verenigde-staten,3mtzzmifjgk2o,2026-08-27T04:37:32Z,"""De ministerraad wordt formeel benoemd door de vorige ministerraad. Motie van wantrouwen wordt traditioneel gezien als bindend. Dat is een gebruik, geen wet. Het electoraat en parlement hebben geen wettelijk middel om een ministerraad af te zetten. Ook de nucleaire optie van een shutdown ontbreekt.""",3mu22in6tlk2o,2026-08-27T04:53:16Z,"Executive Order
+
+""In de laatste 40 jaar heeft de ministerraad veel meer bevoegdheden gekregen om bij ministerieel besluit of bij algemene maatregel van bestuur te besluiten. Dit alles gaat er vanuit dat het parlement de regering tegen zal werken als deze autocratisch wordt, dat is zeer de vraag.""",0.26,0.1618,0.1618,0.0172,0.2622,bnnvara.nl/joop/artikelen/nederland-is-potentieel-autocratischer-dan-de-verenigde-staten,,at://did:plc:ayagznj66cdicwhci2vfxitv/app.bsky.feed.post/3mtzzmifjgk2o,at://did:plc:ayagznj66cdicwhci2vfxitv/app.bsky.feed.post/3mu22in6tlk2o,"""De ministerraad wordt formeel benoemd door de vorige ministerraad. Motie van wantrouwen wordt traditioneel gezien als bindend. Dat is een gebruik, geen wet. Het electoraat en parlement hebben geen wettelijk middel om een ministerraad af te zetten. Ook de nucleaire optie van een shutdown ontbreekt.""","Executive Order
+
+""In de laatste 40 jaar heeft de ministerraad veel meer bevoegdheden gekregen om bij ministerieel besluit of bij algemene maatregel van bestuur te besluiten. Dit alles gaat er vanuit dat het parlement de regering tegen zal werken als deze autocratisch wordt, dat is zeer de vraag.""",2026-08-27T04:37:32.057000+00:00,2026-08-27T04:53:16.606000+00:00,0.2624,0.1618,0.0172,2,9,9,2,7,4.5,B,1,10,18,0,1,
+did:plc:wk2puenzix7sxrcfsp4ez7ad,mekcho92.bsky.social,hunqz.com/escort/Mekcho0%E2%80%A6,3mu27ucwfjk2h,2026-08-27T06:29:17Z,"Bonne journée ! 🍆🔥🍆
+⤵️⤵️⤵️
+Hunqz.com/escort/Mekcho0…",3mu2stqdyes2q,2026-08-27T12:08:58Z,"On joue quand❓❓❓
+🔞🔞🔥🔥⤵️⤵️
+Hunqz.com/escort/Mekcho0…",5.66,0.4444,0.4444,0.8421,5.6614,hunqz.com/escort/Mekcho0…,,at://did:plc:wk2puenzix7sxrcfsp4ez7ad/app.bsky.feed.post/3mu27ucwfjk2h,at://did:plc:wk2puenzix7sxrcfsp4ez7ad/app.bsky.feed.post/3mu2stqdyes2q,"Bonne journée ! 🍆🔥🍆
+⤵️⤵️⤵️
+Hunqz.com/escort/Mekcho0…","On joue quand❓❓❓
+🔞🔞🔥🔥⤵️⤵️
+Hunqz.com/escort/Mekcho0…",2026-08-27T06:29:17.202000+00:00,2026-08-27T12:08:58.816000+00:00,5.6616,0.4444,0.8421,9,3,9,3,6,3.0,A,1,130,86,0,0,
+did:plc:i5sk7zx23dffzqsxafl76hqw,natashalennard.bsky.social,theintercept.com/2026/08/27/trump-us-mexico-border-wall-tree-sit-arizona,3mu3awqm2e22k,2026-08-27T16:21:12Z,"For nearly a month, the key force standing in the way of Trump’s border wall project in southeast Arizona has been a person sitting in a 200-year-old tree... And a growing encampment below... latest @theintercept.com theintercept.com/2026/08/27/t...",3mu3bm3mcqk2k,2026-08-27T16:33:08Z,"A single tree sit harnessed a cross-border movement to defend the Arizona borderland ecology. So far, the activists are blocking Trump’s wall. @theintercept.com theintercept.com/2026/08/27/t...",0.20,0.2745,0.2745,0.3897,0.1989,theintercept.com/2026/08/27/trump-us-mexico-border-wall-tree-sit-arizona,,at://did:plc:i5sk7zx23dffzqsxafl76hqw/app.bsky.feed.post/3mu3awqm2e22k,at://did:plc:i5sk7zx23dffzqsxafl76hqw/app.bsky.feed.post/3mu3bm3mcqk2k,"For nearly a month, the key force standing in the way of Trump’s border wall project in southeast Arizona has been a person sitting in a 200-year-old tree... And a growing encampment below... latest @theintercept.com theintercept.com/2026/08/27/t...","A single tree sit harnessed a cross-border movement to defend the Arizona borderland ecology. So far, the activists are blocking Trump’s wall. @theintercept.com theintercept.com/2026/08/27/t...",2026-08-27T16:21:12.136000+00:00,2026-08-27T16:33:08.322000+00:00,0.1989,0.2745,0.3897,9,3,9,3,6,3.0,A,1,20,4,0,0,
+did:plc:jjheidmljqrsatjic4e6hmm2,wellborn.net,salon.com/2026/08/27/maga-influencers-are-still-paying-for-the-big-lie,3mu2rz7fq2s22,2026-08-27T11:54:08Z,"The Justice Department is 0 for 23 on voter roll cases, unable to document the fraud epidemic it keeps invoking. The man who filmed the pictures that sold it settled with one of his mules and apologized. The federal apparatus is being built anyway.",3mu2twg46ys2r,2026-08-27T12:28:22Z,"To prove strangers can steal votes, O'Keefe put on a costume, faked an accent, and handed poll workers the name of a real registered voter who found out from the video. Nobody in the crew cast a ballot. Falsely signing that oath in Minnesota carries a five-year penalty.",0.57,0.1081,0.1081,0.0197,0.5706,salon.com/2026/08/27/maga-influencers-are-still-paying-for-the-big-lie,,at://did:plc:jjheidmljqrsatjic4e6hmm2/app.bsky.feed.post/3mu2rz7fq2s22,at://did:plc:jjheidmljqrsatjic4e6hmm2/app.bsky.feed.post/3mu2twg46ys2r,"The Justice Department is 0 for 23 on voter roll cases, unable to document the fraud epidemic it keeps invoking. The man who filmed the pictures that sold it settled with one of his mules and apologized. The federal apparatus is being built anyway.","To prove strangers can steal votes, O'Keefe put on a costume, faked an accent, and handed poll workers the name of a real registered voter who found out from the video. Nobody in the crew cast a ballot. Falsely signing that oath in Minnesota carries a five-year penalty.",2026-08-27T11:54:08.640000+00:00,2026-08-27T12:28:22.488000+00:00,0.5705,0.1081,0.0197,3,9,9,3,6,3.0,B,1,6,17,0,0,
+did:plc:jwsylb6dmzjkikmnjncrjc4f,midnight0wl.bsky.social,venmo.com/toadlyturtle,3mtzzxumpas2j,2026-08-27T04:43:53Z,"40 / 158 ➡️ HOTEL DUE 11AM ET
+
+break the halt for sabi & elderly mom, 
+they *cannot* end up on the streets!
+
+people matter.
+so does action.
+be a lifeline. 💸💕
+
+ko-fi.com/sabilewsounds
+paypal.me/SabiLewSounds
+Linktree: sabilewsounds
+🐇
+venmo.com/toadlyturtle
+cash.app/toadlyturtle
+*Add note* ""Sabi""",3mu2yu74kis2e,2026-08-27T13:56:36Z,""" Today's hotel stands at 40 unmet‼️
+
+Sabina & elderly mom's hotel due 11AM ET‼️ ""
+
+ko-fi.com/sabilewsounds
+paypal.me/SabiLewSounds
+linktr.ee/sabilewsounds
+🐇
+venmo.com/toadlyturtle
+cash.app/$toadlyturtle
+*Add note* ""Sabi""
+
+action matters.
+people do too.
+be a lifeline. 💸💕",9.21,0.4902,0.4902,0.0977,9.2119,venmo.com/toadlyturtle,,at://did:plc:jwsylb6dmzjkikmnjncrjc4f/app.bsky.feed.post/3mtzzxumpas2j,at://did:plc:jwsylb6dmzjkikmnjncrjc4f/app.bsky.feed.post/3mu2yu74kis2e,"40 / 158 ➡️ HOTEL DUE 11AM ET
+
+break the halt for sabi & elderly mom, 
+they *cannot* end up on the streets!
+
+people matter.
+so does action.
+be a lifeline. 💸💕
+
+ko-fi.com/sabilewsounds
+paypal.me/SabiLewSounds
+Linktree: sabilewsounds
+🐇
+venmo.com/toadlyturtle
+cash.app/toadlyturtle
+*Add note* ""Sabi""",""" Today's hotel stands at 40 unmet‼️
+
+Sabina & elderly mom's hotel due 11AM ET‼️ ""
+
+ko-fi.com/sabilewsounds
+paypal.me/SabiLewSounds
+linktr.ee/sabilewsounds
+🐇
+venmo.com/toadlyturtle
+cash.app/$toadlyturtle
+*Add note* ""Sabi""
+
+action matters.
+people do too.
+be a lifeline. 💸💕",2026-08-27T04:43:53.975000+00:00,2026-08-27T13:56:36.760000+00:00,9.2119,0.4902,0.0977,9,4,9,4,5,2.25,A,1,6,3,2,0,
+did:plc:v62ecyjy45xbh7mlbvwy2g7n,dkmunro.bsky.social,theglobeandmail.com/canada/article-ottawa-taps-64-leading-scientists-and-scholars-to-bolster-canadian,3mu2sxq2nss2r,2026-08-27T12:11:12Z,"Huh. Ethan Zuckerman to McGill is a surprise (to me anyway). 
+
+www.theglobeandmail.com/canada/artic...",3mu2t5tevms2r,2026-08-27T12:14:37Z,"Had a recent conversation with a prominent science policy person who wondered whether these scholars will remain in Canada or return to the U.S. if/when U.S. politics renormalize. 
+
+Permanent poaching or extended visiting scholars program?
+
+www.theglobeandmail.com/canada/artic...",0.06,0.1556,0.0488,0.0277,0.0569,theglobeandmail.com/canada/article-ottawa-taps-64-leading-scientists-and-scholars-to-bolster-canadian,,at://did:plc:v62ecyjy45xbh7mlbvwy2g7n/app.bsky.feed.post/3mu2sxq2nss2r,at://did:plc:v62ecyjy45xbh7mlbvwy2g7n/app.bsky.feed.post/3mu2t5tevms2r,"Huh. Ethan Zuckerman to McGill is a surprise (to me anyway). 
+
+www.theglobeandmail.com/canada/artic...","Had a recent conversation with a prominent science policy person who wondered whether these scholars will remain in Canada or return to the U.S. if/when U.S. politics renormalize. 
+
+Permanent poaching or extended visiting scholars program?
+
+www.theglobeandmail.com/canada/artic...",2026-08-27T12:11:12.735000+00:00,2026-08-27T12:14:37.541000+00:00,0.0569,0.0488,0.0277,0,8,8,0,8,inf,B,1,3,18,0,6,
+did:plc:oimw6wlt6vfksslvacjokf36,masalladelrelato.bsky.social,tinyurl.com/3562y67r,3mu2j3fcbsk2r,2026-08-27T09:14:18Z,"📌 Fuente noticia: Extraño video captando la formación de un círculo de las cosechas | t.me/masalladelrelato/3514
+
+🪖 | El auténtico conflicto del genocidio de Israel. La mejor conferencia expuesta y resumida de la realidad en la guerra de Israel tinyurl.com/3562y67r
+
+#noticias #freepalestine #israel",3mu2knwoi2c2r,2026-08-27T09:42:34Z,"😡 53 años. Imaginálo. Un funeral por día, sin parar. No dejemos que se normalice.
+
+🪖 | El auténtico conflicto del genocidio de Israel. La mejor conferencia expuesta y resumida de la realidad en la guerra de Israel tinyurl.com/3562y67r
+
+#freepalestine #gaza #israel #viral #bluesky",0.47,0.4118,0.4348,0.6358,0.4711,tinyurl.com/3562y67r,,at://did:plc:oimw6wlt6vfksslvacjokf36/app.bsky.feed.post/3mu2j3fcbsk2r,at://did:plc:oimw6wlt6vfksslvacjokf36/app.bsky.feed.post/3mu2knwoi2c2r,"📌 Fuente noticia: Extraño video captando la formación de un círculo de las cosechas | t.me/masalladelrelato/3514
+
+🪖 | El auténtico conflicto del genocidio de Israel. La mejor conferencia expuesta y resumida de la realidad en la guerra de Israel tinyurl.com/3562y67r
+
+#noticias #freepalestine #israel","😡 53 años. Imaginálo. Un funeral por día, sin parar. No dejemos que se normalice.
+
+🪖 | El auténtico conflicto del genocidio de Israel. La mejor conferencia expuesta y resumida de la realidad en la guerra de Israel tinyurl.com/3562y67r
+
+#freepalestine #gaza #israel #viral #bluesky",2026-08-27T09:14:18.244000+00:00,2026-08-27T09:42:34.196000+00:00,0.4711,0.4348,0.6358,0,8,8,0,8,inf,B,1,1,9,0,0,
+did:plc:u6mkbcgviwlbhuwqirmhcgu3,elpais.com,elpais.com/opinion/2026-08-27/un-hecho-notorio-en-elche.html,3mu2t7dkib52e,2026-08-27T12:15:27Z,"🔴 ‘Un hecho notorio en Elche: jueces y fiscales existen para cuestionar hasta la última coma lo que dice la Policía’, por Jordi Nieva-Fenoll, catedrático de Derecho Procesal",3mu3bx2c2rz2t,2026-08-27T16:39:14Z,"Tribuna | ""Jueces y fiscales existen para cuestionar hasta la última coma lo que dice la Policía, tanto en la vertiente jurídica como en el relato de lo que ha sucedido"", por Jordi Nieva-Fenoll elpais.com/opinion/20…",4.40,0.5000,0.5,0.0373,4.3964,elpais.com/opinion/2026-08-27/un-hecho-notorio-en-elche.html,,at://did:plc:u6mkbcgviwlbhuwqirmhcgu3/app.bsky.feed.post/3mu2t7dkib52e,at://did:plc:u6mkbcgviwlbhuwqirmhcgu3/app.bsky.feed.post/3mu3bx2c2rz2t,"🔴 ‘Un hecho notorio en Elche: jueces y fiscales existen para cuestionar hasta la última coma lo que dice la Policía’, por Jordi Nieva-Fenoll, catedrático de Derecho Procesal","Tribuna | ""Jueces y fiscales existen para cuestionar hasta la última coma lo que dice la Policía, tanto en la vertiente jurídica como en el relato de lo que ha sucedido"", por Jordi Nieva-Fenoll elpais.com/opinion/20…",2026-08-27T12:15:27+00:00,2026-08-27T16:39:14+00:00,4.3964,0.5,0.0373,8,1,8,1,7,8.0,A,1,12,9,0,0,
+did:plc:uo4didwt5qe4onrscbmqwvwm,liberation.fr,l.liberation.fr/HIU,3mu37blhphk2s,2026-08-27T15:51:28Z,"🔴 Débat présidentiel du Medef : Marine Le Pen prévoit un plan d’économies de 125 milliards d’euros
+
+Suivre le direct ➡️ l.liberation.fr/HIU",3mu3bg3dk322i,2026-08-27T16:29:46Z,"🔴 Débat présidentiel du Medef : Jean-Luc Mélenchon entend «arriver le plus vite possible» à la retraite à 60 ans
+
+Suivre le direct ➡️ l.liberation.fr/HIU",0.64,0.3143,0.3143,0.6277,0.6383,l.liberation.fr/HIU,,at://did:plc:uo4didwt5qe4onrscbmqwvwm/app.bsky.feed.post/3mu37blhphk2s,at://did:plc:uo4didwt5qe4onrscbmqwvwm/app.bsky.feed.post/3mu3bg3dk322i,"🔴 Débat présidentiel du Medef : Marine Le Pen prévoit un plan d’économies de 125 milliards d’euros
+
+Suivre le direct ➡️ l.liberation.fr/HIU","🔴 Débat présidentiel du Medef : Jean-Luc Mélenchon entend «arriver le plus vite possible» à la retraite à 60 ans
+
+Suivre le direct ➡️ l.liberation.fr/HIU",2026-08-27T15:51:28.366000+00:00,2026-08-27T16:29:46.708000+00:00,0.6384,0.3143,0.6277,1,8,8,1,7,8.0,B,1,1,27,0,1,

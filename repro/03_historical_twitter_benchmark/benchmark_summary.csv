@@ -1,0 +1,9 @@
+predictor,accuracy_pct,ci_low_pct,ci_high_pct,S85
+Gemini 3.7 Flash,79.7,77.3,81.9,0.849
+GPT-5.6 Sol,76.7,74.2,79.1,0.763
+Qwen 3.7 Max,70.8,68.0,73.3,0.594
+Claude Opus 4.8,70.8,68.1,73.4,0.594
+Qwen 3.7 Flash,64.7,61.9,67.4,0.420
+DeepSeek V4 Flash,63.5,60.7,66.2,0.386
+Individual humans (Tan et al. 2014),61.3,,,0.323
+39-person majority (Tan et al. 2014),73.0,,,0.657

@@ -1,0 +1,18 @@
+{
+  "pairs": 48,
+  "answer_balance": {
+    "X": 25,
+    "Y": 23
+  },
+  "questions_sha256": "4afda6990dd47dd40c3f04d2ddbb0ac9fe06558257528a6bc6c9d8c381d05d9f",
+  "answer_key_sha256": "bfe1ac39b2fb31b4a5b4fd112c8abafc76f70f673a8213945f0c277f61f9b545",
+  "audit_sha256": "e64786b68c943e66da2d4a220cae288f83dc90a681d511e1f900a905f73018c6",
+  "default_models": [
+    "qwen/qwen3.7-flash",
+    "deepseek/deepseek-v4-flash-0731",
+    "google/gemini-3.7-flash",
+    "qwen/qwen3.7-max",
+    "openai/gpt-5.6-sol",
+    "anthropic/claude-opus-4.8"
+  ]
+}

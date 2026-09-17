@@ -1,0 +1,146 @@
+{
+  "offline_unique_pairs_entering_hydration": 14652,
+  "structurally_valid_semantically_filtered_pairs": 11331,
+  "decisive_llm_pairs": 70,
+  "decisive_accounts": 56,
+  "decisive_thresholds": {
+    "winner_min_reposts": 8,
+    "winner_min_margin": 5,
+    "winner_min_ratio": 2.0,
+    "max_pair_gap_hours": 12.0,
+    "min_post_age_days": 7.0
+  },
+  "rejection_counts_after_hydration": {
+    "no_specific_stable_target": 2678,
+    "no_shared_primary_structured_url": 592,
+    "adult_or_porn": 7,
+    "a_missing_or_deleted": 44,
+    "b_missing_or_deleted": 44
+  },
+  "llm_label_balance": {
+    "X": 35,
+    "Y": 35
+  },
+  "top_decisive_pairs": [
+    {
+      "handle": "floodlightnews.org",
+      "reposts": "1 vs 1203",
+      "margin": 1202,
+      "target": "floodlightnews.org/new-jersey-data-center-federal-violation"
+    },
+    {
+      "handle": "motherjones.com",
+      "reposts": "48 vs 364",
+      "margin": 316,
+      "target": "motherjones.com/politics/2026/08/karen-attiah-washington-post-charlie-kirk-reinstated"
+    },
+    {
+      "handle": "vegaparticular.bsky.social",
+      "reposts": "341 vs 9",
+      "margin": 332,
+      "target": "secure.avaaz.org/community_petitions/en/ayuntamiento_de_baldellou_cancelacion_urgente_festival_own_spirit"
+    },
+    {
+      "handle": "charlesornstein.bsky.social",
+      "reposts": "16 vs 336",
+      "margin": 320,
+      "target": "propublica.org/article/immigrants-rebooking-ice-jails-florida"
+    },
+    {
+      "handle": "komainukiratazaka.bsky.social",
+      "reposts": "1 vs 124",
+      "margin": 123,
+      "target": "news.jp/i/1425310523326824480"
+    },
+    {
+      "handle": "offinvestigation.bsky.social",
+      "reposts": "113 vs 17",
+      "margin": 96,
+      "target": "off-investigation.fr/jeffrey-epstein-predateur-sexuel-et-espion"
+    },
+    {
+      "handle": "dworkin.bsky.social",
+      "reposts": "105 vs 23",
+      "margin": 82,
+      "target": "dworkinsubstack.com/p/trump-came-for-shelter-beds-the-airwaves"
+    },
+    {
+      "handle": "dworkin.bsky.social",
+      "reposts": "26 vs 105",
+      "margin": 79,
+      "target": "dworkinsubstack.com/p/trump-came-for-shelter-beds-the-airwaves"
+    },
+    {
+      "handle": "hwww2-yves.bsky.social",
+      "reposts": "83 vs 32",
+      "margin": 51,
+      "target": "docs.google.com/document/d/1lzOyIyd-d7Zl6NS_T4lkUotyGowWMr-nGO05qupmdZE/edit?usp=drivesdk"
+    },
+    {
+      "handle": "divyampersaud.com",
+      "reposts": "71 vs 10",
+      "margin": 61,
+      "target": "chuffed.org/project/erc"
+    },
+    {
+      "handle": "dworkin.bsky.social",
+      "reposts": "33 vs 69",
+      "margin": 36,
+      "target": "tinyurl.com/3f3m728j"
+    },
+    {
+      "handle": "indrapramitdas.bsky.social",
+      "reposts": "1 vs 68",
+      "margin": 67,
+      "target": "chuffed.org/project/omshamm"
+    },
+    {
+      "handle": "jenrubin.bsky.social",
+      "reposts": "65 vs 25",
+      "margin": 40,
+      "target": "open.substack.com/pub/contrarian/p/facts-trump-doesnt-need-no-stinkin?r=230tr"
+    },
+    {
+      "handle": "404media.co",
+      "reposts": "58 vs 5",
+      "margin": 53,
+      "target": "404media.co/three-years"
+    },
+    {
+      "handle": "julesssnextdoor.bsky.social",
+      "reposts": "57 vs 0",
+      "margin": 57,
+      "target": "chaturbate.com/julesssnextdoor"
+    },
+    {
+      "handle": "andrewchak.bsky.social",
+      "reposts": "37 vs 2",
+      "margin": 35,
+      "target": "thehill.com/opinion/international/6051039-senate-passes-graham-sanctions"
+    },
+    {
+      "handle": "dworkin.bsky.social",
+      "reposts": "31 vs 7",
+      "margin": 24,
+      "target": "dworkinsubstack.com/p/trump-came-for-shelter-beds-the-airwaves"
+    },
+    {
+      "handle": "dworkin.bsky.social",
+      "reposts": "13 vs 31",
+      "margin": 18,
+      "target": "dworkinsubstack.com/p/trump-came-for-shelter-beds-the-airwaves"
+    },
+    {
+      "handle": "statuesque.bsky.social",
+      "reposts": "30 vs 9",
+      "margin": 21,
+      "target": "kickstarter.com/projects/statuesque/cloth-trows"
+    },
+    {
+      "handle": "washingtonpost.com",
+      "reposts": "12 vs 30",
+      "margin": 18,
+      "target": "wapo.st/4gTmIr7"
+    }
+  ]
+}

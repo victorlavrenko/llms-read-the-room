@@ -1,0 +1,394 @@
+\documentclass[10pt,twocolumn]{article}
+
+\usepackage[letterpaper,margin=0.72in,columnsep=0.25in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xurl}
+\usepackage{enumitem}
+\usepackage{caption}
+\usepackage[round,authoryear]{natbib}
+\usepackage{flushend}
+
+\setlist{nosep,leftmargin=*}
+\captionsetup{font=small,labelfont=bf}
+\newcommand{\Description}[1]{}
+
+\hypersetup{
+  pdftitle={LLMs Read the Room Better Than Humans},
+  pdfauthor={Victor Lavrenko},
+  pdfsubject={Large language models, human-AI interaction, social transmission prediction},
+  pdfkeywords={large language models, human-AI collaboration, audience modeling, social transmission, AI-assisted writing}
+}
+
+\title{\textbf{LLMs Read the Room Better Than Humans}}
+\author{Victor Lavrenko\\
+\small PeaceTech VC, Jerusalem, Israel\\
+\small \texttt{victor@peacetech.vc}}
+\date{17 September 2026}
+
+\begin{document}
+\raggedbottom
+\clubpenalties 3 10000 10000 0
+\widowpenalties 3 10000 10000 0
+\maketitle
+
+\begin{abstract}
+Large language models are often criticized for producing generic ``AI slop.'' Yet when asked which message people are more likely to share, they perform remarkably well. On 1,142 historical same-author/same-link Twitter pairs, six LLMs outperform individual humans; the best reaches 79.7\% accuracy, with a 95\% confidence interval (CI) of 77.3--81.9, versus 61.3\% for individuals and 73.0\% for a 39-person majority. A sensitivity model places the text-only ceiling near 85\%, suggesting that strong models capture most of the predictable signal in text. We then tested the comparison with contemporary humans in \emph{Beat the Robot}: players lost 69 of 70 matches. To test whether memorization of the old benchmark explains the result, we repeated the same prediction task on fresh 2026 Bluesky data; its confidence interval includes the original benchmark estimate. Therefore, LLMs already anticipate what audiences will share remarkably well, motivating generation systems that create alternatives, self-evaluate audience response, and revise toward stronger outputs.
+\end{abstract}
+
+\noindent\textbf{Keywords:} human-AI collaboration; large language models; audience modeling; AI-assisted writing; social transmission prediction; social media; uncertainty calibration.
+\vspace{0.7em}
+\section{Introduction}
+Large language models (LLMs) have become everyday writing partners, but their most visible weakness is also a writing problem. Fluent output can still feel generic, formulaic, over-polished, or recognizably machine-made---a family of complaints now commonly summarized as \emph{AI slop}. A natural diagnosis is that models do not understand what people actually want to read. If that diagnosis is right, better generation should require first teaching models substantially better models of human preference.
+
+This paper tests a different possibility: the audience model may already be substantially better than the prose it produces. Instead of asking an LLM to write a message, we ask it to judge between two messages written by humans: which one did other people actually retransmit more? The distinction matters for human--computer interaction (HCI) because generation and evaluation need not be the same capability. An AI system that is mediocre as an autonomous writer could still be valuable as a critic, ranker, or audience simulator inside a human-controlled writing workflow.
+
+We study this question using social transmission, where the outcome is behavior rather than a subjective rating. \citet{tan2014} created a particularly controlled natural experiment on Twitter: pair two posts from the same account that point to the same URL but use different wording or framing, then ask which post received more retweets. Holding author and linked destination fixed removes much of the variance that makes general virality prediction difficult. The original human result was strikingly low: individual judges reached 61.3\% accuracy, while a majority vote across 39 judges reached 73.0\%.
+
+Contemporary frontier LLMs change this picture. On 1,142 historical same-author/same-link pairs, the best model reaches 79.7\% accuracy. The raw number is already above both historical human reference points, but we argue that 100\% is the wrong denominator for this task. Realized retweet outcomes remain affected by timing, exposure, platform context, and stochastic cascade dynamics even when author and destination are held fixed. A transparent sensitivity model centered at an 85\% text-only ceiling therefore places the best observed model at roughly 85\% of the modeled path from random guessing to the practically available text signal.
+
+The contemporary comparison is sharper. In a voluntary blind public web game, players completed 70 first rounds of 20 decisions before feedback or AI advice and lost 69 to the featured robot. The result is not driven by one model: on matched items, all six fixed LLMs outscored humans in aggregate, from 62.3\% for DeepSeek V4 Flash to 77.7\% for Gemini versus 54.1\% for players. The sole human winner scored 16/20 and beat all six models on that set. On human--model disagreements, Gemini is correct 77.7\%, rising to 81.9\% when it does not mark a ``close call.'' These are precisely the cases where an audience-model interface could add value.
+
+Historical benchmarks invite a second objection: perhaps the model has simply encountered the old Twitter material during pretraining. We therefore add a fresh replication built from August 2026 Bluesky posts. On 48 newly observed same-author/same-destination pairs with decisive mature repost outcomes, Gemini reaches 75.0\%, and a panel of current models outperforms a panel of older models on the same fresh cases. This does not prove the absence of all contamination mechanisms, but it rules out direct memorization of the historical Twitter/HypoBench labels as a sufficient explanation for the capability.
+
+Together these results motivate a change in how HCI researchers and designers conceptualize LLM writing assistance. The model need not always be the author. It can instead be an \emph{audience model}: a component that evaluates alternatives generated by the user, by the model, or collaboratively. This creates a familiar human--AI interaction problem in a new domain. If the model often knows more about aggregate audience response than the user does, simply exposing its recommendation may invite over-reliance; hiding uncertainty may make that worse; and optimizing expression toward a predicted majority can narrow voice, encourage manipulation, or homogenize discourse. Appropriate interaction design must therefore preserve authorship and agency while making model judgment useful rather than authoritative.
+
+We address four research questions (RQs):
+\begin{enumerate}
+    \item \textbf{RQ1:} How accurately do frontier LLMs predict aggregate social-transmission outcomes relative to individual humans and a human crowd?
+    \item \textbf{RQ2:} On identical items, what happens when recorded player judgments and model judgments disagree?
+    \item \textbf{RQ3:} Does a model's own ``close call'' signal identify cases where its audience prediction is less reliable?
+    \item \textbf{RQ4:} Does the capability persist on fresh social-platform outcomes that cannot be explained by direct memorization of the historical labels?
+\end{enumerate}
+
+Our contribution is empirical and design-oriented. We benchmark frontier LLMs against Tan et al.'s human baselines, add matched contemporary human--model choices from the public game, analyze disagreement and model-reported uncertainty, and reproduce the signal on fresh Bluesky data. Conceptually, we treat audience-response evaluation as a distinct LLM capability. The design implication is not ``let the model decide what to write,'' but interfaces in which humans author and set goals while AI evaluates alternatives, surfaces uncertainty, and intervenes selectively on disagreement.
+
+\section{Related Work}
+\subsection{Social transmission as revealed audience behavior}
+Why people share information differs from why they merely like or understand it. Transmission can reflect practical value, emotional arousal, identity signaling, social utility, novelty, and communication motive \citep{berger2012,berger2025}. This makes behavioral sharing outcomes attractive for evaluating an audience model: the label is not an annotator's opinion about what \emph{should} be appealing, but an observed aggregate consequence of communication.
+
+At the same time, raw engagement is heavily confounded. An arbitrary post may receive more retweets because it was published at a better time, reached more followers, contained media, benefited from a cascade, or happened to be attached to a more interesting topic. \citet{tan2014} addressed much of this variance by constructing topic- and author-controlled (TAC) pairs: the same account posted two different messages about the same URL, and the task was to predict which message propagated further. Their design is the direct foundation of this paper; we do not claim to introduce the task. Our contribution is to revisit it with current LLMs, matched contemporary public-game choices, a ceiling interpretation, and fresh-platform replication.
+
+Recent work shows that strong social prediction is not automatic. Reddit-V evaluates virality prediction in a multimodal Reddit setting and reports weak zero-shot LLM performance relative to task-specific multimodal models \citep{elamrany2025}. Persona-prompted LLM agents show genuine but modest ability to predict individual social-media reactions, with simple text baselines remaining competitive or superior in some settings \citep{bojic2026}. Retweet-prediction experiments by \citet{yang2025rlie} likewise report substantially lower performance for some modern systems than the frontier observed here. These tasks differ in target, platform, and controls, but jointly caution against treating ``LLMs know virality'' as a foregone conclusion.
+
+The distinction between aggregate audience prediction and personal preference is also important. We do not test whether a model can predict what a particular participant personally likes, nor whether it can simulate the original follower population. We test third-person comparative judgment: given two messages, which one was historically retransmitted more by other people? This is precisely the kind of latent audience model that could be embedded in interactive writing and communication tools.
+
+\subsection{Human--AI decision support and appropriate reliance}
+HCI has long treated AI recommendations as uncertain advice rather than unquestionable answers. Trust in automation is therefore about appropriate rather than maximal reliance \citep{leesee2004}; later work shows both algorithm aversion after errors \citep{dietvorst2015} and algorithm appreciation in other settings \citep{logg2019}. \citet{amershi2019} emphasize setting expectations, communicating capabilities, supporting correction, and helping users understand system behavior. Recent work formalizes appropriate reliance as accepting correct AI advice while rejecting incorrect advice \citep{schemmer2023}. The question is not whether people trust AI more, but whether they can tell when its advice should be followed. In writing support, that distinction is consequential.
+
+The answer is not guaranteed by higher model accuracy or by explanations. \citet{bansal2021} found that explanations can increase acceptance of AI recommendations without necessarily improving complementary team performance. \citet{bucinca2021} showed that cognitive-forcing interventions can reduce over-reliance, but at a cost to subjective experience and with heterogeneous effects across users. \citet{he2023} demonstrated that people's miscalibration about their own competence can itself obstruct appropriate reliance on AI. These results imply that a better audience-prediction model does not automatically yield a better human--AI writing system. The interface must determine \emph{when} and \emph{how} to reveal model judgment.
+
+Our data add a useful structural fact to this literature. Public-game choices were recorded before any AI advice was shown. We can therefore identify the subset of trials on which human and model judgments differ without contamination from anchoring or compliance within the game. On those disagreement cases, the model often has a large conditional advantage. This does not yet measure reliance behavior, but it identifies a candidate region for future advice experiments. This shifts attention from model accuracy alone to complementarity: useful advice depends on where human and model errors do not overlap.
+
+\subsection{LLMs as writing collaborators, not only autonomous generators}
+HCI research on language models has often centered on generation and co-creation. \citet{lee2022coauthor} documented how writers interact with GPT-3 suggestions and argued that rich interaction traces are necessary for understanding model capabilities in collaborative writing. \citet{wu2022chains} showed how decomposing LLM interaction into inspectable, controllable steps can improve transparency and collaboration. These systems exemplify a broader design principle: LLM capabilities need not be exposed through a single prompt-to-output interaction. The same underlying capability can therefore be useful even when autonomous generation is not the best interface.
+
+Our results suggest another decomposition. Separate \emph{authorship} from \emph{audience judgment}. A human or model can generate several alternatives; an audience model can rank them; the human can inspect the alternatives, see uncertainty, and retain final control. Such a workflow resembles generate--evaluate--select methods in machine learning, but the HCI question is different: how should the system communicate a comparative prediction so that it improves decisions without collapsing user agency into optimization for engagement? The comparison can also be repeated after revision, turning model judgment into an iterative signal rather than a one-shot verdict.
+
+This distinction is also conceptually important for the ``AI slop'' puzzle. Poor generation does not necessarily imply poor preference knowledge. A model may represent useful information about which alternative an audience will retransmit while still failing to reliably produce that alternative in a one-shot generation. The present paper measures the judgment side directly; it does not claim that judgment superiority automatically converts into better writing. Evaluation quality can therefore become operationally useful before generation quality catches up.
+
+Separating generation from evaluation also changes what an interface can make visible. A conventional completion interface presents one continuation and asks the user to accept, edit, or reject it. A comparison-oriented interface can instead preserve several candidates, state the audience objective being predicted, and show where the model's ranking differs from the user's own preference. This preserves information that a single generated answer hides: the existence of alternatives, the strength of the model's preference among them, and the location of human--model disagreement. Those signals can support selective intervention rather than continuous model guidance, while giving the user a concrete basis for contesting the ranking.
+
+
+\section{Method}
+\subsection{Historical Twitter benchmark and model evaluation}
+We use 1,142 historical pairs from the public HypoBench retweet split \citep{liu2025hypo}, which hydrates the topic- and author-controlled task introduced by \citet{tan2014}. Every item contains two historical tweets from the same account linking to the same URL and a binary label indicating which received more retweets. Because the author and destination are held fixed, pair members mainly differ in wording, framing, salience, information order, or which aspect of the linked object is foregrounded. We therefore treat the outcome as \emph{comparative message-level social transmission under strong author/topic control}, not as a randomized causal estimate of wording alone.
+
+The pairwise formulation is deliberately narrower than generic virality forecasting. A predictor need not estimate absolute reach or reconstruct follower-network state; it only needs to identify which of two messages, under matched author and destination, better aligns with the realized transmission outcome. This makes the task sensitive to message-level differences while holding much of the surrounding social context constant.
+
+Pair orientation was deterministically randomized independently of the gold label. Models received the two texts and were asked which received more retweets. They received no engagement counts, timestamps, external tools, or label information. The prompt also required a binary ``close call'' report, which we use as a coarse self-reported decisiveness signal rather than a calibrated probability. Temperature was set to zero when the provider supported it. The evaluator archived model identifier, route, prompt version, deterministic X/Y assignment, raw response, parsed choice, close-call field, and correctness.
+
+Deterministic orientation serves two purposes: it breaks any association between original pair order and the winning label, while making the exact X/Y presentation reproducible. Archiving both raw responses and parsed fields also keeps parsing auditable; the reported prediction can be traced back to what the model actually returned rather than reconstructed from correctness after the fact.
+
+The principal six-model comparison includes Gemini 3.7 Flash, GPT-5.6 Sol, Qwen 3.7 Max, Claude Opus 4.8, Qwen 3.7 Flash, and DeepSeek V4 Flash. Historical human reference points---61.3\% for individual judges and 73.0\% for a 39-person majority---come from Tan et al.'s original evaluation and are not re-estimated from our contemporary convenience sample.
+
+We keep those historical human references separate from the contemporary web sample: the former provide the established benchmark baseline, whereas the latter are used only for matched human--model comparisons on identical items. This avoids treating two differently recruited human samples as if they were one population estimate.
+
+\subsection{Blind contemporary web study}
+To compare machine judgments with contemporary human judgments on identical items, we deployed the task as a voluntary player-versus-model public web game. The analysis freezes a production export at 9 September 2026, 04:32:50 UTC. Ninety-nine sessions were started and 70 completed the primary Round 1, yielding 1,400 human choices. Recruitment was by convenience through public, personal, and academic-network sharing. Each Round-1 completion consisted of 20 blind decisions made before correctness feedback or model scores were revealed.
+
+The Round-1 design mirrors the model benchmark: players see the same paired texts, make the same binary choice, and receive neither engagement metadata nor the historical outcome. This enables item-level matched comparisons, while delayed feedback ensures that every primary-round judgment predates information about the participant's own score or model performance.
+
+Before starting, players could enter a nickname or choose anonymous play. Each session reported three coarse background variables: whether English was the player's native language, marketing experience, and early-Twitter use. The interface required explicit consent stating that the player consented to take part and that choices, response times, and background answers could be stored for research. Sixty-nine of the 70 completed Round-1 sessions self-reported non-native English and one native English. Marketing experience was reported as none in 46 sessions, learner/student in 10, and professional in 14. Forty-four sessions reported no early-Twitter use, 24 occasional use, and two regular use.
+
+Each Round-1 session contained 20 non-overlapping TAC pairs in a stable randomized order. The visible trial stated that the two tweets were posted by the same account, about the same link, in the early 2010s, and asked which received more retweets. The interface labeled alternatives neutrally as Tweet X and Tweet Y. Players could mark ``Close call.'' They received no advice, examples, live score, model prediction, or item-level correctness feedback before the round ended. This preserves independent recorded choices for the disagreement analysis.
+
+The pre-existing experimental protocol treats Round 1 as the primary outcome. After completion, the interface displayed aggregate player and model scores. A session could optionally continue to a second blind round of 20 new, non-overlapping pairs; item-level feedback remained hidden until Round 2 was complete. Eight sessions completed Round 2. After that point, item-level outcomes were revealed, and later rounds were explicitly post-feedback learning rounds; only two sessions completed Round 3. Because attrition is extreme, later rounds are descriptive and are never pooled with the primary blind round.
+
+For research analysis, Gemini 3.7 Flash is the fixed primary model comparator because it has the highest full-benchmark accuracy. The game interface itself displayed the highest-scoring fully answering model on each session's particular 20-item set as a ``featured robot.'' This best-of-panel game score is selected after scoring the six-model panel on that item set and is useful only as descriptive game feedback; it is not a fixed scientific comparator. On 69 Round-1 sessions, the export contains contemporaneous per-item predictions for all six model families; Qwen 3.7 Max has complete 20-item coverage for 62 of those sessions, while the other five have complete coverage for all 69.
+
+\subsection{Human-subjects data handling and ethics}
+The analyzed export contains pseudonymous session records, trial choices, response times, and the three coarse background variables above. Public artifacts replace original session/nominal-participant identifiers with sequential labels and omit nicknames and exact public-game timestamps. Background variables appear only in aggregate. The study collected no account credentials or sensitive demographic questionnaire.
+
+Data minimization also guided the public release. The analyses require item-level choices, response times, coarse background categories, and model predictions, but not real-world identity. The released human-study tables therefore retain the variables needed to reproduce accuracy, disagreement, and timing summaries while removing direct labels that could reconnect a row to a player. This separation matters for a public web study: trial-level records aid reproducibility, whereas publishing nicknames or exact timestamps would add little scientific value while increasing reidentification risk.
+
+The study was conducted independently in Israel, outside a university, medical institution, or company research program with an applicable institutional ethics-review process. It was a non-medical, minimal-risk public web study; no institutional ethics board reviewed the study. Participation was voluntary and required explicit consent before the first trial. Participants could play under a nickname or anonymously. The consent language was deliberately narrow: players were told that their choices, response times, and the three background answers could be stored for research. No account login was required, and the task did not ask for sensitive personal attributes. Analysis uses deidentified records, and the public human-study artifacts contain no participant nicknames or original session identifiers.
+
+\subsection{Fresh August 2026 Bluesky replication}
+To probe whether historical benchmark exposure is sufficient to explain performance, we constructed a new same-author/same-destination dataset from Bluesky activity observed in late August 2026. The discovery crawl identified repeated-link candidates from fresh posts. We froze 48 high-signal pairs across 44 accounts after applying temporal, outcome, and text-quality filters. Paired posts were published within 12 hours, pointed to the same structured destination, used materially different text, and had mature repost outcomes. To reduce label noise in this small confirmatory set, the winner was required to have at least eight reposts, lead by at least five reposts, and have at least twice the loser's repost count. X/Y orientation was randomized and nearly balanced (25/23).
+
+Models received the same comparative question structure, changing ``retweets'' to ``reposts.'' Chronology and engagement counts were withheld. For panel inference we use only complete 48/48 runs: five current and four older models; DeepSeek's 28/48-valid run is archived but excluded. These posts were newly observed in August 2026, so direct lookup of the 2014 Twitter outcomes or the 2025 hydrated HypoBench labels cannot answer the questions. The Bluesky test therefore serves as a contamination-robustness check, not as a claim that all possible training-data exposure has been eliminated.
+
+\subsection{Measures and statistical analysis}
+Our primary measure is binary prediction accuracy. For the 1,142-pair benchmark, model confidence intervals use Wilson intervals. For the public web game, we compare model and human scores on the same 20-item session sets. The key comparison is aggregate matched accuracy for each fixed model, accompanied by the distribution of 20-item session wins, ties, and losses. The released reproducibility bundle retains the originally computed session-level statistics for verification, but the central result is visible directly in the matched accuracies and head-to-head score distributions. Where coverage differs, we report denominators and restrict comparisons to trials observed for both sides, so missing predictions are not silently treated as errors.
+
+To analyze the potential value of AI advice, we identify trials on which the recorded player choice and a given model independently chose different alternatives. Because the binary gold label makes exactly one of the two choices correct, conditional accuracy on a disagreement directly states which side was right on that item. We report this descriptively as a \emph{counterfactual advice opportunity}; players did not actually receive or respond to model advice.
+
+We also split each model's predictions by its own close-call flag. Close-call metadata are available for 59 Round-1 sessions (1,180 trials); ten earlier session records contain model choices but not the model close-call fields and are excluded from this analysis rather than treated as non-close. The flag is not comparable to a probability and its prevalence differs substantially across models. We ask only whether ``not a close call'' identifies a subset with higher empirical accuracy, especially within player--AI disagreement cases. Player close-call use was too sparse for a parallel analysis: among the same 1,180 trials for which the close-call field was present, only 13 recorded player judgments were marked close calls. The remaining 220 Round-1 judgments predate the close-call field and are not counted as non-close.
+
+Finally, to put rare player ``wins'' in the game into perspective, we calibrate them against random choice. If a robot scores $r$ out of 20 and a random chooser has $K\sim\mathrm{Binomial}(20,0.5)$, the probability of beating that score is $P(K>r)$. Across the 70 observed session-primary robot scores (not the retrospective best-of-panel featured scores), random choosers would be expected to produce 1.11 wins and have a 69.2\% probability of producing at least one win. A stricter event occurred once among the 62 sessions with complete predictions from all six models: one session scored 16/20 and exceeded every model on its particular item set (the six model scores ranged from 12 to 15). Conditioning on the observed maximum six-model score in each of those 62 sessions, random choosers would have a 32.6\% probability of producing at least one such beat-all-six session. Thus the top recorded score is entirely compatible with chance at this sample size and does not by itself establish exceptional human skill. Excluding that top session as a sensitivity check lowers the remaining Round-1 human average from 54.3\% to 53.9\%; the aggregate model advantage therefore does not depend on it.
+
+\subsection{A working text-only ceiling}
+Accuracy should not be interpreted against 100\% without considering irreducible outcome variance. We use a transparent two-regime sensitivity model. Let $q$ be the fraction of high-consensus pairs, $h$ their attainable accuracy, and $c$ the attainable text-only accuracy on the lower-consensus remainder. The modeled ceiling is
+\begin{equation}
+P^\star = qh + (1-q)c.
+\label{eq:ceiling}
+\end{equation}
+Tan et al.'s dense human judgments anchor the model: their majority exceeded 90\% accuracy on the fewer than one-third of pairs with at least 80\% judge agreement, while overall crowd accuracy was 73\%. With $q=.30$, $h=.93$, and $c=.82$, the illustration gives $P^\star=85.3\%$. Varying $q=.25$--$.33$, $h=.90$--$.95$, and $c=.79$--$.87$ gives an approximate 82--90\% envelope.
+
+We therefore use 85\% as a rounded working text-only ceiling and define a descriptive ceiling-normalized skill
+\begin{equation}
+S_{85}=\frac{p-.50}{.85-.50}.
+\label{eq:skill}
+\end{equation}
+This is a linear interpretive scale, not an identified information-theoretic bound: random prediction is 0, the rounded working ceiling is 1, and the sensitivity range remains visible wherever the ceiling is discussed.
+
+\section{Results}
+\subsection{RQ1: Frontier LLMs exceed individual humans and the historical crowd}
+Figure~\ref{fig:benchmark} and Table~\ref{tab:benchmark} show the main benchmark result. Gemini 3.7 Flash reaches 79.7\% accuracy (95\% CI 77.3--81.9), followed by GPT-5.6 Sol at 76.7\% (74.2--79.1). All six contemporary systems exceed the historical 61.3\% individual-human point estimate. The two strongest systems also exceed the 73.0\% point estimate for the original 39-person majority.
+
+The scale of that separation is worth making explicit. Gemini is 18.4 percentage points above the historical individual-human point estimate and 6.7 points above the historical crowd estimate; GPT-5.6 Sol is 15.4 and 3.7 points above those references, respectively. These are not paired human--model effects: Tan et al.'s human results come from a separate 100-pair evaluation rather than the same 1,142 items used for our model benchmark. They should therefore be read as scale references, not as formal significance tests between the present models and the original participants. Even with that qualification, it is notable that a single contemporary model reaches a level of comparative social-transmission judgment that the original study obtained only after aggregating many human judgments.
+
+The model spread is also informative. Accuracy ranges from 63.5\% to 79.7\%, a 16.2-point span under the same task formulation. Audience prediction is therefore not a generic property that all current LLMs possess at roughly the same level; model choice materially changes how much of the signal is recovered. This matters for downstream systems that would use an LLM as an audience evaluator: replacing one model with another can change the quality of the control signal even when the surrounding interface and prompt remain fixed.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=.88\linewidth]{figures/chi_fig_benchmark.pdf}
+\caption{Prediction accuracy on 1,142 same-author/same-link Twitter pairs. Historical human references come from Tan et al.'s separate 100-pair evaluation. The hatched 82--90\% region is the sensitivity range for the working text-only ceiling; the dashed line marks the rounded 85\% anchor.}
+\Description{Horizontal bar chart from 50 to 92 percent. Random is 50.0 percent, individual humans 61.3, 39-person majority 73.0, DeepSeek V4 Flash 63.5, Qwen 3.7 Flash 64.7, Claude Opus 4.8 70.8, Qwen 3.7 Max 70.8, GPT-5.6 Sol 76.7, and Gemini 3.7 Flash 79.7. A hatched band spans 82 to 90 percent and a dashed line marks 85 percent.}
+\label{fig:benchmark}
+\end{figure*}
+
+\begin{table}[t]
+\caption{Historical benchmark results. Human references are from Tan et al.; model CIs are Wilson intervals over 1,142 pairs. $S_{85}$ is ceiling-normalized skill.}
+\label{tab:benchmark}
+\centering
+\small
+\setlength{\tabcolsep}{1.8pt}
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+Predictor & Accuracy & $S_{85}$ & 95\% CI \\
+\midrule
+Gemini 3.7 Flash & 79.7\% & .85 & 77.3--81.9 \\
+GPT-5.6 Sol & 76.7\% & .76 & 74.2--79.1 \\
+Qwen 3.7 Max & 70.8\% & .59 & 68.0--73.3 \\
+Claude Opus 4.8 & 70.8\% & .59 & 68.1--73.4 \\
+Qwen 3.7 Flash & 64.7\% & .42 & 61.9--67.4 \\
+DeepSeek V4 Flash & 63.5\% & .39 & 60.7--66.2 \\
+\midrule
+Individual humans & 61.3\% & .32 & -- \\
+39-person majority & 73.0\% & .66 & -- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The ceiling changes how the frontier should be read. Gemini's 79.7\% is 29.7 percentage points above random choice. Relative to the 35-point span from 50\% to the 85\% working ceiling, that is $S_{85}=.85$: about 85\% of the modeled text-accessible improvement. Figure~\ref{fig:ceiling} keeps the assumption visible rather than hiding it behind a single number. The result does not require the ceiling to be exactly 85\%. At the low end of the 82--90\% sensitivity envelope, Gemini has recovered about 93\% of the modeled path from chance to the ceiling; at the high end, about 74\%. Across that deliberately broad range, the same qualitative conclusion holds: the frontier has captured a large fraction of the audience signal available from text alone, while still leaving room for better prediction and for information unavailable in the text.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{figures/chi_fig_ceiling.pdf}
+\caption{Sensitivity of the modeled text-only ceiling. The central assumptions produce 85.3\%; varying the high-consensus fraction and accuracy gives the hatched envelope.}
+\Description{Line chart showing assumed attainable accuracy on ambiguous pairs from 79 to 87 percent on the horizontal axis and implied overall text-only ceiling from 81 to 91 percent on the vertical axis. The central line passes through a marked 85.3 percent point at an ambiguous-pair accuracy of 82 percent. A hatched sensitivity envelope surrounds the line.}
+\label{fig:ceiling}
+\end{figure}
+
+\subsection{RQ1 continued: humans lose 69 of 70 head-to-head rounds}
+Round-1 human players averaged 10.86 correct choices out of 20, or 54.3\%. The game's head-to-head result was stark: the featured robot outscored the human in 69 of 70 completed first rounds. The sole winner scored 16/20 and, on that same 20-item set, beat all six models.
+
+The stronger scientific result is not tied to whichever model won a given round. Table~\ref{tab:matched} compares each fixed model with the same human choices. Every LLM is more accurate in aggregate: Gemini scores 77.7\% versus 54.1\% for humans, a 23.6-percentage-point (pp) gap; GPT-5.6 Sol reaches 76.1\%, and even the weakest panel model, DeepSeek V4 Flash, reaches 62.3\% (+8.2 pp). Some individuals still win---16 of 69 beat DeepSeek and two beat GPT-5.6 Sol---but all six model families retain the same aggregate ordering. At the frontier, the 23.6-point gap corresponds to about 4.7 additional correct choices per 20 decisions, making the aggregate advantage visible at the scale of an ordinary game-length round.
+
+The 69--1 game score and the fixed-model comparison answer slightly different questions. The interface featured the highest-scoring fully answering model on each session's particular 20-item set, which made the game challenging and produced an intuitive player-versus-robot result. That best-of-panel display is descriptive rather than a fixed scientific comparator. Table~\ref{tab:matched} removes that selection by evaluating each model family independently on the same recorded human choices. The fact that every fixed model still leads the human pool is therefore more important than the headline scoreline: the result survives when the comparator is chosen in advance rather than after seeing which robot did best on a session.
+
+\begin{table*}[t]
+\caption{Matched Round-1 human--model comparisons. ``Model wins'' counts 20-item score comparisons on sessions with complete model coverage; Qwen Max has 62 complete sessions, the others 69.}
+\label{tab:matched}
+\centering
+\small
+\begin{tabular}{lrrrrrr}
+\toprule
+Model & Human acc. & Model acc. & Gap & Human wins & Ties & Model wins \\
+\midrule
+Gemini 3.7 Flash & 54.1\% & 77.7\% & +23.6 pp & 1 & 0 & 68 \\
+GPT-5.6 Sol & 54.1\% & 76.1\% & +22.0 pp & 2 & 2 & 65 \\
+Qwen 3.7 Max & 54.2\% & 70.5\% & +16.3 pp & 4 & 3 & 55 \\
+Claude Opus 4.8 & 54.1\% & 68.9\% & +14.8 pp & 5 & 7 & 57 \\
+Qwen 3.7 Flash & 54.1\% & 64.7\% & +10.6 pp & 10 & 7 & 52 \\
+DeepSeek V4 Flash & 54.1\% & 62.3\% & +8.2 pp & 16 & 7 & 46 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+The 69--1 scoreline is memorable, but the one human victory should not be mistaken for evidence of a uniquely gifted ``champion.'' Each round contains only 20 binary choices, so rare wins arise by chance. Conditioning on the observed session-primary robot scores, 70 random choosers would have a 69.2\% probability of producing at least one win. For the stricter event---beating all six models on the same round---the corresponding probability is 32.6\% across the 62 sessions with complete six-model coverage. The striking result is therefore not that one human happened to win; it is that humans lost 69 of 70 game rounds while every fixed model independently remained above the human pool in aggregate.
+
+Optional later rounds do not provide usable evidence about learning. Eight sessions completed blind Round 2, averaging 51.9\% versus 54.4\% in their own Round 1; three improved and five worsened. Two completed post-feedback Round 3 and averaged 40.0\%. Attrition from 70 to 8 to 2 completions is too severe to interpret those averages as a learning curve.
+
+That attrition is also a design lesson for a follow-up study. Participation was voluntary and uncompensated, and the main game objective was largely resolved once a player finished Round 1 and saw the result. There was little external reason to continue through additional rounds, so low continuation need not indicate lack of interest in the underlying question or inability to learn from feedback. A future experiment aimed specifically at human learning should make repeated play part of the primary protocol---for example by recruiting participants for a prespecified number of rounds, compensating completion, delaying the main comparison until those rounds are finished, or reframing the task as an explicit ``train to beat the robot'' challenge. Such a design could test whether outcome feedback teaches people reusable cues about social transmission and whether sustained practice narrows the human--model gap.
+
+\subsection{RQ2: disagreement is where an audience model could add the most value}
+The matched design lets us ask a more interaction-relevant question than average accuracy: when a human and the model independently disagree, which side is usually right? Disagreement is common. Depending on model, it occurs on 39.4--43.7\% of matched trials. Because human choices were recorded before any AI output was shown, these disagreements are uncontaminated by anchoring or compliance within the game.
+
+For Gemini, 587 of 1,380 matched judgments are disagreements. Gemini is correct on 77.7\% of them and the human on 22.3\%. GPT-5.6 Sol is correct on 76.4\% of disagreements. The pattern weakens down the model hierarchy but remains above 50\% even for DeepSeek, which is correct on 59.4\% of its disagreements with humans. This makes disagreement a natural intervention point: if an audience-model interface speaks only when user and model conflict, it focuses attention exactly where the model has the most potential value.
+
+This is a counterfactual, not realized human--AI team performance: advice could induce over-reliance, rejection of correct advice, learning, or changes in initial judgment. We therefore interpret disagreement only as the decision region where an interface has the most potential value and the strongest need to manage reliance.
+
+\subsection{RQ3: model-reported uncertainty separates stronger and weaker advice}
+The close-call field provides a simple uncertainty cue. For every model, predictions labeled as close calls are less accurate than predictions labeled non-close, although the size of the separation varies. Among the 1,180 trials with model close-call metadata, Gemini is 62.7\% correct on 311 close-call trials and 83.7\% on 869 non-close trials. GPT-5.6 Sol moves from 61.6\% to 79.8\%. Claude Opus 4.8 moves from 60.5\% to 92.9\%. Other models show smaller separations, and their close-call rates differ greatly, so a binary cue should not be assumed to have a universal meaning across models.
+
+For HCI, the more useful conditional is disagreement plus uncertainty. Figure~\ref{fig:disagreement} shows AI accuracy when recorded player and model choices independently disagree. Gemini is 81.9\% correct on the 359 disagreement cases it labels non-close; GPT-5.6 Sol is 81.6\% correct; Claude reaches 92.7\% on its smaller non-close disagreement subset. When those models label the disagreement a close call, their accuracy falls materially. The cue therefore provides information that an interface could use to decide when to surface advice strongly, weakly, or not at all.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=.88\linewidth]{figures/chi_fig_disagreement.pdf}
+\caption{AI accuracy conditional on independent player--AI disagreement in the public-game records. Solid bars include all disagreements; hatched bars retain only cases where the model did not report a close call. A 50\% line marks equal odds of the AI or recorded player choice being correct.}
+\Description{Grouped horizontal bar chart for six models. AI accuracy on all recorded player-AI disagreement cases is 59.4 percent for DeepSeek, 63.4 for Qwen Flash, 67.9 for Claude, 69.1 for Qwen Max, 76.4 for GPT-5.6 Sol, and 77.7 for Gemini. Restricting to disagreements the model says are not close calls gives 64.8, 64.8, 92.7, 72.9, 81.6, and 81.9 percent respectively.}
+\label{fig:disagreement}
+\end{figure*}
+
+Player close-call behavior cannot support the same analysis: the close-call field is available on 1,180 Round-1 player judgments, of which only 13 were marked close calls; 220 earlier judgments have no close-call field. This asymmetry is itself instructive. An uncertainty-aware audience-model interface should not assume that human and AI confidence are measured on comparable scales merely because both can be represented by the same checkbox. Future controlled interaction studies should collect calibrated human confidence explicitly if the design goal is to arbitrate between human and model judgment.
+
+\subsection{RQ4: fresh Bluesky outcomes reproduce the signal}
+On the 48 fresh Bluesky pairs, Gemini predicts the higher-repost message correctly on 36, or 75.0\% (95\% CI 61.2--85.1). Among complete runs, five current models average 65.8\% versus 55.2\% for four older models (+10.6 pp). Across 48 paired case-level panel differences, an exact two-sided sign-flip test gives $p=.030$; a 100,000-resample paired bootstrap gives a 95\% interval of +1.4 to +19.6 pp. Figure~\ref{fig:bluesky} summarizes the result.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{figures/chi_fig_bluesky.pdf}
+\caption{Fresh August 2026 Bluesky replication on 48 high-signal same-author/same-destination pairs. Complete current-model runs outperform the older-model panel, and Gemini reaches 75.0\%.}
+\Description{Three bars show 55.2 percent accuracy for the four-complete-older-model mean, 65.8 percent for the five-complete-current-model mean, and 75.0 percent for Gemini 3.7 Flash. The first two bars differ by 10.6 percentage points; an exact two-sided paired sign-flip test gives p equals .030.}
+\label{fig:bluesky}
+\end{figure}
+
+The fresh result is smaller and more selected than the Twitter benchmark, so it is a contamination-robustness check rather than a replacement benchmark or basis for the 85\% ceiling. The pairs did not exist in the old Twitter/HypoBench label set, yet the comparative prediction signal remains. Direct memorization of those historical labels therefore cannot explain the Twitter result.
+
+\section{Implications for Human--AI Interaction}
+\subsection{From writing generator to audience model}
+The default interaction metaphor for LLM writing assistance is generative: the user asks for text, the model produces text, and the user edits or accepts it. Our results motivate a complementary role. The model can evaluate alternatives even when it did not author them. This separates two sources of control that are often conflated in generative interfaces: \emph{who creates the candidate} and \emph{who predicts the audience response}.
+
+A simple interaction pattern follows. The user drafts or requests alternatives; an audience-model layer ranks them for an explicitly chosen objective and exposes uncertainty; the human chooses, revises, or rejects the target. The same workflow can operate entirely on human-authored alternatives, leaving the AI as critic rather than ghostwriter.
+
+This decomposition fits prior HCI arguments for inspectable, controllable AI workflows \citep{amershi2019,wu2022chains}. It also reframes poor generated prose: if a system can recognize a stronger alternative but not produce it reliably, the design space should include search and selection rather than another instruction to ``write better.'' We measure only comparative judgment; whether this capability can improve generation remains an open question. It may support explicit generate--evaluate--select interfaces, but it may also eventually operate inside generation itself, allowing a model to recognize and revise weak continuations before presenting them to the user.
+
+\subsection{Ask the human first, then intervene at disagreement}
+The disagreement result suggests a concrete way to conserve user attention and reduce anchoring: obtain an independent human judgment before displaying AI advice. This resembles cognitive-forcing approaches that deliberately require human engagement before exposing model output \citep{bucinca2021}. It also makes disagreement observable. Rather than continuously overlaying an AI score on every sentence or alternative, the system can reserve stronger intervention for cases where the user's initial choice conflicts with a high-confidence model prediction.
+
+Our data show why this selectivity matters. Gemini disagrees with players on 42.5\% of matched trials and is correct on 77.7\% of those cases. In the 59 sessions with close-call metadata, restricting to Gemini disagreements labeled non-close raises accuracy to 81.9\%. This is more actionable than its unconditional 77.7\% accuracy on the same session items: it marks a region where advice both has a reason to appear (disagreement) and an empirical reliability signal (model decisiveness).
+
+However, this pattern should not be converted directly into an automatic override rule. The task has an objective historical label and no cost asymmetry, while real writing has multiple goals: authenticity, politeness, originality, safety, identity expression, minority appeal, and long-term relationship effects may conflict with aggregate retransmission. A good interface should therefore state the optimization target and make disagreement legible, not silently rewrite the user's expression toward predicted engagement.
+
+\subsection{Uncertainty should be calibrated per model and per objective}
+Human--AI systems often communicate confidence as if a confidence number had a stable semantic meaning. Our binary close-call results warn against that assumption. The prevalence and diagnostic value of close-call flags differ sharply across model families. Claude marks many more close calls than Qwen Flash, and the same binary label creates different coverage--accuracy trade-offs. An interface that simply maps ``close call'' to the same icon for every model could give users a false sense of calibration.
+
+The design implication is to validate uncertainty for the specific model and audience objective before turning it into a user-facing cue. An interface might show ``strong model preference'' only at thresholds with demonstrated precision on held-out social-transmission comparisons and otherwise weaken or withhold advice. This follows appropriate-reliance research: uncertainty helps when it discriminates model competence, not merely when it makes the system look transparent \citep{bansal2021,he2023}.
+
+\subsection{Better audience prediction creates new risks}
+Better audience prediction is useful precisely because it can manipulate. It can aid public-interest communication, marketing, journalism, or creator workflows, but also outrage, misinformation, spam, persuasion, and engagement bait; widespread optimization may homogenize language around what a model predicts ``the audience'' prefers.
+
+Aggregate transmission is majority-shaped, so a model may recommend against language preferred by smaller or underrepresented communities. This matters because 69 of 70 public-game completers self-reported non-native English. Interfaces should specify whose audience matters and distinguish prediction from endorsement.
+
+Accurate advice can also undermine agency if users stop forming independent judgments, making model failures harder to detect. CHI work on explanations and over-reliance shows that more information alone does not solve this problem \citep{bansal2021,bucinca2021}. The goal should be \emph{appropriate} reliance: use the audience signal when relevant and reliable while preserving the user's ability to disagree for reasons the model does not encode.
+
+\section{Limitations}
+The 85\% ceiling is a sensitivity-based working model, not a measured hard limit. Its purpose is to make a stochastic social outcome interpretable, not to assert that no predictor with additional context could exceed it. A model with timestamps, follower state, network structure, media, or early cascade information could legitimately predict beyond a text-only ceiling.
+
+The Twitter pairs are observational. Same author and same destination provide strong controls, but they do not randomize posting time, exposure, media, or cascade luck. We therefore make a comparative prediction claim, not a causal claim that wording alone produced the observed difference. The fresh Bluesky set mitigates historical benchmark memorization but is small ($n=48$), high-signal by construction, and still observational.
+
+\subsection{Participant authenticity in the public game}
+The public deployment did not verify identity, so automated or LLM-assisted play cannot be ruled out. The sole 16/20 winner had median/mean response times of 8.3/9.6 seconds per item versus 10.7/12.7 across completed Round 1; 21 of 70 sessions had an equal or lower median, while the four sessions below two seconds scored only 8--12/20. Removing the winner lowers human accuracy from 54.3\% to 53.9\%. Thus high-performing automated contamination is neither supported by timing nor needed for the conclusions.
+
+\subsection{Population and language}
+The public-game sample is self-selected, and 69 of 70 completed Round-1 sessions self-reported non-native English. This may make the English-language task harder and is one reason we retain Tan et al.'s 61.3\% historical estimate as the broader human reference. The contemporary game instead supplies direct human--model comparisons on identical items; future work should recruit larger, stratified samples across language, culture, and expertise.
+
+The public web game is not an AI-assisted decision-making experiment. Human choices preceded model recommendations, so we do not observe trust, persuasion, acceptance, or team performance. Disagreement identifies where advice \emph{could} help; a follow-up should randomize advice timing, uncertainty display, explanations, and forced initial judgment while measuring decision quality and user experience.
+
+The close-call flag is model-generated and binary. Different models use it at different rates, so it cannot be treated as a calibrated cross-model confidence score. Human close-call reporting is too sparse for symmetric comparison. We therefore interpret uncertainty only within model and recommend explicit calibration before deployment.
+
+Finally, model names denote time-specific hosted systems whose behavior can change. The release therefore records frozen results rather than assuming later endpoint reruns will match; the claim concerns observed frontier capability, not a permanent vendor ranking.
+
+\section{Future Work}
+The interaction designs above treat audience evaluation mainly as a layer around generation. A complementary direction is to bring it inside generation itself. Our results show that poor generated prose need not imply poor audience understanding: frontier LLMs can often recognize what people are more likely to share even when their own writing feels generic or machine-made. Models could therefore assess what they are writing as they write it and revise passages they judge weak, generic, or unlikely to resonate before showing the final answer. In simple terms, the model should rewrite the parts it is ``not proud of.'' If reliable, this could turn the audience-model capability observed here into a low-cost internal quality-control mechanism without retraining. The key question is whether models can use what they already know about human preferences to write better while preserving the user's goals and voice.
+
+\section{Transparency, Reproducibility, and Positionality}
+A public reproducibility bundle accompanies this paper. It includes the public-game flow and consent wording; deidentified Round-1 trials and aggregate background counts; round/model summaries and disagreement/uncertainty statistics; the Bluesky collection/evaluation pipeline with frozen outputs; historical-benchmark summaries; and scripts reproducing the analyses. Public human-study artifacts omit nicknames, original identifiers, and exact timestamps. The same bundle is packaged as arXiv ancillary material. The game implementation is at \url{https://github.com/victorlavrenko/beat-the-robot}; the unified repository is at \url{https://github.com/victorlavrenko/llms-read-the-room}.
+
+The research question reflects an interest in human-centered LLM systems that separate generation from evaluation, which may bias interpretation toward interface opportunities. We therefore distinguish evidence from design hypotheses: the benchmark establishes comparative prediction, the web game provides matched human--model choices, and the proposed audience-model interfaces remain future work requiring direct interaction evaluation.
+
+\section{Conclusion}
+LLMs can be poor writers and strong judges at the same time. On a controlled social-transmission task, the strongest current model reaches 79.7\%, above individual humans and a historical 39-person crowd, and close to an explicit working text-only ceiling near 85\%. In \emph{Beat the Robot}, humans lost 69 of 70 completed first-round matches, and every one of the six fixed LLMs outscored humans in aggregate on matched items. When humans and frontier models disagree, the model is usually right; a model's own non-close-call signal identifies still stronger cases. Fresh Bluesky data reproduce the capability on outcomes that cannot be answered by direct lookup of the old Twitter labels. Together, the results suggest that the missing ingredient behind poor AI prose is not simply understanding what audiences prefer: frontier LLMs already possess a surprisingly strong audience model.
+
+For HCI, the implication is not that machines should decide what people say, but that LLMs can serve as \emph{audience models} as well as generators. Interfaces can preserve human authorship while using AI selectively to predict how alternatives may land. The design challenge is to expose uncertainty, intervene where advice has value, prevent automatic deference, and preserve goals beyond aggregate engagement. On this task, LLMs read the room better than humans; the next question is whether they can use that audience knowledge to improve what they write before it reaches the user, without letting the room write for us.
+
+\section*{AI Assistance Disclosure}
+ChatGPT (OpenAI) was used during drafting for language editing, structural suggestions, code assistance, and consistency checking. The author selected the research questions and methods, executed or supervised the analyses, verified the reported results against frozen artifacts, and takes responsibility for the manuscript and its claims.
+
+\clearpage
+{\clubpenalty=10000\widowpenalty=10000
+\begin{thebibliography}{99}
+\small
+\bibitem[Amershi et~al.(2019)]{amershi2019}
+Saleema Amershi, Dan Weld, Mihaela Vorvoreanu, Adam Fourney, Besmira Nushi, Penny Collisson, Jina Suh, Shamsi Iqbal, Paul N. Bennett, Kori Inkpen, Jaime Teevan, Ruth Kikin-Gil, and Eric Horvitz. 2019. Guidelines for Human-AI Interaction. In \emph{Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems}. ACM, New York, NY, USA, Paper 3, 1--13. \url{https://doi.org/10.1145/3290605.3300233}.
+
+\bibitem[Bansal et~al.(2021)]{bansal2021}
+Gagan Bansal, Tongshuang Wu, Joyce Zhou, Raymond Fok, Besmira Nushi, Ece Kamar, Marco Tulio Ribeiro, and Daniel S. Weld. 2021. Does the Whole Exceed its Parts? The Effect of AI Explanations on Complementary Team Performance. In \emph{Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems}. ACM, New York, NY, USA, Article 81, 1--16. \url{https://doi.org/10.1145/3411764.3445717}.
+
+\bibitem[Berger and Milkman(2012)]{berger2012}
+Jonah Berger and Katherine L. Milkman. 2012. What Makes Online Content Viral? \emph{Journal of Marketing Research} 49, 2 (2012), 192--205. \url{https://doi.org/10.1509/jmr.10.0353}.
+
+\bibitem[Berger(2025)]{berger2025}
+Jonah Berger. 2025. What Gets Shared, and Why? Interpersonal Communication and Word of Mouth. \emph{Annual Review of Psychology} 76 (2025), 559--581.
+
+\bibitem[Boji\'{c} et~al.(2026)]{bojic2026}
+Ljubi\v{s}a Boji\'c, Alexander Felfernig, Bojana Dini\'c, Velibor Ili\'c, Achim Rettinger, Vera Mevorah, Damian Trilling, et al. 2026. Persona-prompted LLM agents achieve modest but genuine prediction of human social media reactions. \emph{Scientific Reports} 16 (2026), 27684. \url{https://doi.org/10.1038/s41598-026-66277-8}.
+
+\bibitem[Bu\c{c}inca et~al.(2021)]{bucinca2021}
+Zana Bu\c{c}inca, Maja Barbara Malaya, and Krzysztof Z. Gajos. 2021. To Trust or to Think: Cognitive Forcing Functions Can Reduce Overreliance on AI in AI-Assisted Decision-Making. \emph{Proc. ACM Hum.-Comput. Interact.} 5, CSCW1, Article 188 (2021), 1--21. \url{https://doi.org/10.1145/3449287}.
+
+\bibitem[Dietvorst et~al.(2015)]{dietvorst2015}
+Berkeley J. Dietvorst, Joseph P. Simmons, and Cade Massey. 2015. Algorithm Aversion: People Erroneously Avoid Algorithms After Seeing Them Err. \emph{Journal of Experimental Psychology: General} 144, 1 (2015), 114--126. \url{https://doi.org/10.1037/xge0000033}.
+
+\bibitem[El-amrany et~al.(2025)]{elamrany2025}
+Samir El-amrany, Matthias R. Brust, Salima Lamsiyah, and Pascal Bouvry. 2025. Reddit-V: A Virality Prediction Dataset and Zero-Shot Evaluation with Large Language Models. In \emph{Proceedings of RANLP 2025}. 334--341.
+
+\bibitem[He et~al.(2023)]{he2023}
+Gaole He, Lucie Kuiper, and Ujwal Gadiraju. 2023. Knowing About Knowing: An Illusion of Human Competence Can Hinder Appropriate Reliance on AI Systems. In \emph{Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems}. ACM, New York, NY, USA, Article 113, 1--18. \url{https://doi.org/10.1145/3544548.3581025}.
+
+\bibitem[Lee et~al.(2022)]{lee2022coauthor}
+Mina Lee, Percy Liang, and Qian Yang. 2022. CoAuthor: Designing a Human-AI Collaborative Writing Dataset for Exploring Language Model Capabilities. In \emph{Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems}. ACM, New York, NY, USA, Article 388, 1--19. \url{https://doi.org/10.1145/3491102.3502030}.
+
+\bibitem[Lee and See(2004)]{leesee2004}
+John D. Lee and Katrina A. See. 2004. Trust in Automation: Designing for Appropriate Reliance. \emph{Human Factors} 46, 1 (2004), 50--80. \url{https://doi.org/10.1518/hfes.46.1.50_30392}.
+
+\bibitem[Liu et~al.(2025)]{liu2025hypo}
+H. Liu, S. Huang, J. Hu, Y. Zhou, and C. Tan. 2025. HypoBench: Towards Systematic and Principled Benchmarking for Hypothesis Generation. arXiv:2504.11524.
+
+\bibitem[Logg et~al.(2019)]{logg2019}
+Jennifer M. Logg, Julia A. Minson, and Don A. Moore. 2019. Algorithm Appreciation: People Prefer Algorithmic to Human Judgment. \emph{Organizational Behavior and Human Decision Processes} 151 (2019), 90--103. \url{https://doi.org/10.1016/j.obhdp.2018.12.005}.
+
+\bibitem[Schemmer et~al.(2023)]{schemmer2023}
+Max Schemmer, Niklas Kuehl, Carina Benz, Andrea Bartos, and Gerhard Satzger. 2023. Appropriate Reliance on AI Advice: Conceptualization and the Effect of Explanations. In \emph{Proceedings of the 28th International Conference on Intelligent User Interfaces}. ACM, New York, NY, USA, 410--422. \url{https://doi.org/10.1145/3581641.3584066}.
+
+\bibitem[Tan et~al.(2014)]{tan2014}
+Chenhao Tan, Lillian Lee, and Bo Pang. 2014. The Effect of Wording on Message Propagation: Topic- and Author-Controlled Natural Experiments on Twitter. In \emph{Proceedings of ACL 2014}. Association for Computational Linguistics, 175--185. \url{https://doi.org/10.3115/v1/P14-1017}.
+
+\bibitem[Wu et~al.(2022)]{wu2022chains}
+Tongshuang Wu, Michael Terry, and Carrie Jun Cai. 2022. AI Chains: Transparent and Controllable Human-AI Interaction by Chaining Large Language Model Prompts. In \emph{Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems}. ACM, New York, NY, USA, Article 385, 1--22. \url{https://doi.org/10.1145/3491102.3517582}.
+
+\bibitem[Yang et~al.(2025)]{yang2025rlie}
+Y. Yang, H. Xu, Z. Hu, and Y. Yue. 2025. RLIE: Rule Generation with Logistic Regression, Iterative Refinement, and Evaluation for Large Language Models. arXiv:2510.19698.
+\end{thebibliography}
+}
+\end{document}
