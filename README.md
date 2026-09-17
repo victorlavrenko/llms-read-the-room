@@ -51,9 +51,10 @@ pdflatex main.tex
 
 ## Human-study implementation
 
-The deployed Beat the Robot application is available separately at:
+The deployed Beat the Robot application is available at:
 
-- https://github.com/victorlavrenko/beat-the-robot
+- live game: https://beat-the-robot.peacetech.vc/
+- source: https://github.com/victorlavrenko/beat-the-robot
 - study snapshot: `972ad75d923faf7e96ded1d40f6841e3fc33f6fe`
 - recorded experiment version: `human-retweet-v4`
 
