@@ -1,0 +1,4 @@
+﻿model,paired_valid,canonical_prediction_consistency,frozen_accuracy,swapped_accuracy,swapped_minus_frozen_pp,frozen_pred_x_rate,swapped_pred_x_rate
+google/gemini-3.7-flash,100,0.9,0.79,0.83,4.0,0.48,0.44
+openai/gpt-5.6-sol,100,0.88,0.73,0.79,6.0,0.54,0.5
+anthropic/claude-opus-4.8,100,0.8,0.75,0.73,-2.0,0.42,0.42

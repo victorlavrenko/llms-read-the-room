@@ -10,6 +10,7 @@ checks = [
     ROOT / "repro/02_bluesky_replication/analysis/reproduce_bluesky_results.py",
     ROOT / "repro/03_historical_twitter_benchmark/analysis/reproduce_benchmark_summary.py",
     ROOT / "repro/04_ceiling_model/reproduce_ceiling.py",
+    ROOT / "repro/05_robustness_checks/analysis/reproduce_robustness_results.py",
 ]
 for script in checks:
     print(f"\n=== {script.relative_to(ROOT)} ===")

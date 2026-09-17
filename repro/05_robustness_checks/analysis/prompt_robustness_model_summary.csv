@@ -1,0 +1,4 @@
+﻿model,prompt_variants,min_accuracy,max_accuracy,accuracy_range_pp,complete_pairs,unanimous_prediction_rate
+google/gemini-3.7-flash,2,0.79,0.82,2.9999999999999916,100,0.93
+openai/gpt-5.6-sol,2,0.73,0.8,7.000000000000006,100,0.83
+anthropic/claude-opus-4.8,2,0.74,0.75,1.0000000000000009,100,0.87
